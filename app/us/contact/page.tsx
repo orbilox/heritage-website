@@ -1,22 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import USContactForm from '@/components/USContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us — USA | Heritage Apparels',
   description:
     'Get in touch with Heritage Apparels for US market services — India manufacturing, US marketplace onboarding, brand launch, and performance marketing. Free strategy call available.',
 };
-
-const services = [
-  'India Manufacturing & Sourcing',
-  'US Marketplace Onboarding (Amazon, Walmart, Etsy…)',
-  'US Brand Launch (Full Package)',
-  'US Performance Marketing',
-  'Product Photography (US Format)',
-  'US Compliance & Import Support',
-  'Brand Strategy & Identity',
-  'Social Media & Content (US Audience)',
-];
 
 export default function USContactPage() {
   return (
@@ -117,105 +107,7 @@ export default function USContactPage() {
             <div className="glass-card p-8">
               <h3 className="font-serif text-2xl font-bold text-cream mb-2">Send Us Your Brief</h3>
               <p className="text-cream/50 text-sm mb-8">Tell us about your product, US market goals, and budget. We respond within 12 hours.</p>
-
-              <form className="space-y-5" action="/api/contact" method="POST">
-                <input type="hidden" name="region" value="USA" />
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Full Name *</label>
-                    <input
-                      type="text"
-                      name="name"
-                      required
-                      placeholder="Your name"
-                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Email *</label>
-                    <input
-                      type="email"
-                      name="email"
-                      required
-                      placeholder="your@email.com"
-                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Phone / WhatsApp</label>
-                    <input
-                      type="tel"
-                      name="phone"
-                      placeholder="+1 (555) 000-0000"
-                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Company / Brand Name</label>
-                    <input
-                      type="text"
-                      name="company"
-                      placeholder="Your brand"
-                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Service You Need *</label>
-                  <select
-                    name="service"
-                    required
-                    className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm focus:outline-none focus:border-gold/50 transition-colors"
-                  >
-                    <option value="" className="bg-charcoal">Select a service...</option>
-                    {services.map((s) => (
-                      <option key={s} value={s} className="bg-charcoal">{s}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Estimated Budget (USD)</label>
-                  <select
-                    name="budget"
-                    className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm focus:outline-none focus:border-gold/50 transition-colors"
-                  >
-                    <option value="" className="bg-charcoal">Select budget range...</option>
-                    <option value="under-2500" className="bg-charcoal">Under $2,500</option>
-                    <option value="2500-5000" className="bg-charcoal">$2,500 – $5,000</option>
-                    <option value="5000-10000" className="bg-charcoal">$5,000 – $10,000</option>
-                    <option value="10000-25000" className="bg-charcoal">$10,000 – $25,000</option>
-                    <option value="25000+" className="bg-charcoal">$25,000+</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Tell Us About Your Brand / Product *</label>
-                  <textarea
-                    name="message"
-                    required
-                    rows={5}
-                    placeholder="Describe your product, target US market, and what you're looking to achieve..."
-                    className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors resize-none"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="btn-gold w-full py-4 text-base font-semibold"
-                >
-                  Send Brief → Get Free US Market Report
-                </button>
-
-                <p className="text-cream/30 text-xs text-center">
-                  No spam. No obligations. We respond within 12 hours in EST timezone.
-                </p>
-              </form>
+              <USContactForm />
             </div>
           </div>
         </div>
