@@ -1,0 +1,95 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="40%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="freebadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="350" rx="500" ry="320" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- FREE badge - hero element -->
+  <circle cx="540" cy="168" r="120" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="540" cy="168" r="100" fill="url(#freebadge)" opacity="0.12"/>
+  <text x="540" y="148" text-anchor="middle" font-family="Arial" font-size="16" fill="#c9a84c" letter-spacing="2">100%</text>
+  <text x="540" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="54" font-weight="bold" fill="url(#gold)" filter="url(#glow)">FREE</text>
+
+  <!-- Headline -->
+  <text x="540" y="316" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#f8f4ef">US Market Ads Audit</text>
+  <text x="540" y="364" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#888">We'll find exactly where your budget is leaking.</text>
+
+  <!-- Gold rule -->
+  <rect x="200" y="384" width="680" height="2" fill="url(#gold)" rx="1" opacity="0.5"/>
+
+  <!-- What's included box -->
+  <rect x="60" y="404" width="960" height="298" rx="16" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="540" y="436" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">WHAT'S INCLUDED IN YOUR FREE AUDIT</text>
+
+  <!-- 6 checklist items in 2 cols -->
+  <rect x="90" y="452" width="12" height="12" rx="3" fill="#c9a84c"/>
+  <text x="114" y="463" font-family="Arial" font-size="15" fill="#f8f4ef" font-weight="bold">Complete Meta &amp; Google Account Review</text>
+  <text x="114" y="482" font-family="Arial" font-size="12" fill="#666">Full audit of your current US ad account structure</text>
+
+  <rect x="90" y="502" width="12" height="12" rx="3" fill="#c9a84c"/>
+  <text x="114" y="513" font-family="Arial" font-size="15" fill="#f8f4ef" font-weight="bold">US Competitor Ad Intelligence Report</text>
+  <text x="114" y="532" font-family="Arial" font-size="12" fill="#666">See exactly what your top 3 US competitors are running</text>
+
+  <rect x="90" y="552" width="12" height="12" rx="3" fill="#c9a84c"/>
+  <text x="114" y="563" font-family="Arial" font-size="15" fill="#f8f4ef" font-weight="bold">US Audience Targeting Analysis</text>
+  <text x="114" y="582" font-family="Arial" font-size="12" fill="#666">Custom US buyer persona for your fashion category</text>
+
+  <rect x="570" y="452" width="12" height="12" rx="3" fill="#c9a84c"/>
+  <text x="594" y="463" font-family="Arial" font-size="15" fill="#f8f4ef" font-weight="bold">Creative Performance Breakdown</text>
+  <text x="594" y="482" font-family="Arial" font-size="12" fill="#666">Which ad formats work for US fashion buyers</text>
+
+  <rect x="570" y="502" width="12" height="12" rx="3" fill="#c9a84c"/>
+  <text x="594" y="513" font-family="Arial" font-size="15" fill="#f8f4ef" font-weight="bold">ROAS Improvement Roadmap</text>
+  <text x="594" y="532" font-family="Arial" font-size="12" fill="#666">Step-by-step 90-day plan to hit target ROAS</text>
+
+  <rect x="570" y="552" width="12" height="12" rx="3" fill="#c9a84c"/>
+  <text x="594" y="563" font-family="Arial" font-size="15" fill="#f8f4ef" font-weight="bold">City-Level Geo Strategy</text>
+  <text x="594" y="582" font-family="Arial" font-size="12" fill="#666">NYC, LA, Chicago — hyper-local US targeting plan</text>
+
+  <!-- Value bar -->
+  <rect x="90" y="618" width="880" height="60" rx="10" fill="#1a1a2e" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="645" text-anchor="middle" font-family="Arial" font-size="14" fill="#888">Total value of this audit:</text>
+  <text x="700" y="662" text-anchor="end" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#ff4444" opacity="0.8">$500</text>
+  <!-- strikethrough -->
+  <line x1="660" y1="655" x2="700" y2="655" stroke="#ff4444" stroke-width="2"/>
+  <text x="710" y="662" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="url(#gold)">FREE for qualified brands</text>
+
+  <!-- Scarcity -->
+  <rect x="60" y="720" width="960" height="52" rx="10" fill="#ff4444" opacity="0.08" stroke="#ff4444" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="753" text-anchor="middle" font-family="Arial" font-size="15" fill="#f8f4ef">⏰  Limited to <tspan font-weight="bold" fill="#ff4444">10 brands per month.</tspan>  3 slots remaining this April.</text>
+
+  <!-- CTA -->
+  <rect x="160" y="792" width="760" height="72" rx="36" fill="url(#gold)"/>
+  <text x="540" y="826" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Claim Your Free Audit Now →</text>
+  <text x="540" y="850" text-anchor="middle" font-family="Arial" font-size="13" fill="#1a1a2e" opacity="0.7">No commitment · 30-minute call · Results in 48 hours</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="888" width="1080" height="192" fill="#04060e"/>
+  <line x1="60" y1="902" x2="1020" y2="902" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="942" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">500+ INDIA BRANDS SCALED · $10M+ US AD SPEND · SINCE 2019</text>
+  <text x="540" y="988" text-anchor="middle" font-family="Georgia, serif" font-size="19" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1038" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

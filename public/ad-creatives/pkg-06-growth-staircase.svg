@@ -1,0 +1,149 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4"/>
+      <stop offset="100%" style="stop-color:#1a4fa0"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1877f2"/>
+      <stop offset="100%" style="stop-color:#0d4ca0"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#c2410c"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#96bf48"/>
+      <stop offset="100%" style="stop-color:#3d7a00"/>
+    </linearGradient>
+    <linearGradient id="bar6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="540" rx="500" ry="380" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top tag -->
+  <rect x="310" y="36" width="460" height="28" rx="14" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1"/>
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="2">USA D2C BRAND GROWTH JOURNEY · $599/MONTH PLAN</text>
+
+  <!-- Headline -->
+  <text x="540" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#f8f4ef">From $0 to</text>
+  <text x="540" y="182" text-anchor="middle" font-family="Georgia, serif" font-size="100" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-3">$100,000</text>
+  <text x="540" y="226" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#f8f4ef">in <tspan font-weight="bold" fill="#96bf48">6 Months</tspan> — Real Roadmap</text>
+
+  <!-- Gold rule -->
+  <rect x="100" y="248" width="880" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- Staircase chart -->
+  <!-- Grid lines -->
+  <line x1="80" y1="680" x2="1000" y2="680" stroke="#1a2040" stroke-width="1"/>
+  <line x1="80" y1="620" x2="1000" y2="620" stroke="#1a2040" stroke-width="1"/>
+  <line x1="80" y1="560" x2="1000" y2="560" stroke="#1a2040" stroke-width="1"/>
+  <line x1="80" y1="500" x2="1000" y2="500" stroke="#1a2040" stroke-width="1"/>
+  <line x1="80" y1="440" x2="1000" y2="440" stroke="#1a2040" stroke-width="1"/>
+  <line x1="80" y1="380" x2="1000" y2="380" stroke="#1a2040" stroke-width="1"/>
+  <line x1="80" y1="320" x2="1000" y2="320" stroke="#1a2040" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="76" y="684" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$0</text>
+  <text x="76" y="624" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$10K</text>
+  <text x="76" y="564" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$25K</text>
+  <text x="76" y="504" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$45K</text>
+  <text x="76" y="444" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$65K</text>
+  <text x="76" y="384" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$85K</text>
+  <text x="76" y="324" text-anchor="end" font-family="Arial" font-size="11" fill="#444">$100K</text>
+
+  <!-- Bar: Month 1 — $8,400 -->
+  <rect x="110" y="636" width="120" height="44" rx="6" fill="url(#bar1)"/>
+  <text x="170" y="627" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#4285f4">$8,400</text>
+  <text x="170" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Month 1</text>
+  <text x="170" y="718" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Setup &amp; Launch</text>
+
+  <!-- Bar: Month 2 — $22,800 -->
+  <rect x="258" y="573" width="120" height="107" rx="6" fill="url(#bar2)"/>
+  <text x="318" y="563" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1877f2">$22,800</text>
+  <text x="318" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Month 2</text>
+  <text x="318" y="718" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Optimize + Scale</text>
+
+  <!-- Bar: Month 3 — $41,600 -->
+  <rect x="406" y="494" width="120" height="186" rx="6" fill="url(#bar3)"/>
+  <text x="466" y="484" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#8b5cf6">$41,600</text>
+  <text x="466" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Month 3</text>
+  <text x="466" y="718" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Full Funnel Live</text>
+
+  <!-- Bar: Month 4 — $62,200 -->
+  <rect x="554" y="406" width="120" height="274" rx="6" fill="url(#bar4)"/>
+  <text x="614" y="396" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f97316">$62,200</text>
+  <text x="614" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Month 4</text>
+  <text x="614" y="718" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Marketplace Added</text>
+
+  <!-- Bar: Month 5 — $82,400 -->
+  <rect x="702" y="343" width="120" height="337" rx="6" fill="url(#bar5)"/>
+  <text x="762" y="333" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#96bf48">$82,400</text>
+  <text x="762" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Month 5</text>
+  <text x="762" y="718" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Peak Performance</text>
+
+  <!-- Bar: Month 6 — $100K+ -->
+  <rect x="850" y="304" width="120" height="376" rx="6" fill="url(#bar6)" filter="url(#glow)"/>
+  <text x="910" y="292" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#f5d98b" filter="url(#glow)">$100K+</text>
+  <text x="910" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" font-weight="bold">Month 6</text>
+  <text x="910" y="718" text-anchor="middle" font-family="Arial" font-size="10" fill="#c9a84c">🏆 Scale Mode</text>
+
+  <!-- Growth arrow overlay -->
+  <polyline points="170,636 318,573 466,494 614,406 762,343 910,304" fill="none" stroke="#c9a84c" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+  <circle cx="910" cy="304" r="8" fill="#c9a84c" filter="url(#glow)"/>
+
+  <!-- Cost bar at bottom -->
+  <rect x="80" y="730" width="920" height="46" rx="10" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="200" y="758" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">MONTHLY COST</text>
+  <text x="440" y="758" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#c9a84c">$599/month × 6 = $3,594 total investment</text>
+  <text x="850" y="758" text-anchor="middle" font-family="Arial" font-size="12" fill="#96bf48">ROI: 27.8×</text>
+
+  <!-- 3 service pillars -->
+  <rect x="80" y="796" width="280" height="64" rx="12" fill="#0d1420" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="220" y="822" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#4285f4">🔵 Google Ads</text>
+  <text x="220" y="844" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Search · Shopping · PMax</text>
+
+  <rect x="400" y="796" width="280" height="64" rx="12" fill="#0d1420" stroke="#1877f2" stroke-width="1.5"/>
+  <text x="540" y="822" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1877f2">📘 Meta Ads</text>
+  <text x="540" y="844" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">FB · Instagram · Reels</text>
+
+  <rect x="720" y="796" width="280" height="64" rx="12" fill="#0d1420" stroke="#ff9900" stroke-width="1.5"/>
+  <text x="860" y="822" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#ff9900">🟠 Marketplace</text>
+  <text x="860" y="844" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Amazon · Walmart · TikTok</text>
+
+  <!-- CTA -->
+  <rect x="190" y="878" width="700" height="64" rx="32" fill="url(#gold)"/>
+  <text x="540" y="916" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Start Your $100K Journey for $599/Month →</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="964" width="1080" height="116" fill="#04060e"/>
+  <line x1="60" y1="978" x2="1020" y2="978" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1022" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS · USA BRAND GROWTH SYSTEM</text>
+  <text x="540" y="1046" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">Clothing · Footwear · Beauty · Home · B2B · heritageapparels.com</text>
+</svg>

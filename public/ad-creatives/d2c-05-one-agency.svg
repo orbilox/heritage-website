@@ -1,0 +1,110 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="goldvert" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="32" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="500" rx="520" ry="400" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="3" opacity="0.7">FULL-SERVICE D2C GROWTH · HERITAGE APPARELS USA</text>
+
+  <!-- Big number -->
+  <text x="540" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="200" font-weight="bold" fill="url(#goldvert)" filter="url(#glow)" opacity="0.12">1</text>
+  <text x="540" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="148" font-weight="bold" fill="url(#gold)" filter="url(#glow)">1</text>
+
+  <!-- Under hero -->
+  <text x="540" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#f8f4ef">Agency. Everything Covered.</text>
+  <text x="540" y="306" text-anchor="middle" font-family="Arial" font-size="18" fill="#888">Stop juggling 4 vendors. Heritage does it all — under one roof.</text>
+
+  <!-- Gold rule -->
+  <rect x="160" y="328" width="760" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- 4 service pillars in a 2x2 grid -->
+  <!-- Service 1: Performance Ads -->
+  <rect x="60" y="350" width="460" height="190" rx="16" fill="#080e1c" stroke="#1877f2" stroke-width="1.5"/>
+  <rect x="60" y="350" width="460" height="7" rx="4" fill="#1877f2" opacity="0.8"/>
+  <text x="110" y="400" font-family="Arial" font-size="38">📣</text>
+  <text x="170" y="392" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">Performance Marketing</text>
+  <text x="170" y="416" font-family="Arial" font-size="13" fill="#666">Meta · Google · TikTok Ads</text>
+  <text x="110" y="452" font-family="Arial" font-size="12" fill="#888">· Full campaign build &amp; management</text>
+  <text x="110" y="472" font-family="Arial" font-size="12" fill="#888">· US-market creative production</text>
+  <text x="110" y="492" font-family="Arial" font-size="12" fill="#888">· City-level geo targeting</text>
+  <text x="430" y="520" text-anchor="end" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1877f2">6.4× ROAS</text>
+
+  <!-- Service 2: Marketplace -->
+  <rect x="560" y="350" width="460" height="190" rx="16" fill="#080e1c" stroke="#ff9900" stroke-width="1.5"/>
+  <rect x="560" y="350" width="460" height="7" rx="4" fill="#ff9900" opacity="0.8"/>
+  <text x="610" y="400" font-family="Arial" font-size="38">🏪</text>
+  <text x="670" y="392" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">Marketplace Management</text>
+  <text x="670" y="416" font-family="Arial" font-size="13" fill="#666">Amazon · Walmart · Etsy + 22 more</text>
+  <text x="610" y="452" font-family="Arial" font-size="12" fill="#888">· Brand store setup &amp; A+ content</text>
+  <text x="610" y="472" font-family="Arial" font-size="12" fill="#888">· SEO &amp; keyword optimisation</text>
+  <text x="610" y="492" font-family="Arial" font-size="12" fill="#888">· 25+ US platforms managed</text>
+  <text x="990" y="520" text-anchor="end" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#ff9900">400M+ Buyers</text>
+
+  <!-- Service 3: Social Media -->
+  <rect x="60" y="560" width="460" height="190" rx="16" fill="#080e1c" stroke="#e1306c" stroke-width="1.5"/>
+  <rect x="60" y="560" width="460" height="7" rx="4" fill="#e1306c" opacity="0.8"/>
+  <text x="110" y="610" font-family="Arial" font-size="38">📱</text>
+  <text x="170" y="602" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">Social Media</text>
+  <text x="170" y="626" font-family="Arial" font-size="13" fill="#666">TikTok · Instagram · YouTube Shorts</text>
+  <text x="110" y="662" font-family="Arial" font-size="12" fill="#888">· 30 US-market posts per month</text>
+  <text x="110" y="682" font-family="Arial" font-size="12" fill="#888">· Script · Edit · Schedule · Report</text>
+  <text x="110" y="702" font-family="Arial" font-size="12" fill="#888">· Influencer outreach included</text>
+  <text x="430" y="730" text-anchor="end" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#e1306c">2M+ Reach/mo</text>
+
+  <!-- Service 4: Store Dev -->
+  <rect x="560" y="560" width="460" height="190" rx="16" fill="#080e1c" stroke="#96bf48" stroke-width="1.5"/>
+  <rect x="560" y="560" width="460" height="7" rx="4" fill="#96bf48" opacity="0.8"/>
+  <text x="610" y="610" font-family="Arial" font-size="38">🛍</text>
+  <text x="670" y="602" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">Store Development</text>
+  <text x="670" y="626" font-family="Arial" font-size="13" fill="#666">Shopify · Amazon Brand Store</text>
+  <text x="610" y="662" font-family="Arial" font-size="12" fill="#888">· US-optimised Shopify build</text>
+  <text x="610" y="682" font-family="Arial" font-size="12" fill="#888">· City landing pages for ad targeting</text>
+  <text x="610" y="702" font-family="Arial" font-size="12" fill="#888">· Go live in 45 days guaranteed</text>
+  <text x="990" y="730" text-anchor="end" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#96bf48">45-Day Launch</text>
+
+  <!-- Center of 4 cards — "Heritage" hub -->
+  <circle cx="540" cy="565" r="38" fill="url(#gold)" filter="url(#glow)"/>
+  <text x="540" y="556" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#1a1a2e" letter-spacing="1">HERITAGE</text>
+  <text x="540" y="571" text-anchor="middle" font-family="Arial" font-size="8" fill="#1a1a2e">ALL-IN-ONE</text>
+  <text x="540" y="584" text-anchor="middle" font-family="Arial" font-size="8" fill="#1a1a2e">AGENCY</text>
+
+  <!-- What this means for you box -->
+  <rect x="60" y="772" width="960" height="68" rx="12" fill="#c9a84c" opacity="0.08" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="802" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f8f4ef">One brief. One team. One invoice. <tspan fill="url(#gold)" font-weight="bold">All your US sales channels handled.</tspan></text>
+  <text x="540" y="828" text-anchor="middle" font-family="Arial" font-size="14" fill="#666">No more briefing 4 agencies. No more finger-pointing. Just results.</text>
+
+  <!-- CTA -->
+  <rect x="190" y="860" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Get Your Full-Service Growth Plan →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="950" width="1080" height="130" fill="#04060e"/>
+  <line x1="60" y1="964" x2="1020" y2="964" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1006" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">PERFORMANCE · MARKETPLACE · SOCIAL MEDIA · STORE DEVELOPMENT</text>
+  <text x="540" y="1046" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1068" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services · India's #1 US Market Entry Agency</text>
+</svg>

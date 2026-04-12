@@ -1,0 +1,149 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="280" cy="500" rx="380" ry="300" fill="#ff4444" opacity="0.03" filter="url(#softglow)"/>
+  <ellipse cx="800" cy="500" rx="380" ry="300" fill="#96bf48" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top tag -->
+  <rect x="310" y="36" width="460" height="28" rx="14" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1"/>
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="2">US D2C &amp; B2B BRANDS · AGENCY COMPARISON 2025</text>
+
+  <!-- Headline -->
+  <text x="540" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#f8f4ef">Why Pay $8,000/Month</text>
+  <text x="540" y="162" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#f8f4ef">When <tspan fill="url(#gold)">$599 Gets More?</tspan></text>
+
+  <!-- Gold rule -->
+  <rect x="100" y="182" width="880" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- Column headers -->
+  <rect x="60" y="200" width="440" height="52" rx="10" fill="#1a0808" stroke="#ff4444" stroke-width="1.5"/>
+  <text x="280" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#ff6666">🏙️ USA Agency</text>
+
+  <rect x="580" y="200" width="440" height="52" rx="10" fill="#081a08" stroke="#96bf48" stroke-width="2"/>
+  <text x="800" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#96bf48">✦ Heritage Apparels</text>
+
+  <!-- VS badge -->
+  <circle cx="540" cy="226" r="28" fill="#0d1420" stroke="#c9a84c" stroke-width="2"/>
+  <text x="540" y="233" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#c9a84c">VS</text>
+
+  <!-- Comparison rows -->
+  <!-- Row labels and values function -->
+  <!-- Row 1: Monthly Cost -->
+  <rect x="60" y="270" width="960" height="54" rx="8" fill="#0a0e1a"/>
+  <line x1="60" y1="270" x2="1020" y2="270" stroke="#1a2040" stroke-width="1"/>
+  <text x="282" y="304" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">CATEGORY</text>
+  <text x="282" y="304" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">C</text>
+  <text x="160" y="303" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">MONTHLY COST</text>
+  <text x="360" y="308" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#ff5555">$6,000–$12,000</text>
+  <line x1="520" y1="272" x2="520" y2="322" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="308" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#96bf48" filter="url(#glow)">$599</text>
+
+  <!-- Helper function — rows -->
+  <!-- Row 2 -->
+  <rect x="60" y="324" width="960" height="54" rx="0" fill="#080d18"/>
+  <line x1="60" y1="324" x2="1020" y2="324" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="356" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">GOOGLE ADS</text>
+  <text x="360" y="360" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">Only if upsold — extra $$$</text>
+  <line x1="520" y1="326" x2="520" y2="376" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="360" text-anchor="middle" font-family="Arial" font-size="18" fill="#96bf48" font-weight="bold">✓ Included — Full Setup</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="378" width="960" height="54" rx="0" fill="#0a0e1a"/>
+  <line x1="60" y1="378" x2="1020" y2="378" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="410" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">META / INSTAGRAM</text>
+  <text x="360" y="414" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">Separate package — extra $$$</text>
+  <line x1="520" y1="380" x2="520" y2="430" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="414" text-anchor="middle" font-family="Arial" font-size="18" fill="#96bf48" font-weight="bold">✓ Included — Full Setup</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="432" width="960" height="54" rx="0" fill="#080d18"/>
+  <line x1="60" y1="432" x2="1020" y2="432" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="464" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">MARKETPLACE</text>
+  <text x="360" y="468" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">Not offered</text>
+  <line x1="520" y1="434" x2="520" y2="484" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="468" text-anchor="middle" font-family="Arial" font-size="18" fill="#96bf48" font-weight="bold">✓ Amazon + Walmart + TikTok</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="486" width="960" height="54" rx="0" fill="#0a0e1a"/>
+  <line x1="60" y1="486" x2="1020" y2="486" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="518" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">FASHION EXPERIENCE</text>
+  <text x="360" y="522" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">Generalist — not specialized</text>
+  <line x1="520" y1="488" x2="520" y2="538" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="522" text-anchor="middle" font-family="Arial" font-size="18" fill="#96bf48" font-weight="bold">✓ Clothing &amp; Footwear focused</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="540" width="960" height="54" rx="0" fill="#080d18"/>
+  <line x1="60" y1="540" x2="1020" y2="540" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="572" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">SETUP FEE</text>
+  <text x="360" y="576" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">$1,500–$5,000 upfront</text>
+  <line x1="520" y1="542" x2="520" y2="592" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="576" text-anchor="middle" font-family="Arial" font-size="18" fill="#96bf48" font-weight="bold">✓ $0 Setup Fee</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="594" width="960" height="54" rx="0" fill="#0a0e1a"/>
+  <line x1="60" y1="594" x2="1020" y2="594" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="626" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">CONTRACT</text>
+  <text x="360" y="630" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">6–12 month lock-in</text>
+  <line x1="520" y1="596" x2="520" y2="646" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="630" text-anchor="middle" font-family="Arial" font-size="18" fill="#96bf48" font-weight="bold">✓ Month-to-month, cancel anytime</text>
+
+  <!-- Row 8 -->
+  <rect x="60" y="648" width="960" height="54" rx="0" fill="#080d18"/>
+  <line x1="60" y1="648" x2="1020" y2="648" stroke="#1a2040" stroke-width="1"/>
+  <text x="160" y="680" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">AVG ROAS DELIVERED</text>
+  <text x="360" y="684" text-anchor="middle" font-family="Arial" font-size="18" fill="#cc6666">2.1× – 3.4×</text>
+  <line x1="520" y1="650" x2="520" y2="700" stroke="#1a2040" stroke-width="1"/>
+  <text x="800" y="684" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#96bf48" font-weight="bold" filter="url(#glow)">6.4× average</text>
+
+  <!-- Result line -->
+  <rect x="60" y="722" width="440" height="54" rx="8" fill="#200808" stroke="#ff4444" stroke-width="1.5"/>
+  <text x="280" y="748" text-anchor="middle" font-family="Arial" font-size="11" fill="#cc4444">ANNUAL COST</text>
+  <text x="280" y="768" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#ff5555">$96,000+/year</text>
+
+  <rect x="580" y="722" width="440" height="54" rx="8" fill="#082008" stroke="#96bf48" stroke-width="2"/>
+  <text x="800" y="748" text-anchor="middle" font-family="Arial" font-size="11" fill="#96bf48">ANNUAL COST</text>
+  <text x="800" y="768" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#96bf48" filter="url(#glow)">$7,188/year</text>
+
+  <!-- Savings badge -->
+  <rect x="360" y="724" width="360" height="52" rx="14" fill="#c9a84c" opacity="0.15" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="540" y="745" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">YOU SAVE</text>
+  <text x="540" y="768" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="url(#gold)" filter="url(#glow)">$88,812/year</text>
+
+  <!-- CTA -->
+  <rect x="190" y="796" width="700" height="64" rx="32" fill="url(#gold)"/>
+  <text x="540" y="836" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Switch to Heritage — Start at $599/Month →</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="882" width="1080" height="198" fill="#04060e"/>
+  <line x1="60" y1="896" x2="1020" y2="896" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="190" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">$88K Saved</text>
+  <text x="190" y="962" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">vs typical US agency</text>
+  <line x1="380" y1="918" x2="380" y2="974" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">6.4× ROAS</text>
+  <text x="540" y="962" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">vs 2-3× industry average</text>
+  <line x1="700" y1="918" x2="700" y2="974" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">3 Channels</text>
+  <text x="870" y="962" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Google + Meta + Marketplace</text>
+  <text x="540" y="1016" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS · $599/MONTH</text>
+  <text x="540" y="1040" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com · No Contract · USA Brands</text>
+</svg>

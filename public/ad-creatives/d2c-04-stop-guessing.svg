@@ -1,0 +1,112 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="420" rx="500" ry="380" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top badge -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="3" opacity="0.7">FREE STRATEGY SESSION · HERITAGE APPARELS</text>
+
+  <!-- Big crossed out word -->
+  <text x="540" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#444">Guessing.</text>
+  <!-- Red strikethrough -->
+  <rect x="90" y="138" width="900" height="8" rx="4" fill="#ff4444" opacity="0.9"/>
+
+  <text x="540" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Start Scaling.</text>
+
+  <text x="540" y="326" text-anchor="middle" font-family="Arial" font-size="18" fill="#888">Your D2C brand deserves a proven growth system — not trial and error.</text>
+
+  <!-- Gold rule -->
+  <rect x="200" y="346" width="680" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Before/After two column -->
+  <text x="270" y="388" text-anchor="middle" font-family="Arial" font-size="12" fill="#ff4444" letter-spacing="2">BEFORE HERITAGE</text>
+  <text x="810" y="388" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">WITH HERITAGE</text>
+
+  <!-- Left column - Before -->
+  <rect x="60" y="400" width="450" height="320" rx="14" fill="#0d0508" stroke="#ff4444" stroke-width="1" stroke-opacity="0.4"/>
+
+  <text x="285" y="438" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Boosting posts and hoping</text>
+  <line x1="90" y1="448" x2="480" y2="448" stroke="#1a1520" stroke-width="1"/>
+  <text x="285" y="472" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Copying competitor ads randomly</text>
+  <line x1="90" y1="482" x2="480" y2="482" stroke="#1a1520" stroke-width="1"/>
+  <text x="285" y="506" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">New agency every 3 months</text>
+  <line x1="90" y1="516" x2="480" y2="516" stroke="#1a1520" stroke-width="1"/>
+  <text x="285" y="540" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">No idea which ad drove a sale</text>
+  <line x1="90" y1="550" x2="480" y2="550" stroke="#1a1520" stroke-width="1"/>
+  <text x="285" y="574" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Same ad creative for 6 months</text>
+  <line x1="90" y1="584" x2="480" y2="584" stroke="#1a1520" stroke-width="1"/>
+  <text x="285" y="608" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Targeting the entire USA</text>
+  <line x1="90" y1="618" x2="480" y2="618" stroke="#1a1520" stroke-width="1"/>
+  <text x="285" y="642" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Selling only on your own store</text>
+  <line x1="90" y1="652" x2="480" y2="652" stroke="#1a1520" stroke-width="1"/>
+
+  <!-- Big loss number -->
+  <text x="285" y="696" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#ff4444">$0 growth</text>
+  <text x="285" y="716" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">stuck at same revenue for months</text>
+
+  <!-- Right column - After -->
+  <rect x="570" y="400" width="450" height="320" rx="14" fill="#050f08" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.4"/>
+
+  <text x="795" y="438" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">Data-driven paid ad campaigns</text>
+  <line x1="600" y1="448" x2="990" y2="448" stroke="#0f1a14" stroke-width="1"/>
+  <text x="795" y="472" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">US market-tested creatives</text>
+  <line x1="600" y1="482" x2="990" y2="482" stroke="#0f1a14" stroke-width="1"/>
+  <text x="795" y="506" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">One long-term partner, full team</text>
+  <line x1="600" y1="516" x2="990" y2="516" stroke="#0f1a14" stroke-width="1"/>
+  <text x="795" y="540" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">Full attribution tracking weekly</text>
+  <line x1="600" y1="550" x2="990" y2="550" stroke="#0f1a14" stroke-width="1"/>
+  <text x="795" y="574" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">Fresh creatives every 2 weeks</text>
+  <line x1="600" y1="584" x2="990" y2="584" stroke="#0f1a14" stroke-width="1"/>
+  <text x="795" y="608" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">City-by-city geo targeting (10 cities)</text>
+  <line x1="600" y1="618" x2="990" y2="618" stroke="#0f1a14" stroke-width="1"/>
+  <text x="795" y="642" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">25+ marketplace channels active</text>
+  <line x1="600" y1="652" x2="990" y2="652" stroke="#0f1a14" stroke-width="1"/>
+
+  <!-- Big win number -->
+  <text x="795" y="690" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="url(#gold)">+$62K/mo</text>
+  <text x="795" y="716" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">avg revenue uplift · 90 days</text>
+
+  <!-- CTA section -->
+  <rect x="60" y="742" width="960" height="60" rx="12" fill="#c9a84c" opacity="0.08" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="540" y="779" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f8f4ef">Book a free 30-minute call. <tspan fill="url(#gold)" font-weight="bold">We'll show you your exact growth roadmap.</tspan></text>
+
+  <rect x="190" y="824" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="858" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1a1a2e">Stop Guessing. Book Free Strategy Call →</text>
+  <text x="540" y="880" text-anchor="middle" font-family="Arial" font-size="13" fill="#1a1a2e" opacity="0.7">No sales pitch · Just a real growth plan for your brand</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="918" width="1080" height="162" fill="#04060e"/>
+  <line x1="60" y1="932" x2="1020" y2="932" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+
+  <text x="210" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold)">500+</text>
+  <text x="210" y="990" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Brands scaled</text>
+  <line x1="380" y1="952" x2="380" y2="1002" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold)">6.4×</text>
+  <text x="540" y="990" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Average ROAS</text>
+  <line x1="700" y1="952" x2="700" y2="1002" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold)">90 Days</text>
+  <text x="870" y="990" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">To profitable scale</text>
+
+  <text x="540" y="1040" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1064" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services</text>
+</svg>

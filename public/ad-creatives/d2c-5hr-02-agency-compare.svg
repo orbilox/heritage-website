@@ -1,0 +1,117 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="28" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="300" cy="300" rx="350" ry="260" fill="#ff2200" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="800" cy="700" rx="320" ry="240" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="58" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="3" opacity="0.7">US AGENCY RATE vs HERITAGE · D2C AD MANAGEMENT</text>
+
+  <!-- Headline -->
+  <text x="540" y="132" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#f8f4ef">US Agencies Charge</text>
+
+  <!-- Big price contrast -->
+  <text x="270" y="238" text-anchor="middle" font-family="Georgia, serif" font-size="108" font-weight="bold" fill="#ff4444" filter="url(#glow)">$150</text>
+  <text x="540" y="238" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="#888">/hr</text>
+
+  <!-- VS badge -->
+  <circle cx="540" cy="290" r="40" fill="#1a1a2e" stroke="#c9a84c" stroke-width="2"/>
+  <text x="540" y="298" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#c9a84c">VS</text>
+
+  <!-- Heritage price -->
+  <text x="810" y="238" text-anchor="middle" font-family="Georgia, serif" font-size="108" font-weight="bold" fill="url(#gold)" filter="url(#glow)">$5</text>
+  <text x="540" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#888">/hr with Heritage. Same result. 30× cheaper.</text>
+
+  <!-- Gold rule -->
+  <rect x="120" y="352" width="840" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Comparison table -->
+  <!-- Header row -->
+  <rect x="60" y="370" width="960" height="44" rx="8" fill="#0d1420"/>
+  <text x="300" y="397" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff4444" letter-spacing="1">US AGENCY · $150/HR</text>
+  <text x="760" y="397" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="1">HERITAGE · $5/HR</text>
+  <line x1="540" y1="370" x2="540" y2="870" stroke="#1a2030" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="414" width="960" height="60" rx="0" fill="#0a0e1c"/>
+  <line x1="60" y1="474" x2="1020" y2="474" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="440" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">HOURLY RATE</text>
+  <text x="300" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#ff4444">$150 / hour</text>
+  <text x="760" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">$5 / hour</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="474" width="960" height="60" rx="0" fill="#080c18"/>
+  <line x1="60" y1="534" x2="1020" y2="534" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="500" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">MONTHLY COST (160 HRS)</text>
+  <text x="300" y="522" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#ff4444">$24,000/mo</text>
+  <text x="760" y="522" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">$800/mo</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="534" width="960" height="60" rx="0" fill="#0a0e1c"/>
+  <line x1="60" y1="594" x2="1020" y2="594" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="560" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">GOOGLE + META MANAGED</text>
+  <text x="300" y="582" text-anchor="middle" font-family="Arial" font-size="18" fill="#888">✓ Yes (usually separate)</text>
+  <text x="760" y="582" text-anchor="middle" font-family="Arial" font-size="18" fill="#c9a84c">✓ Yes (both included)</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="594" width="960" height="60" rx="0" fill="#080c18"/>
+  <line x1="60" y1="654" x2="1020" y2="654" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="620" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">FASHION D2C EXPERIENCE</text>
+  <text x="300" y="642" text-anchor="middle" font-family="Arial" font-size="18" fill="#888">Maybe · Generalist</text>
+  <text x="760" y="642" text-anchor="middle" font-family="Arial" font-size="18" fill="#c9a84c">✓ 500+ fashion brands</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="654" width="960" height="60" rx="0" fill="#0a0e1c"/>
+  <line x1="60" y1="714" x2="1020" y2="714" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="680" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">SHOPIFY DASHBOARD ACCESS</text>
+  <text x="300" y="702" text-anchor="middle" font-family="Arial" font-size="18" fill="#888">✓ Standard</text>
+  <text x="760" y="702" text-anchor="middle" font-family="Arial" font-size="18" fill="#c9a84c">✓ Weekly reporting</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="714" width="960" height="60" rx="0" fill="#080c18"/>
+  <line x1="60" y1="774" x2="1020" y2="774" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="740" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">CONTRACT</text>
+  <text x="300" y="762" text-anchor="middle" font-family="Arial" font-size="18" fill="#ff4444">6–12 month lock-in</text>
+  <text x="760" y="762" text-anchor="middle" font-family="Arial" font-size="18" fill="#c9a84c">✓ Pay per hour · No lock-in</text>
+
+  <!-- Row 7 - Winner -->
+  <rect x="60" y="774" width="960" height="60" rx="0" fill="#0d1a08"/>
+  <line x1="60" y1="834" x2="1020" y2="834" stroke="#1a2030" stroke-width="1"/>
+  <text x="540" y="800" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">AVERAGE CLIENT ROAS</text>
+  <text x="300" y="822" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#888">3.2×</text>
+  <text x="760" y="822" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#96bf48">6.4×</text>
+
+  <!-- Table border -->
+  <rect x="60" y="370" width="960" height="464" rx="8" fill="none" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- CTA -->
+  <rect x="190" y="856" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="896" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Switch to $5/Hour Management →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="946" width="1080" height="134" fill="#04060e"/>
+  <line x1="60" y1="960" x2="1020" y2="960" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1000" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="2">30× CHEAPER · SAME RESULTS · US D2C FASHION BRANDS</text>
+  <text x="540" y="1040" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1064" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

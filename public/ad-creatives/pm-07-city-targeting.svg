@@ -1,0 +1,144 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="28" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cityglow">
+      <feGaussianBlur stdDeviation="10" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="480" rx="500" ry="380" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="3" opacity="0.7">US CITY-LEVEL AD TARGETING · HERITAGE APPARELS</text>
+
+  <!-- Main headline -->
+  <text x="540" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#f8f4ef">We Target Your</text>
+  <text x="540" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#f8f4ef">US Ads City by City.</text>
+  <text x="540" y="248" text-anchor="middle" font-family="Arial" font-size="18" fill="#888">Because a NYC buyer shops very differently from a Dallas buyer.</text>
+
+  <!-- Gold rule -->
+  <rect x="180" y="268" width="720" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- 10 city cards in 2 rows of 5 -->
+  <!-- Row 1 -->
+  <rect x="60" y="290" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="152" y="336" text-anchor="middle" font-family="Arial" font-size="28">🗽</text>
+  <text x="152" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f5d98b">New York</text>
+  <text x="152" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Luxury + streetwear</text>
+  <text x="152" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 7.2×</text>
+  <text x="152" y="426" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">8.3M population</text>
+
+  <rect x="259" y="290" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="351" y="336" text-anchor="middle" font-family="Arial" font-size="28">🌴</text>
+  <text x="351" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Los Angeles</text>
+  <text x="351" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Boho + activewear</text>
+  <text x="351" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 6.8×</text>
+  <text x="351" y="426" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">4M population</text>
+
+  <rect x="458" y="290" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="550" y="336" text-anchor="middle" font-family="Arial" font-size="28">🌆</text>
+  <text x="550" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Chicago</text>
+  <text x="550" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Classic + workwear</text>
+  <text x="550" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 5.9×</text>
+  <text x="550" y="426" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">2.7M population</text>
+
+  <rect x="657" y="290" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="749" y="336" text-anchor="middle" font-family="Arial" font-size="28">☀️</text>
+  <text x="749" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Miami</text>
+  <text x="749" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Resort + occasionwear</text>
+  <text x="749" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 6.4×</text>
+  <text x="749" y="426" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">470K population</text>
+
+  <rect x="856" y="290" width="164" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="938" y="336" text-anchor="middle" font-family="Arial" font-size="28">⭐</text>
+  <text x="938" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Dallas</text>
+  <text x="938" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Western + casual</text>
+  <text x="938" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 5.6×</text>
+  <text x="938" y="426" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">1.3M population</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="452" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="152" y="498" text-anchor="middle" font-family="Arial" font-size="28">🌉</text>
+  <text x="152" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">San Francisco</text>
+  <text x="152" y="552" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Tech + sustainable</text>
+  <text x="152" y="570" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 6.1×</text>
+  <text x="152" y="588" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">870K population</text>
+
+  <rect x="259" y="452" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="351" y="498" text-anchor="middle" font-family="Arial" font-size="28">🚀</text>
+  <text x="351" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Houston</text>
+  <text x="351" y="552" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Diverse + casual</text>
+  <text x="351" y="570" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 5.2×</text>
+  <text x="351" y="588" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">2.3M population</text>
+
+  <rect x="458" y="452" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="550" y="498" text-anchor="middle" font-family="Arial" font-size="28">☕</text>
+  <text x="550" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Seattle</text>
+  <text x="550" y="552" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Outdoors + artisan</text>
+  <text x="550" y="570" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 5.8×</text>
+  <text x="550" y="588" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">750K population</text>
+
+  <rect x="657" y="452" width="184" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="749" y="498" text-anchor="middle" font-family="Arial" font-size="28">🎓</text>
+  <text x="749" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Boston</text>
+  <text x="749" y="552" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Preppy + academic</text>
+  <text x="749" y="570" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 5.5×</text>
+  <text x="749" y="588" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">680K population</text>
+
+  <rect x="856" y="452" width="164" height="148" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="938" y="498" text-anchor="middle" font-family="Arial" font-size="28">🍑</text>
+  <text x="938" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#f8f4ef">Atlanta</text>
+  <text x="938" y="552" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Urban + streetwear</text>
+  <text x="938" y="570" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Avg ROAS: 5.4×</text>
+  <text x="938" y="588" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">500K population</text>
+
+  <!-- Why city targeting matters -->
+  <rect x="60" y="622" width="960" height="120" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="540" y="654" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">WHY CITY TARGETING OUTPERFORMS NATIONAL CAMPAIGNS</text>
+
+  <text x="210" y="688" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">3×</text>
+  <text x="210" y="708" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Higher CTR with</text>
+  <text x="210" y="724" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">city-specific copy</text>
+  <line x1="360" y1="665" x2="360" y2="728" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="480" y="688" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">40%</text>
+  <text x="480" y="708" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Lower CPM when</text>
+  <text x="480" y="724" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">geo-narrowed</text>
+  <line x1="600" y1="665" x2="600" y2="728" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="720" y="688" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">5×</text>
+  <text x="720" y="708" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Better CVR with</text>
+  <text x="720" y="724" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">local landing pages</text>
+  <line x1="840" y1="665" x2="840" y2="728" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="940" y="688" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">10</text>
+  <text x="940" y="708" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">US cities we have</text>
+  <text x="940" y="724" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">dedicated pages for</text>
+
+  <!-- CTA -->
+  <rect x="190" y="762" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="802" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Get Your City-Targeted Ad Strategy →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="852" width="1080" height="228" fill="#04060e"/>
+  <line x1="60" y1="867" x2="1020" y2="867" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="910" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">NYC · LA · CHICAGO · MIAMI · DALLAS · SF · HOUSTON · SEATTLE · BOSTON · ATLANTA</text>
+  <text x="540" y="958" text-anchor="middle" font-family="Georgia, serif" font-size="19" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1030" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

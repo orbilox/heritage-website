@@ -1,0 +1,95 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="55%" style="stop-color:#0d1628"/>
+      <stop offset="100%" style="stop-color:#0a1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="screenfade" x1="0%" y1="72%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14" stop-opacity="0"/>
+      <stop offset="100%" style="stop-color:#060a14" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="36" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dropshadow">
+      <feDropShadow dx="0" dy="12" stdDeviation="28" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+    <clipPath id="screenClip">
+      <rect x="200" y="380" width="680" height="420" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="420" rx="560" ry="400" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="52" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="3" opacity="0.7">REAL CLIENT RESULT · US D2C BRAND · LAST 30 DAYS · SHOPIFY LIVE</text>
+
+  <!-- Massive number hero -->
+  <text x="540" y="106" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#888">This brand did</text>
+  <text x="540" y="226" text-anchor="middle" font-family="Georgia, serif" font-size="158" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-6">$2.18M</text>
+  <text x="540" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#f8f4ef">in 30 days. <tspan fill="#96bf48">↑147% growth.</tspan></text>
+
+  <!-- Subtitle stats -->
+  <text x="540" y="318" text-anchor="middle" font-family="Arial" font-size="15" fill="#666">28,800 orders · 5.07% CVR · ↑163% orders · ↑30% conversion</text>
+
+  <!-- Gold rule -->
+  <rect x="100" y="338" width="880" height="2" fill="url(#gold)" rx="1" opacity="0.35"/>
+
+  <!-- Screenshot in tablet frame -->
+  <rect x="196" y="362" width="688" height="500" rx="24" fill="#111" stroke="#c9a84c" stroke-width="2.5" filter="url(#dropshadow)"/>
+  <!-- Top bar of device -->
+  <rect x="196" y="362" width="688" height="44" rx="22" fill="#1a1f2e"/>
+  <circle cx="232" cy="384" r="7" fill="#ff5f57"/>
+  <circle cx="256" cy="384" r="7" fill="#ffbd2e"/>
+  <circle cx="280" cy="384" r="7" fill="#28c840"/>
+  <text x="540" y="389" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">shopify.com/admin/analytics</text>
+  <circle cx="840" cy="384" r="5" fill="#96bf48"/>
+  <text x="852" y="388" font-family="Arial" font-size="10" fill="#96bf48">LIVE</text>
+  <!-- Real screenshot -->
+  <image href="/our-client-results/1.jpg" x="200" y="380" width="680" height="420" clip-path="url(#screenClip)" preserveAspectRatio="xMidYMid slice"/>
+  <!-- Fade overlay -->
+  <rect x="200" y="380" width="680" height="420" rx="16" fill="url(#screenfade)"/>
+  <!-- Heritage badge -->
+  <rect x="300" y="790" width="480" height="30" rx="8" fill="#c9a84c" opacity="0.18" stroke="#c9a84c" stroke-width="1"/>
+  <text x="540" y="810" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f5d98b">✦ Managed by Heritage Apparels · Google + Meta Ads</text>
+  <!-- Bottom bar of device -->
+  <rect x="196" y="836" width="688" height="26" rx="22" fill="#1a1f2e"/>
+  <rect x="486" y="844" width="108" height="5" rx="3" fill="#444"/>
+
+  <!-- 4 stat callouts below -->
+  <rect x="60" y="880" width="220" height="76" rx="12" fill="#0d1420" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="170" y="906" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48" letter-spacing="1">30-DAY REVENUE</text>
+  <text x="170" y="944" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#96bf48" filter="url(#glow)">$2,184,558</text>
+
+  <rect x="300" y="880" width="220" height="76" rx="12" fill="#0d1420" stroke="#f5d98b" stroke-width="1.5"/>
+  <text x="410" y="906" text-anchor="middle" font-family="Arial" font-size="9" fill="#f5d98b" letter-spacing="1">REVENUE GROWTH</text>
+  <text x="410" y="944" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="url(#gold)">↑147%</text>
+
+  <rect x="540" y="880" width="220" height="76" rx="12" fill="#0d1420" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="650" y="906" text-anchor="middle" font-family="Arial" font-size="9" fill="#4285f4" letter-spacing="1">TOTAL ORDERS</text>
+  <text x="650" y="944" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#f8f4ef">28,800</text>
+
+  <rect x="780" y="880" width="240" height="76" rx="12" fill="#0d1420" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="900" y="906" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c" letter-spacing="1">CONVERSION RATE</text>
+  <text x="900" y="944" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="url(#gold)">5.07%</text>
+
+  <!-- CTA -->
+  <rect x="190" y="976" width="700" height="62" rx="31" fill="url(#gold)"/>
+  <text x="540" y="1013" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1a1a2e">Scale Your D2C Brand to 7 Figures →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="1058" width="1080" height="22" fill="#04060e"/>
+  <text x="540" y="1073" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="3" fill="#c9a84c">HERITAGE APPARELS</text>
+</svg>

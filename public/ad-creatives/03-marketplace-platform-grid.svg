@@ -1,0 +1,129 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b3e"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <!-- Radial glow center -->
+  <circle cx="540" cy="400" r="400" fill="#c9a84c" opacity="0.03"/>
+
+  <!-- Top badge -->
+  <rect x="40" y="40" width="320" height="38" rx="19" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="200" y="64" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="2">MARKETPLACE ONBOARDING · USA</text>
+
+  <!-- Main hook -->
+  <text x="540" y="140" text-anchor="middle" font-family="Georgia" font-size="44" fill="#f8f4ef">You're on Amazon.</text>
+  <text x="540" y="200" text-anchor="middle" font-family="Georgia" font-size="44" fill="#f8f4ef">But what about these</text>
+  <text x="540" y="268" text-anchor="middle" font-family="Georgia" font-size="62" font-weight="bold" font-style="italic" fill="url(#gold)">400M+ US Buyers?</text>
+
+  <!-- Gold divider -->
+  <rect x="390" y="293" width="300" height="2" fill="url(#gold)" rx="1"/>
+
+  <!-- Marketplace logo grid - 3x4 -->
+  <!-- Row 1 -->
+  <!-- Amazon -->
+  <rect x="60" y="318" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#ff9900" stroke-width="2"/>
+  <text x="170" y="362" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#ff9900">amazon</text>
+  <text x="170" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">200M+ Prime Members</text>
+  <rect x="60" y="318" width="220" height="100" rx="14" fill="#ff9900" opacity="0.06"/>
+
+  <!-- Walmart -->
+  <rect x="310" y="318" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#0071dc" stroke-width="2"/>
+  <text x="420" y="362" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#0071dc">Walmart</text>
+  <text x="420" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">120M Monthly Visitors</text>
+  <rect x="310" y="318" width="220" height="100" rx="14" fill="#0071dc" opacity="0.06"/>
+
+  <!-- Etsy -->
+  <rect x="560" y="318" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#f56400" stroke-width="2"/>
+  <text x="670" y="362" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#f56400">etsy</text>
+  <text x="670" y="390" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">90M Unique Buyers</text>
+  <rect x="560" y="318" width="220" height="100" rx="14" fill="#f56400" opacity="0.06"/>
+
+  <!-- TikTok Shop -->
+  <rect x="810" y="318" width="210" height="100" rx="14" fill="#1a1a2e" stroke="#ff0050" stroke-width="2"/>
+  <text x="915" y="358" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#ff0050">TikTok</text>
+  <text x="915" y="380" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#ffffff">Shop</text>
+  <text x="915" y="400" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">150M US Users</text>
+  <rect x="810" y="318" width="210" height="100" rx="14" fill="#ff0050" opacity="0.06"/>
+
+  <!-- Row 2 -->
+  <!-- Nordstrom -->
+  <rect x="60" y="438" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#c9a84c" stroke-width="2"/>
+  <text x="170" y="482" text-anchor="middle" font-family="Georgia" font-size="22" font-weight="bold" fill="#c9a84c">NORDSTROM</text>
+  <text x="170" y="510" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">Premium Positioning</text>
+  <rect x="60" y="438" width="220" height="100" rx="14" fill="#c9a84c" opacity="0.06"/>
+
+  <!-- Shopify -->
+  <rect x="310" y="438" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#96bf48" stroke-width="2"/>
+  <text x="420" y="482" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#96bf48">shopify</text>
+  <text x="420" y="510" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">D2C Own Store</text>
+  <rect x="310" y="438" width="220" height="100" rx="14" fill="#96bf48" opacity="0.06"/>
+
+  <!-- Faire -->
+  <rect x="560" y="438" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#9b8ea4" stroke-width="2"/>
+  <text x="670" y="482" text-anchor="middle" font-family="Georgia" font-size="28" font-weight="bold" fill="#9b8ea4">faire</text>
+  <text x="670" y="510" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">700K+ US Boutiques</text>
+  <rect x="560" y="438" width="220" height="100" rx="14" fill="#9b8ea4" opacity="0.06"/>
+
+  <!-- Instagram -->
+  <rect x="810" y="438" width="210" height="100" rx="14" fill="#1a1a2e" stroke="#e1306c" stroke-width="2"/>
+  <text x="915" y="478" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#e1306c">Instagram</text>
+  <text x="915" y="500" text-anchor="middle" font-family="Arial" font-size="14" fill="#e1306c">Shopping</text>
+  <text x="915" y="518" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">2B Global Users</text>
+  <rect x="810" y="438" width="210" height="100" rx="14" fill="#e1306c" opacity="0.06"/>
+
+  <!-- Row 3 -->
+  <rect x="60" y="558" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#767676" stroke-width="1.5"/>
+  <text x="170" y="598" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#767676">eBay</text>
+  <text x="170" y="625" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">135M Active Buyers</text>
+
+  <rect x="310" y="558" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#e91e8c" stroke-width="1.5"/>
+  <text x="420" y="598" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#e91e8c">Poshmark</text>
+  <text x="420" y="625" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">80M Fashion Shoppers</text>
+
+  <rect x="560" y="558" width="220" height="100" rx="14" fill="#1a1a2e" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="670" y="592" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#4caf50">Google</text>
+  <text x="670" y="614" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#4caf50">Shopping</text>
+  <text x="670" y="640" text-anchor="middle" font-family="Arial" font-size="11" fill="#888888">High Purchase Intent</text>
+
+  <rect x="810" y="558" width="210" height="100" rx="14" fill="#1a1a2e" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="915" y="596" text-anchor="middle" font-family="Georgia" font-size="16" font-weight="bold" fill="#c9a84c">+15 more</text>
+  <text x="915" y="618" text-anchor="middle" font-family="Arial" font-size="12" fill="#888888">platforms managed</text>
+  <text x="915" y="640" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">by Heritage</text>
+
+  <!-- Key message -->
+  <rect x="60" y="682" width="960" height="68" rx="10" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="712" text-anchor="middle" font-family="Georgia" font-size="22" fill="#f8f4ef">We onboard, list, optimize, and <tspan font-weight="bold" fill="url(#gold)">manage your brand</tspan> on all of them.</text>
+  <text x="540" y="738" text-anchor="middle" font-family="Arial" font-size="15" fill="#888888">Compliant listings · A+ Content · Marketplace Ads · Ongoing Management</text>
+
+  <!-- Stats row -->
+  <text x="190" y="810" text-anchor="middle" font-family="Georgia" font-size="40" font-weight="bold" fill="url(#gold)">25+</text>
+  <text x="190" y="838" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888">US Platforms</text>
+  <line x1="380" y1="790" x2="380" y2="850" stroke="#c9a84c" stroke-width="1" opacity="0.3"/>
+  <text x="540" y="810" text-anchor="middle" font-family="Georgia" font-size="40" font-weight="bold" fill="url(#gold)">$1,800</text>
+  <text x="540" y="838" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888">Starting Price (USD)</text>
+  <line x1="700" y1="790" x2="700" y2="850" stroke="#c9a84c" stroke-width="1" opacity="0.3"/>
+  <text x="890" y="810" text-anchor="middle" font-family="Georgia" font-size="40" font-weight="bold" fill="url(#gold)">2 Weeks</text>
+  <text x="890" y="838" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888">To Go Live</text>
+
+  <!-- CTA -->
+  <rect x="280" y="878" width="520" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="918" text-anchor="middle" font-family="Georgia" font-size="22" font-weight="bold" fill="#1a1a2e">Get Free Eligibility Report →</text>
+
+  <!-- Brand bar -->
+  <rect x="0" y="976" width="1080" height="104" fill="#0d0d17"/>
+  <text x="540" y="1018" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888" letter-spacing="1">One agency. Every US marketplace. No complexity.</text>
+  <text x="540" y="1054" text-anchor="middle" font-family="Georgia" font-size="16" letter-spacing="3" fill="#c9a84c">HERITAGE APPARELS USA</text>
+</svg>

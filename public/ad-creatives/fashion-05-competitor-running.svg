@@ -1,0 +1,145 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="chartred" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4444" stop-opacity="0.3"/>
+      <stop offset="100%" style="stop-color:#ff4444" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="chartgold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b" stop-opacity="0.4"/>
+      <stop offset="100%" style="stop-color:#c9a84c" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="redglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="28" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="280" cy="350" rx="340" ry="280" fill="#ff2200" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="820" cy="650" rx="320" ry="260" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top alert badge -->
+  <rect x="300" y="34" width="480" height="40" rx="20" fill="#ff4444" opacity="0.15" stroke="#ff4444" stroke-width="1.5"/>
+  <text x="540" y="59" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff4444" letter-spacing="2">⚠  ATTENTION: USA FASHION BRAND OWNERS</text>
+
+  <!-- Headline -->
+  <text x="540" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#f8f4ef">Your Competitor Is Running</text>
+  <text x="540" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#f8f4ef">Google + Meta Ads</text>
+  <text x="540" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="62" font-weight="bold" fill="#ff4444" filter="url(#redglow)">Right Now.</text>
+
+  <!-- Sub -->
+  <text x="540" y="310" text-anchor="middle" font-family="Arial" font-size="17" fill="#888">While you read this — they're capturing the US fashion buyers you should be getting.</text>
+
+  <!-- Divider -->
+  <rect x="160" y="328" width="760" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Two Shopify dashboards side by side -->
+  <!-- Competitor's dashboard (winning) - left -->
+  <rect x="60" y="348" width="450" height="340" rx="14" fill="#080e1c" stroke="#ff4444" stroke-width="1.5"/>
+  <rect x="60" y="348" width="450" height="38" rx="10" fill="#120608"/>
+  <rect x="74" y="360" width="16" height="16" rx="3" fill="#ff4444" opacity="0.8"/>
+  <text x="82" y="372" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#fff">S</text>
+  <text x="100" y="372" font-family="Arial" font-size="11" fill="#888">CompetitorFashionBrand.com</text>
+  <text x="494" y="371" text-anchor="end" font-family="Arial" font-size="10" fill="#ff4444" letter-spacing="1">ADS RUNNING ●</text>
+
+  <!-- Competitor stats -->
+  <rect x="78" y="398" width="196" height="66" rx="8" fill="#0d0508" stroke="#ff4444" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="420" text-anchor="middle" font-family="Arial" font-size="9" fill="#ff4444">MONTHLY SALES</text>
+  <text x="176" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#ff4444">$54,800</text>
+  <text x="176" y="462" text-anchor="middle" font-family="Arial" font-size="9" fill="#ff4444">↑ 380% growth</text>
+
+  <rect x="286" y="398" width="196" height="66" rx="8" fill="#0d0508" stroke="#333" stroke-width="1"/>
+  <text x="384" y="420" text-anchor="middle" font-family="Arial" font-size="9" fill="#666">SESSIONS</text>
+  <text x="384" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#888">22,400</text>
+  <text x="384" y="462" text-anchor="middle" font-family="Arial" font-size="9" fill="#ff4444">from Google + Meta</text>
+
+  <!-- Competitor chart (growing) -->
+  <rect x="78" y="476" width="404" height="90" rx="8" fill="#0d0508"/>
+  <polygon points="98,556 140,548 180,538 230,522 280,504 340,488 390,476 450,468 462,466 462,560 98,560" fill="url(#chartred)"/>
+  <polyline points="98,556 140,548 180,538 230,522 280,504 340,488 390,476 450,468 462,466" fill="none" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="462" cy="466" r="5" fill="#ff4444" filter="url(#glow)"/>
+  <text x="98" y="492" font-family="Arial" font-size="9" fill="#3a1010">Revenue growing 40% MoM</text>
+
+  <!-- Competitor ad spend -->
+  <rect x="78" y="578" width="404" height="88" rx="8" fill="#0d0508" stroke="#ff4444" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="280" y="602" text-anchor="middle" font-family="Arial" font-size="10" fill="#666" letter-spacing="1">THEIR ADS BREAKDOWN</text>
+  <text x="140" y="628" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Google Ads</text>
+  <text x="140" y="648" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#4285f4">$28,600</text>
+  <line x1="280" y1="614" x2="280" y2="658" stroke="#1a1010" stroke-width="1"/>
+  <text x="420" y="628" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Meta Ads</text>
+  <text x="420" y="648" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1877f2">$26,200</text>
+
+  <!-- Your brand - right (losing) -->
+  <rect x="570" y="348" width="450" height="340" rx="14" fill="#080e1c" stroke="#333" stroke-width="1"/>
+  <rect x="570" y="348" width="450" height="38" rx="10" fill="#0d0d0d"/>
+  <rect x="584" y="360" width="16" height="16" rx="3" fill="#333"/>
+  <text x="592" y="372" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#555">S</text>
+  <text x="610" y="372" font-family="Arial" font-size="11" fill="#555">YourFashionBrand.com</text>
+  <text x="1004" y="371" text-anchor="end" font-family="Arial" font-size="10" fill="#333" letter-spacing="1">NO ADS ●</text>
+
+  <!-- Your stats (poor) -->
+  <rect x="588" y="398" width="196" height="66" rx="8" fill="#0d0d0d" stroke="#333" stroke-width="1"/>
+  <text x="686" y="420" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">MONTHLY SALES</text>
+  <text x="686" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#444">$1,840</text>
+  <text x="686" y="462" text-anchor="middle" font-family="Arial" font-size="9" fill="#333">↓ stagnant</text>
+
+  <rect x="796" y="398" width="196" height="66" rx="8" fill="#0d0d0d" stroke="#333" stroke-width="1"/>
+  <text x="894" y="420" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">SESSIONS</text>
+  <text x="894" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#444">340</text>
+  <text x="894" y="462" text-anchor="middle" font-family="Arial" font-size="9" fill="#333">organic only</text>
+
+  <!-- Your flat chart -->
+  <rect x="588" y="476" width="404" height="90" rx="8" fill="#0d0d0d"/>
+  <polyline points="608,556 660,555 720,554 780,556 830,554 890,555 940,554 970,555" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="608" y="492" font-family="Arial" font-size="9" fill="#2a2a2a">Revenue (no growth — no ads running)</text>
+
+  <!-- Your missed revenue -->
+  <rect x="588" y="578" width="404" height="88" rx="8" fill="#0d0d0d" stroke="#333" stroke-width="1"/>
+  <text x="790" y="602" text-anchor="middle" font-family="Arial" font-size="10" fill="#333" letter-spacing="1">REVENUE YOU'RE MISSING</text>
+  <text x="790" y="640" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#444">$52,960/mo</text>
+  <text x="790" y="660" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">gap vs competitor this month alone</text>
+
+  <!-- Gap callout -->
+  <rect x="60" y="708" width="960" height="64" rx="12" fill="#ff4444" opacity="0.09" stroke="#ff4444" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="540" y="738" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#f8f4ef">Every month without ads = <tspan fill="#ff4444" font-weight="bold">$52,960 in lost sales</tspan> to competitors.</text>
+  <text x="540" y="760" text-anchor="middle" font-family="Arial" font-size="14" fill="#888">Heritage gets you running Google + Meta ads for your fashion brand at just $500/month.</text>
+
+  <!-- CTA -->
+  <rect x="160" y="794" width="760" height="72" rx="36" fill="url(#gold)"/>
+  <text x="540" y="832" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Start Running Ads for $500/Month →</text>
+  <text x="540" y="854" text-anchor="middle" font-family="Arial" font-size="13" fill="#1a1a2e" opacity="0.7">Google Shopping · Meta Feed · Instagram · Reels · Retargeting</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="892" width="1080" height="188" fill="#04060e"/>
+  <line x1="60" y1="906" x2="1020" y2="906" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+
+  <text x="210" y="948" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold)">500+</text>
+  <text x="210" y="970" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Fashion brands scaled</text>
+  <line x1="380" y1="930" x2="380" y2="980" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="948" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold)">$500/mo</text>
+  <text x="540" y="970" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">All-in management fee</text>
+  <line x1="700" y1="930" x2="700" y2="980" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="948" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold)">30 Days</text>
+  <text x="870" y="970" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">To first results</text>
+
+  <text x="540" y="1020" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1060" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

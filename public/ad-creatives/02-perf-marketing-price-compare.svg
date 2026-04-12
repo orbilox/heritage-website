@@ -1,0 +1,107 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="cardLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1a3e"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="cardRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2e1a"/>
+      <stop offset="100%" style="stop-color:#0d1a0d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Background accent circles -->
+  <circle cx="900" cy="150" r="250" fill="#c9a84c" opacity="0.04"/>
+  <circle cx="180" cy="900" r="200" fill="#c9a84c" opacity="0.04"/>
+
+  <!-- Top label -->
+  <rect x="40" y="40" width="300" height="38" rx="19" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="190" y="64" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="2">PERFORMANCE MARKETING · USA</text>
+
+  <!-- Main headline -->
+  <text x="540" y="145" text-anchor="middle" font-family="Georgia" font-size="42" fill="#f8f4ef">NYC Agency Quotes:</text>
+  <text x="540" y="215" text-anchor="middle" font-family="Georgia" font-size="86" font-weight="bold" fill="#c9a84c" opacity="0.35">$8,000</text>
+  <text x="540" y="215" text-anchor="middle" font-family="Georgia" font-size="86" font-weight="bold" fill="#c9a84c">
+    <tspan dy="0" fill="#f8f4ef" opacity="0.4" text-decoration="line-through">$8,000</tspan>
+  </text>
+  <!-- Strikethrough manually -->
+  <line x1="282" y1="196" x2="798" y2="196" stroke="#ff4444" stroke-width="5" opacity="0.8"/>
+  <text x="540" y="196" text-anchor="middle" font-family="Georgia" font-size="86" font-weight="bold" fill="#f8f4ef" opacity="0.35">$8,000</text>
+
+  <text x="540" y="300" text-anchor="middle" font-family="Georgia" font-size="50" fill="#f8f4ef">Our Price:</text>
+  <text x="540" y="390" text-anchor="middle" font-family="Georgia" font-size="100" font-weight="bold" fill="url(#gold)">$2,000</text>
+  <text x="540" y="430" text-anchor="middle" font-family="Georgia" font-size="22" fill="#c9a84c">/month · Same ROAS. Better Results.</text>
+
+  <!-- Gold divider -->
+  <rect x="340" y="455" width="400" height="2" fill="url(#gold)" rx="1"/>
+
+  <!-- Comparison columns -->
+  <!-- NYC Agency Column -->
+  <rect x="60" y="480" width="440" height="360" rx="16" fill="url(#cardLeft)" stroke="#ffffff" stroke-width="1" opacity="0.8" stroke-opacity="0.1"/>
+  <text x="280" y="518" text-anchor="middle" font-family="Arial" font-size="13" fill="#aaaaaa" letter-spacing="2">NYC / LA AGENCY</text>
+
+  <text x="280" y="568" text-anchor="middle" font-family="Georgia" font-size="48" font-weight="bold" fill="#ffffff" opacity="0.4">$8,000</text>
+  <text x="280" y="595" text-anchor="middle" font-family="Arial" font-size="12" fill="#888888">per month</text>
+
+  <rect x="100" y="615" width="360" height="1" fill="#ffffff" opacity="0.08"/>
+
+  <!-- NYC features with X marks -->
+  <text x="115" y="648" font-family="Arial" font-size="14" fill="#888888">✗  Creatives billed separately (+$2,000)</text>
+  <text x="115" y="678" font-family="Arial" font-size="14" fill="#888888">✗  No India manufacturing knowledge</text>
+  <text x="115" y="708" font-family="Arial" font-size="14" fill="#888888">✗  12-month retainer lock-in</text>
+  <text x="115" y="738" font-family="Arial" font-size="14" fill="#888888">✗  US overhead = higher fees</text>
+  <text x="115" y="768" font-family="Arial" font-size="14" fill="#888888">✗  Cookie-cutter strategies</text>
+  <text x="115" y="798" font-family="Arial" font-size="14" fill="#888888">✗  1 account manager for 50 brands</text>
+
+  <!-- Heritage Column -->
+  <rect x="580" y="480" width="440" height="360" rx="16" fill="url(#cardRight)" stroke="#c9a84c" stroke-width="2"/>
+  <!-- Popular badge -->
+  <rect x="680" y="462" width="240" height="34" rx="17" fill="url(#gold)"/>
+  <text x="800" y="484" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1a1a2e">RECOMMENDED</text>
+
+  <text x="800" y="518" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="2">HERITAGE APPARELS USA</text>
+  <text x="800" y="568" text-anchor="middle" font-family="Georgia" font-size="48" font-weight="bold" fill="url(#gold)">$2,000</text>
+  <text x="800" y="595" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c">per month · no lock-in</text>
+
+  <rect x="620" y="615" width="360" height="1" fill="#c9a84c" opacity="0.2"/>
+
+  <!-- Heritage features with checkmarks -->
+  <text x="635" y="648" font-family="Arial" font-size="14" fill="#f8f4ef">✓  Creatives INCLUDED (4–10/month)</text>
+  <text x="635" y="678" font-family="Arial" font-size="14" fill="#f8f4ef">✓  India D2C + US market expertise</text>
+  <text x="635" y="708" font-family="Arial" font-size="14" fill="#f8f4ef">✓  Cancel anytime, 30-day notice</text>
+  <text x="635" y="738" font-family="Arial" font-size="14" fill="#f8f4ef">✓  India team = 60% lower cost</text>
+  <text x="635" y="768" font-family="Arial" font-size="14" fill="#f8f4ef">✓  Custom strategy per brand</text>
+  <text x="635" y="798" font-family="Arial" font-size="14" fill="#f8f4ef">✓  Dedicated US account manager</text>
+
+  <!-- Bottom stats bar -->
+  <rect x="60" y="868" width="960" height="90" rx="12" fill="#c9a84c" opacity="0.08" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.2"/>
+
+  <text x="210" y="904" text-anchor="middle" font-family="Georgia" font-size="32" font-weight="bold" fill="url(#gold)">500+</text>
+  <text x="210" y="928" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888">Brands Managed</text>
+
+  <line x1="390" y1="880" x2="390" y2="945" stroke="#c9a84c" stroke-width="1" opacity="0.3"/>
+
+  <text x="540" y="904" text-anchor="middle" font-family="Georgia" font-size="32" font-weight="bold" fill="url(#gold)">4–8x</text>
+  <text x="540" y="928" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888">Average ROAS</text>
+
+  <line x1="690" y1="880" x2="690" y2="945" stroke="#c9a84c" stroke-width="1" opacity="0.3"/>
+
+  <text x="870" y="904" text-anchor="middle" font-family="Georgia" font-size="32" font-weight="bold" fill="url(#gold)">90 Days</text>
+  <text x="870" y="928" text-anchor="middle" font-family="Arial" font-size="13" fill="#888888">To Full Optimization</text>
+
+  <!-- Brand bar -->
+  <rect x="0" y="986" width="1080" height="94" fill="#0d0d17"/>
+  <text x="540" y="1025" text-anchor="middle" font-family="Georgia" font-size="22" font-weight="bold" fill="url(#gold)">Book a Free Strategy Call →</text>
+  <text x="540" y="1058" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="2" fill="#888888">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

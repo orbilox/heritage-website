@@ -1,0 +1,100 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a12"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="urgentred" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#cc0000"/>
+      <stop offset="100%" style="stop-color:#ff4444"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="redglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="28" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="200" cy="300" rx="350" ry="280" fill="#ff2200" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="900" cy="700" rx="300" ry="250" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff4444" letter-spacing="3" opacity="0.7">URGENT REALITY CHECK FOR INDIA FASHION BRANDS</text>
+
+  <!-- Big countdown visual -->
+  <text x="540" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="148" font-weight="bold" fill="#ff4444" filter="url(#redglow)" opacity="0.15">30</text>
+  <text x="540" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="148" font-weight="bold" fill="#ff4444" filter="url(#redglow)">30</text>
+
+  <!-- Overlay text -->
+  <text x="540" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#f8f4ef">India brands enter the US market</text>
+  <text x="540" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#f8f4ef">every single <tspan fill="#ff4444">day.</tspan></text>
+
+  <!-- Gold rule -->
+  <rect x="200" y="290" width="680" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- The split stat -->
+  <text x="540" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#888">How many succeed with US paid ads in their first year?</text>
+
+  <rect x="60" y="354" width="450" height="200" rx="16" fill="#100508" stroke="#ff4444" stroke-width="1.5"/>
+  <text x="285" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="80" font-weight="bold" fill="#ff4444" filter="url(#redglow)">88%</text>
+  <text x="285" y="460" text-anchor="middle" font-family="Arial" font-size="16" fill="#888">FAIL or break even</text>
+  <text x="285" y="484" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Wrong targeting · Bad creatives</text>
+  <text x="285" y="503" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">No funnel · Generic approach</text>
+  <text x="285" y="536" text-anchor="middle" font-family="Arial" font-size="12" fill="#ff4444" opacity="0.7">Industry research · 2023–24</text>
+
+  <rect x="570" y="354" width="450" height="200" rx="16" fill="#050f09" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="795" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="80" font-weight="bold" fill="url(#gold)" filter="url(#glow)">12%</text>
+  <text x="795" y="460" text-anchor="middle" font-family="Arial" font-size="16" fill="#888">Succeed &amp; scale</text>
+  <text x="795" y="484" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">US-specific strategy · Expert team</text>
+  <text x="795" y="503" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">Full funnel · City targeting</text>
+  <text x="795" y="536" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" opacity="0.7">Heritage clients outperform 5:1</text>
+
+  <!-- The differentiators -->
+  <rect x="60" y="578" width="960" height="60" rx="12" fill="#c9a84c" opacity="0.08" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="540" y="614" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#f8f4ef">The difference? <tspan fill="url(#gold)" font-weight="bold">A US-specialist ad partner. Not a generalist.</tspan></text>
+
+  <!-- 3 proof points -->
+  <rect x="60" y="658" width="300" height="110" rx="12" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="210" y="698" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="url(#gold)">5 yrs</text>
+  <text x="210" y="724" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">US market expertise</text>
+  <text x="210" y="744" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">India fashion only</text>
+
+  <rect x="390" y="658" width="300" height="110" rx="12" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="698" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="url(#gold)">$10M+</text>
+  <text x="540" y="724" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">US ad spend managed</text>
+  <text x="540" y="744" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Proven playbooks</text>
+
+  <rect x="720" y="658" width="300" height="110" rx="12" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="870" y="698" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="url(#gold)">6.4×</text>
+  <text x="870" y="724" text-anchor="middle" font-family="Arial" font-size="13" fill="#888">Average ROAS</text>
+  <text x="870" y="744" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Across all clients</text>
+
+  <!-- Urgency CTA -->
+  <rect x="60" y="790" width="960" height="52" rx="10" fill="#ff4444" opacity="0.1" stroke="#ff4444" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="540" y="822" text-anchor="middle" font-family="Arial" font-size="15" fill="#f8f4ef">While you read this, <tspan font-weight="bold" fill="#ff4444">3 competitor India brands</tspan> just launched US ad campaigns.</text>
+
+  <rect x="190" y="860" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="896" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Don't Fall Behind — Start Today →</text>
+  <text x="540" y="918" text-anchor="middle" font-family="Arial" font-size="13" fill="#1a1a2e" opacity="0.7">Free strategy call · No commitment required</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="952" width="1080" height="128" fill="#04060e"/>
+  <line x1="60" y1="966" x2="1020" y2="966" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1008" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1034" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">India's #1 US Market Entry Agency · Performance Marketing Specialists</text>
+  <text x="540" y="1058" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

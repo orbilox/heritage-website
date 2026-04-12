@@ -1,0 +1,138 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="purplegrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#e1306c"/>
+    </linearGradient>
+    <linearGradient id="chartfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#96bf48" stop-opacity="0.5"/>
+      <stop offset="100%" style="stop-color:#96bf48" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="300" cy="350" rx="400" ry="300" fill="#8b5cf6" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="800" cy="650" rx="380" ry="280" fill="#e1306c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top tag -->
+  <rect x="280" y="36" width="520" height="28" rx="14" fill="#8b5cf6" opacity="0.15" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#c084fc" letter-spacing="2">💄 BEAUTY · HEALTH · WELLNESS BRANDS · USA D2C · $599/MONTH</text>
+
+  <!-- Headline -->
+  <text x="540" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#f8f4ef">Your Beauty Brand Deserves</text>
+  <text x="540" y="174" text-anchor="middle" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="url(#purplegrad)" filter="url(#glow)">Premium Reach.</text>
+  <text x="540" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#f8f4ef">Google + Meta + Amazon — all for <tspan font-weight="bold" fill="url(#gold)">$599/month.</tspan></text>
+
+  <!-- Gold rule -->
+  <rect x="100" y="244" width="880" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- Shopify dashboard mockup with beauty brand data -->
+  <rect x="60" y="264" width="580" height="380" rx="16" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5"/>
+  <rect x="60" y="264" width="580" height="48" rx="14" fill="#f6f6f7"/>
+  <text x="330" y="286" text-anchor="middle" font-family="Arial" font-size="12" fill="#96bf48" font-weight="bold">shopify.com/admin</text>
+  <rect x="80" y="324" width="130" height="26" rx="13" fill="#f6f6f7" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="145" y="341" text-anchor="middle" font-family="Arial" font-size="11" fill="#444">Last 30 days ∨</text>
+  <circle cx="228" cy="337" r="5" fill="#96bf48"/>
+  <text x="260" y="341" text-anchor="middle" font-family="Arial" font-size="11" fill="#444">194 visitors</text>
+
+  <!-- KPIs -->
+  <text x="80" y="390" font-family="Arial" font-size="13" fill="#6b7177">Total sales</text>
+  <text x="80" y="434" font-family="Arial" font-size="42" font-weight="bold" fill="#1a1a1a">$54,840.00</text>
+  <text x="80" y="460" font-family="Arial" font-size="15" fill="#96bf48" font-weight="bold">↗ 431%</text>
+  <text x="450" y="390" font-family="Arial" font-size="12" fill="#6b7177">Orders</text>
+  <text x="450" y="424" font-family="Arial" font-size="28" font-weight="bold" fill="#1a1a1a">692</text>
+  <text x="450" y="448" font-family="Arial" font-size="12" fill="#96bf48">↗ 387%</text>
+  <text x="560" y="390" font-family="Arial" font-size="12" fill="#6b7177">CVR</text>
+  <text x="560" y="424" font-family="Arial" font-size="28" font-weight="bold" fill="#1a1a1a">4.2%</text>
+  <text x="560" y="448" font-family="Arial" font-size="12" fill="#96bf48">↗ 96%</text>
+
+  <!-- Revenue chart -->
+  <line x1="80" y1="570" x2="620" y2="570" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="540" x2="620" y2="540" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="510" x2="620" y2="510" stroke="#eee" stroke-width="1"/>
+  <text x="76" y="574" text-anchor="end" font-family="Arial" font-size="10" fill="#bbb">$0</text>
+  <text x="76" y="544" text-anchor="end" font-family="Arial" font-size="10" fill="#bbb">$2K</text>
+  <text x="76" y="514" text-anchor="end" font-family="Arial" font-size="10" fill="#bbb">$4K</text>
+  <polygon points="80,568 140,560 180,555 220,546 260,540 300,534 340,526 380,518 420,512 460,508 500,504 540,500 580,497 620,494 620,572 80,572" fill="url(#chartfill)" opacity="0.7"/>
+  <polyline points="80,568 140,560 180,555 220,546 260,540 300,534 340,526 380,518 420,512 460,508 500,504 540,500 580,497 620,494" fill="none" stroke="#96bf48" stroke-width="2.5"/>
+  <!-- Heritage starts marker -->
+  <line x1="200" y1="480" x2="200" y2="572" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="200" y="476" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c">HERITAGE STARTS</text>
+  <text x="340" y="596" text-anchor="middle" font-family="Arial" font-size="10" fill="#999">Month 1       Month 2       Month 3</text>
+  <!-- Heritage badge -->
+  <rect x="80" y="604" width="560" height="26" rx="6" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1"/>
+  <text x="360" y="621" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#c9a84c">✦ Managed by Heritage Apparels · Google + Meta + Amazon</text>
+
+  <!-- Right stat panel -->
+  <rect x="660" y="264" width="360" height="176" rx="14" fill="#0d1420" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="840" y="294" text-anchor="middle" font-family="Arial" font-size="11" fill="#c084fc" letter-spacing="1">BEAUTY BRAND RESULTS</text>
+  <line x1="680" y1="304" x2="1000" y2="304" stroke="#8b5cf6" stroke-width="1" opacity="0.2"/>
+  <text x="680" y="334" font-family="Arial" font-size="13" fill="#f8f4ef">↗ $54,840 monthly revenue</text>
+  <text x="680" y="358" font-family="Arial" font-size="13" fill="#f8f4ef">↗ 431% revenue growth</text>
+  <text x="680" y="382" font-family="Arial" font-size="13" fill="#f8f4ef">↗ 4.2% conversion rate</text>
+  <text x="680" y="406" font-family="Arial" font-size="13" fill="#f8f4ef">↗ Amazon Beauty Store Live</text>
+  <text x="680" y="430" font-family="Arial" font-size="13" fill="#c9a84c" font-weight="bold">↗ 7.2× ROAS on Google Ads</text>
+
+  <!-- 3 channel cards -->
+  <rect x="660" y="456" width="360" height="88" rx="14" fill="#080d18" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="840" y="484" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#4285f4">🔵 Google Ads</text>
+  <text x="840" y="504" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Shopping · Beauty Keywords · PMax</text>
+  <text x="840" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#4285f4">$28,400 attributed</text>
+
+  <rect x="660" y="560" width="360" height="88" rx="14" fill="#080d18" stroke="#1877f2" stroke-width="1.5"/>
+  <text x="840" y="588" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1877f2">📘 Meta / Instagram</text>
+  <text x="840" y="608" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Beauty Reels · Influencer Collab · Stories</text>
+  <text x="840" y="634" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1877f2">$18,640 attributed</text>
+
+  <!-- Niche pills bottom left -->
+  <text x="80" y="680" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">WORKS FOR:</text>
+  <rect x="80" y="690" width="130" height="32" rx="10" fill="#0d1420" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="145" y="711" text-anchor="middle" font-family="Arial" font-size="12" fill="#c084fc">💄 Skincare</text>
+  <rect x="224" y="690" width="130" height="32" rx="10" fill="#0d1420" stroke="#e1306c" stroke-width="1"/>
+  <text x="289" y="711" text-anchor="middle" font-family="Arial" font-size="12" fill="#e1306c">💅 Cosmetics</text>
+  <rect x="368" y="690" width="130" height="32" rx="10" fill="#0d1420" stroke="#0d9488" stroke-width="1"/>
+  <text x="433" y="711" text-anchor="middle" font-family="Arial" font-size="12" fill="#06b6d4">🧘 Wellness</text>
+  <rect x="512" y="690" width="130" height="32" rx="10" fill="#0d1420" stroke="#f97316" stroke-width="1"/>
+  <text x="577" y="711" text-anchor="middle" font-family="Arial" font-size="12" fill="#f97316">🌿 Supplements</text>
+
+  <!-- Amazon card -->
+  <rect x="660" y="664" width="360" height="68" rx="14" fill="#080d18" stroke="#ff9900" stroke-width="1.5"/>
+  <text x="840" y="692" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#ff9900">🟠 Amazon Beauty Store</text>
+  <text x="840" y="722" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ff9900">$7,800 attributed</text>
+
+  <!-- CTA -->
+  <rect x="190" y="760" width="700" height="64" rx="32" fill="url(#gold)"/>
+  <text x="540" y="800" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Scale Your Beauty Brand for $599/Month →</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="846" width="1080" height="234" fill="#04060e"/>
+  <line x1="60" y1="860" x2="1020" y2="860" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="190" y="904" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">$54,840</text>
+  <text x="190" y="926" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Monthly revenue</text>
+  <line x1="370" y1="882" x2="370" y2="938" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="904" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">431% Growth</text>
+  <text x="540" y="926" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Revenue increase</text>
+  <line x1="710" y1="882" x2="710" y2="938" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="904" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">7.2× ROAS</text>
+  <text x="870" y="926" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Google Ads return</text>
+  <text x="540" y="980" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS · BEAUTY D2C · $599/MONTH</text>
+  <text x="540" y="1004" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com · Google + Meta + Amazon · USA Market</text>
+</svg>

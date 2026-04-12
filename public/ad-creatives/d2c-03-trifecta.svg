@@ -1,0 +1,103 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="center" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="520" rx="500" ry="420" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="3" opacity="0.7">THE D2C SALES ENGINE · HERITAGE APPARELS</text>
+
+  <!-- Headline -->
+  <text x="540" y="146" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="bold" fill="#f8f4ef">Most D2C Brands Use</text>
+  <text x="540" y="204" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="bold" fill="#f8f4ef">1 Channel.</text>
+  <text x="540" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Winners Use All 3.</text>
+
+  <!-- Divider -->
+  <rect x="200" y="290" width="680" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Triangle / 3 circles layout -->
+  <!-- Top circle - Paid Ads -->
+  <circle cx="540" cy="430" r="120" fill="#080e1c" stroke="#1877f2" stroke-width="2"/>
+  <circle cx="540" cy="430" r="115" fill="none" stroke="#1877f2" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="402" text-anchor="middle" font-family="Arial" font-size="28">📣</text>
+  <text x="540" y="434" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#f8f4ef">Paid Ads</text>
+  <text x="540" y="456" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Meta · Google · TikTok</text>
+  <text x="540" y="474" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1877f2">Drives New Traffic</text>
+
+  <!-- Bottom left circle - Social Content -->
+  <circle cx="280" cy="640" r="120" fill="#080e1c" stroke="#e1306c" stroke-width="2"/>
+  <circle cx="280" cy="640" r="115" fill="none" stroke="#e1306c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="280" y="612" text-anchor="middle" font-family="Arial" font-size="28">📱</text>
+  <text x="280" y="644" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#f8f4ef">Social</text>
+  <text x="280" y="664" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#f8f4ef">Commerce</text>
+  <text x="280" y="686" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">TikTok · Reels · Shorts</text>
+  <text x="280" y="704" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#e1306c">Builds Trust</text>
+
+  <!-- Bottom right circle - Marketplace -->
+  <circle cx="800" cy="640" r="120" fill="#080e1c" stroke="#ff9900" stroke-width="2"/>
+  <circle cx="800" cy="640" r="115" fill="none" stroke="#ff9900" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="800" y="612" text-anchor="middle" font-family="Arial" font-size="28">🏪</text>
+  <text x="800" y="644" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#f8f4ef">Marketplace</text>
+  <text x="800" y="664" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#f8f4ef">Presence</text>
+  <text x="800" y="686" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Amazon · Walmart · Etsy</text>
+  <text x="800" y="704" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#ff9900">Captures Intent</text>
+
+  <!-- Connection lines between circles -->
+  <line x1="428" y1="504" x2="368" y2="568" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="6,4"/>
+  <line x1="652" y1="504" x2="712" y2="568" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="6,4"/>
+  <line x1="400" y1="640" x2="680" y2="640" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="6,4"/>
+
+  <!-- Center gold badge -->
+  <circle cx="540" cy="582" r="52" fill="url(#gold)" filter="url(#glow)"/>
+  <text x="540" y="570" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a2e">6.4×</text>
+  <text x="540" y="588" text-anchor="middle" font-family="Arial" font-size="10" fill="#1a1a2e">COMBINED</text>
+  <text x="540" y="604" text-anchor="middle" font-family="Arial" font-size="10" fill="#1a1a2e">ROAS</text>
+
+  <!-- Result numbers per channel -->
+  <text x="540" y="786" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">HERITAGE CLIENTS USING ALL 3 CHANNELS</text>
+
+  <text x="200" y="822" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">3.2×</text>
+  <text x="200" y="844" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">more revenue vs</text>
+  <text x="200" y="862" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">single-channel</text>
+  <line x1="340" y1="808" x2="340" y2="870" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="540" y="822" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">40%</text>
+  <text x="540" y="844" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">lower customer</text>
+  <text x="540" y="862" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">acquisition cost</text>
+  <line x1="740" y1="808" x2="740" y2="870" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="880" y="822" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">5.8×</text>
+  <text x="880" y="844" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">higher lifetime</text>
+  <text x="880" y="862" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">customer value</text>
+
+  <!-- CTA -->
+  <rect x="190" y="892" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="932" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Build Your 3-Channel Sales Engine →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="982" width="1080" height="98" fill="#04060e"/>
+  <line x1="60" y1="996" x2="1020" y2="996" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1034" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1060" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services</text>
+</svg>

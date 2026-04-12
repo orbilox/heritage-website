@@ -1,0 +1,108 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="55%" style="stop-color:#0d1628"/>
+      <stop offset="100%" style="stop-color:#0a1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="screenfade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="70%" style="stop-color:#000000" stop-opacity="0"/>
+      <stop offset="100%" style="stop-color:#060a14" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dropshadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <clipPath id="phoneClip">
+      <rect x="280" y="160" width="520" height="560" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="400" rx="520" ry="380" fill="#96bf48" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="52" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="3" opacity="0.7">REAL CLIENT RESULT · US D2C BRAND · LIVE SHOPIFY DASHBOARD</text>
+
+  <!-- Headline -->
+  <text x="540" y="108" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#f8f4ef">Our Client Made</text>
+  <text x="540" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="88" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-2">$341,150</text>
+  <text x="540" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#f8f4ef">in a <tspan font-weight="bold" fill="#96bf48">Single Day</tspan></text>
+
+  <!-- Gold rule -->
+  <rect x="160" y="228" width="760" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Phone frame with real screenshot -->
+  <rect x="278" y="258" width="524" height="566" rx="32" fill="#1a1a2e" stroke="#c9a84c" stroke-width="2.5" filter="url(#dropshadow)"/>
+  <!-- Notch -->
+  <rect x="440" y="262" width="200" height="22" rx="11" fill="#0a0e1c"/>
+  <!-- Actual screenshot embedded -->
+  <image href="/our-client-results/2.jpg" x="280" y="280" width="520" height="540" clip-path="url(#phoneClip)" preserveAspectRatio="xMidYMin slice"/>
+  <!-- Fade overlay at bottom -->
+  <rect x="280" y="160" width="520" height="560" rx="28" fill="url(#screenfade)"/>
+  <!-- Heritage badge on screen -->
+  <rect x="340" y="740" width="400" height="30" rx="6" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="1"/>
+  <text x="540" y="760" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f5d98b">✦ Managed by Heritage Apparels</text>
+
+  <!-- Home bar indicator -->
+  <rect x="460" y="798" width="160" height="4" rx="2" fill="#444"/>
+
+  <!-- Side stat badges -->
+  <rect x="30" y="330" width="210" height="84" rx="14" fill="#080e1c" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="135" y="358" text-anchor="middle" font-family="Arial" font-size="10" fill="#96bf48" letter-spacing="1">TODAY'S REVENUE</text>
+  <text x="135" y="396" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#96bf48" filter="url(#glow)">$341K</text>
+
+  <rect x="840" y="330" width="210" height="84" rx="14" fill="#080e1c" stroke="#f5d98b" stroke-width="1.5"/>
+  <text x="945" y="358" text-anchor="middle" font-family="Arial" font-size="10" fill="#f5d98b" letter-spacing="1">ORDERS TODAY</text>
+  <text x="945" y="396" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f5d98b">2,890</text>
+
+  <rect x="30" y="438" width="210" height="84" rx="14" fill="#080e1c" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="135" y="466" text-anchor="middle" font-family="Arial" font-size="10" fill="#4285f4" letter-spacing="1">LIVE VISITORS</text>
+  <text x="135" y="504" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">63</text>
+
+  <rect x="840" y="438" width="210" height="84" rx="14" fill="#080e1c" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="945" y="466" text-anchor="middle" font-family="Arial" font-size="10" fill="#c9a84c" letter-spacing="1">ORDERS PENDING</text>
+  <text x="945" y="504" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">50+</text>
+
+  <rect x="30" y="546" width="210" height="84" rx="14" fill="#080e1c" stroke="#e1306c" stroke-width="1.5"/>
+  <text x="135" y="574" text-anchor="middle" font-family="Arial" font-size="10" fill="#e1306c" letter-spacing="1">HIGH RISK REVIEW</text>
+  <text x="135" y="612" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">27</text>
+
+  <rect x="840" y="546" width="210" height="84" rx="14" fill="#080e1c" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="945" y="574" text-anchor="middle" font-family="Arial" font-size="10" fill="#96bf48" letter-spacing="1">PAYMENTS</text>
+  <text x="945" y="612" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">17</text>
+
+  <!-- Connector lines from badge to phone -->
+  <line x1="240" y1="372" x2="278" y2="390" stroke="#96bf48" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="840" y1="372" x2="802" y2="390" stroke="#f5d98b" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="240" y1="480" x2="278" y2="470" stroke="#4285f4" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="840" y1="480" x2="802" y2="470" stroke="#c9a84c" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- Bottom callout strip -->
+  <rect x="60" y="826" width="960" height="58" rx="12" fill="#c9a84c" opacity="0.09" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="540" y="852" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#f8f4ef">$341,150 · 2,890 orders · in one single day.</text>
+  <text x="540" y="874" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="url(#gold)" font-weight="bold">This is what Heritage-managed Google + Meta ads deliver.</text>
+
+  <!-- CTA -->
+  <rect x="190" y="906" width="700" height="62" rx="31" fill="url(#gold)"/>
+  <text x="540" y="942" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Get Results Like This → Hire Heritage</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="990" width="1080" height="90" fill="#04060e"/>
+  <line x1="60" y1="1002" x2="1020" y2="1002" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1040" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1062" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

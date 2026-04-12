@@ -1,0 +1,95 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="420" rx="480" ry="340" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Quote mark decoration -->
+  <text x="80" y="200" font-family="Georgia, serif" font-size="200" fill="#c9a84c" opacity="0.06">"</text>
+
+  <!-- Top label -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="3" opacity="0.7">VERIFIED CLIENT RESULT · HERITAGE APPARELS USA</text>
+
+  <!-- Main result number -->
+  <text x="540" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="130" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-4">8.2×</text>
+  <text x="540" y="252" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#f8f4ef">ROAS in 60 Days</text>
+  <text x="540" y="292" text-anchor="middle" font-family="Arial" font-size="17" fill="#888">Women's ethnic fashion brand · Mumbai → New York market</text>
+
+  <!-- Gold rule -->
+  <rect x="200" y="316" width="680" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Testimonial quote -->
+  <rect x="60" y="334" width="960" height="190" rx="16" fill="#080e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="100" y="384" font-family="Georgia, serif" font-size="64" fill="#c9a84c" opacity="0.5">"</text>
+  <text x="540" y="396" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f8f4ef" font-style="italic">We had tried 3 agencies before Heritage. All promised results,</text>
+  <text x="540" y="426" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f8f4ef" font-style="italic">none delivered. Heritage had us at 8.2× ROAS within 60 days —</text>
+  <text x="540" y="456" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f8f4ef" font-style="italic">and we've been with them for 18 months since."</text>
+  <!-- Avatar circle -->
+  <circle cx="200" cy="494" r="28" fill="#1a1a2e" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="200" y="500" text-anchor="middle" font-family="Arial" font-size="18" fill="#c9a84c">P</text>
+  <text x="240" y="488" font-family="Arial" font-size="14" font-weight="bold" fill="#f8f4ef">Priya Mehta</text>
+  <text x="240" y="508" font-family="Arial" font-size="12" fill="#666">Founder, Sundari Ethnic Wear · Mumbai → NYC</text>
+  <!-- Stars -->
+  <text x="860" y="500" text-anchor="end" font-family="Arial" font-size="18" fill="#c9a84c">★★★★★</text>
+
+  <!-- Before / After breakdown -->
+  <text x="540" y="564" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">BEFORE HERITAGE vs AFTER HERITAGE</text>
+
+  <!-- Before -->
+  <rect x="60" y="582" width="450" height="240" rx="14" fill="#0d0510" stroke="#ff4444" stroke-width="1.5"/>
+  <rect x="60" y="582" width="450" height="44" rx="8" fill="#ff4444" opacity="0.12"/>
+  <text x="285" y="610" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#ff4444" letter-spacing="1">BEFORE</text>
+
+  <text x="285" y="652" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#ff4444">1.1×</text>
+  <text x="285" y="676" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">ROAS (barely breaking even)</text>
+  <line x1="90" y1="692" x2="480" y2="692" stroke="#1a2030" stroke-width="1"/>
+  <text x="90" y="714" font-family="Arial" font-size="12" fill="#555">✗  $4,200/month wasted on bad targeting</text>
+  <text x="90" y="734" font-family="Arial" font-size="12" fill="#555">✗  India-market creatives in US campaigns</text>
+  <text x="90" y="754" font-family="Arial" font-size="12" fill="#555">✗  No retargeting funnel</text>
+  <text x="90" y="774" font-family="Arial" font-size="12" fill="#555">✗  Generic US audience, no city focus</text>
+  <text x="90" y="794" font-family="Arial" font-size="12" fill="#555">✗  Previous agency unresponsive</text>
+
+  <!-- After -->
+  <rect x="570" y="582" width="450" height="240" rx="14" fill="#050f0a" stroke="#c9a84c" stroke-width="1.5"/>
+  <rect x="570" y="582" width="450" height="44" rx="8" fill="#c9a84c" opacity="0.12"/>
+  <text x="795" y="610" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c9a84c" letter-spacing="1">AFTER 60 DAYS</text>
+
+  <text x="795" y="652" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="url(#gold)">8.2×</text>
+  <text x="795" y="676" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">ROAS (scaling profitably)</text>
+  <line x1="600" y1="692" x2="990" y2="692" stroke="#1a2030" stroke-width="1"/>
+  <text x="600" y="714" font-family="Arial" font-size="12" fill="#888">✓  NYC-specific audience + landing page</text>
+  <text x="600" y="734" font-family="Arial" font-size="12" fill="#888">✓  US lifestyle creative production</text>
+  <text x="600" y="754" font-family="Arial" font-size="12" fill="#888">✓  Full 4-stage retargeting funnel</text>
+  <text x="600" y="774" font-family="Arial" font-size="12" fill="#888">✓  City-by-city geo expansion plan</text>
+  <text x="600" y="794" font-family="Arial" font-size="12" fill="#888">✓  Weekly calls + transparent reporting</text>
+
+  <!-- CTA -->
+  <rect x="190" y="844" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="884" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Get Your 8× ROAS Strategy Call →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="936" width="1080" height="144" fill="#04060e"/>
+  <line x1="60" y1="950" x2="1020" y2="950" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="990" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">500+ BRANDS · $10M+ AD SPEND · VERIFIED RESULTS · SINCE 2019</text>
+  <text x="540" y="1034" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1060" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

@@ -1,0 +1,100 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="55%" style="stop-color:#0d1628"/>
+      <stop offset="100%" style="stop-color:#0a1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="screenfade" x1="0%" y1="75%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14" stop-opacity="0"/>
+      <stop offset="100%" style="stop-color:#060a14" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dropshadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="24" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <clipPath id="screenClip">
+      <rect x="300" y="270" width="480" height="560" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="480" rx="500" ry="360" fill="#96bf48" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="52" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="3" opacity="0.7">REAL CLIENT RESULT · US D2C BRAND · TODAY'S LIVE DASHBOARD</text>
+
+  <!-- Left side: headline + stats -->
+  <text x="220" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">Today's Sales</text>
+  <text x="220" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-2">$149K</text>
+  <text x="220" y="218" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#96bf48" font-weight="bold">↑ 36% growth</text>
+
+  <rect x="50" y="244" width="340" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- Stat cards left -->
+  <rect x="50" y="260" width="156" height="82" rx="12" fill="#0d1420" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="128" y="286" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48" letter-spacing="1">CVR</text>
+  <text x="128" y="326" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#96bf48">5.38%</text>
+
+  <rect x="234" y="260" width="156" height="82" rx="12" fill="#0d1420" stroke="#f5d98b" stroke-width="1.5"/>
+  <text x="312" y="286" text-anchor="middle" font-family="Arial" font-size="9" fill="#f5d98b" letter-spacing="1">VISITORS</text>
+  <text x="312" y="326" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#f5d98b">249</text>
+
+  <rect x="50" y="358" width="156" height="82" rx="12" fill="#0d1420" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="128" y="384" text-anchor="middle" font-family="Arial" font-size="9" fill="#4285f4" letter-spacing="1">ORDERS</text>
+  <text x="128" y="424" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#f8f4ef">50+</text>
+
+  <rect x="234" y="358" width="156" height="82" rx="12" fill="#0d1420" stroke="#e1306c" stroke-width="1.5"/>
+  <text x="312" y="384" text-anchor="middle" font-family="Arial" font-size="9" fill="#e1306c" letter-spacing="1">CVR GROWTH</text>
+  <text x="312" y="424" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#f8f4ef">↑36%</text>
+
+  <!-- What we managed -->
+  <rect x="50" y="458" width="340" height="120" rx="12" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="220" y="484" text-anchor="middle" font-family="Arial" font-size="10" fill="#c9a84c" letter-spacing="2">WHAT HERITAGE MANAGED</text>
+  <text x="70" y="510" font-family="Arial" font-size="13" fill="#f8f4ef">✓ Google Shopping Ads</text>
+  <text x="70" y="532" font-family="Arial" font-size="13" fill="#f8f4ef">✓ Meta / Instagram Ads</text>
+  <text x="70" y="554" font-family="Arial" font-size="13" fill="#f8f4ef">✓ Retargeting Campaigns</text>
+
+  <!-- Heritage badge -->
+  <rect x="50" y="596" width="340" height="38" rx="10" fill="#c9a84c" opacity="0.15" stroke="#c9a84c" stroke-width="1"/>
+  <text x="220" y="620" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f5d98b">✦ Managed by Heritage Apparels</text>
+
+  <!-- Right side: Phone with real screenshot -->
+  <rect x="596" y="80" width="434" height="720" rx="40" fill="#0f1117" stroke="#c9a84c" stroke-width="2" filter="url(#dropshadow)"/>
+  <!-- Status bar -->
+  <rect x="596" y="80" width="434" height="48" rx="38" fill="#1a1f2e"/>
+  <rect x="730" y="88" width="170" height="20" rx="10" fill="#0a0e1c"/>
+  <!-- Screenshot -->
+  <image href="/our-client-results/4.jpg" x="300" y="270" width="480" height="560" clip-path="url(#screenClip)" preserveAspectRatio="xMidYMin slice"/>
+  <!-- Fade at bottom of screen -->
+  <rect x="300" y="270" width="480" height="560" rx="20" fill="url(#screenfade)"/>
+  <!-- Home bar -->
+  <rect x="746" y="772" width="134" height="5" rx="3" fill="#333"/>
+
+  <!-- Bottom strip -->
+  <rect x="60" y="826" width="960" height="60" rx="12" fill="#0d1420" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="851" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#888">5.38% conversion rate · 249 live visitors · $149,968 in one day</text>
+  <text x="540" y="875" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="url(#gold)" font-weight="bold">Google + Meta ads working together — managed by Heritage.</text>
+
+  <!-- CTA -->
+  <rect x="190" y="908" width="700" height="62" rx="31" fill="url(#gold)"/>
+  <text x="540" y="944" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1a1a2e">Your Brand Deserves Results Like This →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="992" width="1080" height="88" fill="#04060e"/>
+  <line x1="60" y1="1004" x2="1020" y2="1004" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1042" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1064" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

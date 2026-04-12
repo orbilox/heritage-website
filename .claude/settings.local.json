@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm -v)",
+      "Bash(npx next:*)",
+      "Bash(node -e \"const d=require\\(''./heritage_app_reels_data.json''\\); console.log\\(''Blog posts:'', d.blog_posts.length, ''| Leads:'', d.leads.length\\)\")",
+      "Bash(npm run:*)",
+      "WebFetch(domain:zarooriretail.com)",
+      "Bash(cat /c/Users/Leadingedge1/Desktop/Dheeraj/Dheeraj/next.config.*)",
+      "Bash(npx tsc:*)",
+      "Bash(mkdir -p \"C:/Users/Leadingedge1/Desktop/Dheeraj/Dheeraj/app/cities/[city]\")",
+      "Bash(mkdir -p \"C:/Users/Leadingedge1/Desktop/Dheeraj/Dheeraj/app/us/cities/[city]\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(timeout 8)",
+      "Bash(ping -n 8 127.0.0.1)",
+      "Read(//mnt/c/Users/LEADIN~2/AppData/Local/Temp/claude/C--Users-Leadingedge1-Desktop-Dheeraj-Dheeraj/ff87c403-db28-4d64-b912-fed9b23a5549/tasks/**)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0d1628"/>
+      <stop offset="100%" style="stop-color:#0a1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="chartfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0057ff" stop-opacity="0.5"/>
+      <stop offset="100%" style="stop-color:#0057ff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="redfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4444" stop-opacity="0.15"/>
+      <stop offset="100%" style="stop-color:#ff4444" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="300" cy="300" rx="400" ry="280" fill="#ff4444" opacity="0.03" filter="url(#softglow)"/>
+  <ellipse cx="780" cy="680" rx="380" ry="260" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="54" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="3" opacity="0.7">REAL CLIENT RESULT · US D2C BRAND · OVERNIGHT LAUNCH</text>
+
+  <!-- Headline -->
+  <text x="540" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#f8f4ef">From Zero to</text>
+
+  <!-- Giant % number -->
+  <text x="540" y="238" text-anchor="middle" font-family="Georgia, serif" font-size="148" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-4">4,600%</text>
+
+  <text x="540" y="286" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#f8f4ef">Revenue Growth — <tspan fill="#96bf48" font-weight="bold">Overnight.</tspan></text>
+
+  <!-- Gold rule -->
+  <rect x="120" y="308" width="840" height="2" fill="url(#gold)" rx="1" opacity="0.35"/>
+
+  <!-- BEFORE / AFTER side by side Shopify panels -->
+  <!-- BEFORE -->
+  <rect x="60" y="326" width="455" height="340" rx="14" fill="#ffffff" stroke="#ff4444" stroke-width="2"/>
+  <rect x="60" y="326" width="455" height="48" rx="12" fill="#fff0f0"/>
+  <text x="287" y="344" text-anchor="middle" font-family="Arial" font-size="10" fill="#ff4444" letter-spacing="2">● BEFORE HERITAGE</text>
+  <rect x="80" y="350" width="100" height="18" rx="9" fill="#fff0f0" stroke="#ffcccc" stroke-width="1"/>
+  <text x="130" y="363" text-anchor="middle" font-family="Arial" font-size="10" fill="#cc4444">Before ∨</text>
+
+  <text x="80" y="410" font-family="Arial" font-size="12" fill="#6b7177">Total sales</text>
+  <text x="80" y="448" font-family="Arial" font-size="34" font-weight="bold" fill="#1a1a1a">$91.20</text>
+  <text x="80" y="472" font-family="Arial" font-size="13" fill="#999">No growth</text>
+
+  <text x="320" y="410" font-family="Arial" font-size="11" fill="#6b7177">Total orders</text>
+  <text x="320" y="444" font-family="Arial" font-size="26" font-weight="bold" fill="#1a1a1a">5</text>
+  <text x="370" y="410" font-family="Arial" font-size="11" fill="#6b7177">CVR</text>
+  <text x="370" y="444" font-family="Arial" font-size="26" font-weight="bold" fill="#1a1a1a">0.1%</text>
+
+  <!-- Flat line chart (before) -->
+  <line x1="80" y1="590" x2="496" y2="590" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="560" x2="496" y2="560" stroke="#eee" stroke-width="1"/>
+  <text x="76" y="594" text-anchor="end" font-family="Arial" font-size="9" fill="#ccc">$0</text>
+  <text x="76" y="564" text-anchor="end" font-family="Arial" font-size="9" fill="#ccc">$200</text>
+  <polyline points="80,588 180,588 240,586 280,589 340,587 420,588 496,587" fill="none" stroke="#ffaaaa" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Dotted zero baseline -->
+  <polyline points="80,590 496,590" fill="none" stroke="#ffcccc" stroke-width="1.5" stroke-dasharray="2,4" opacity="0.5"/>
+  <text x="270" y="626" text-anchor="middle" font-family="Arial" font-size="10" fill="#ccc">12:00 AM         8:00 PM</text>
+
+  <rect x="100" y="638" width="180" height="18" rx="5" fill="#fff0f0"/>
+  <text x="190" y="651" text-anchor="middle" font-family="Arial" font-size="10" fill="#cc6666">📦 No orders to fulfill</text>
+
+  <!-- AFTER -->
+  <rect x="565" y="326" width="455" height="340" rx="14" fill="#ffffff" stroke="#96bf48" stroke-width="2.5"/>
+  <rect x="565" y="326" width="455" height="48" rx="12" fill="#f0fff4"/>
+  <text x="792" y="344" text-anchor="middle" font-family="Arial" font-size="10" fill="#96bf48" letter-spacing="2">● AFTER HERITAGE</text>
+  <rect x="584" y="350" width="160" height="18" rx="9" fill="#f0fff4" stroke="#c6f6d5" stroke-width="1"/>
+  <text x="664" y="363" text-anchor="middle" font-family="Arial" font-size="10" fill="#2f855a">Jan 18 – Jan 19, 2025 ∨</text>
+  <circle cx="994" cy="344" r="5" fill="#96bf48"/>
+  <text x="1002" y="348" font-family="Arial" font-size="9" fill="#96bf48">5 visitors</text>
+
+  <text x="584" y="410" font-family="Arial" font-size="12" fill="#6b7177">Total sales</text>
+  <text x="584" y="448" font-family="Arial" font-size="34" font-weight="bold" fill="#1a1a1a">$4,282.93</text>
+  <text x="584" y="472" font-family="Arial" font-size="14" fill="#96bf48" font-weight="bold">↗ 4,600%</text>
+
+  <text x="860" y="410" font-family="Arial" font-size="11" fill="#6b7177">Total orders</text>
+  <text x="860" y="444" font-family="Arial" font-size="26" font-weight="bold" fill="#1a1a1a">143</text>
+  <text x="860" y="466" font-family="Arial" font-size="11" fill="#96bf48">↗ 2,800%</text>
+
+  <!-- Growth chart (after) -->
+  <line x1="584" y1="590" x2="1000" y2="590" stroke="#eee" stroke-width="1"/>
+  <line x1="584" y1="556" x2="1000" y2="556" stroke="#eee" stroke-width="1"/>
+  <line x1="584" y1="520" x2="1000" y2="520" stroke="#eee" stroke-width="1"/>
+  <text x="580" y="594" text-anchor="end" font-family="Arial" font-size="9" fill="#bbb">$0</text>
+  <text x="580" y="560" text-anchor="end" font-family="Arial" font-size="9" fill="#bbb">$200</text>
+  <text x="580" y="524" text-anchor="end" font-family="Arial" font-size="9" fill="#bbb">$400</text>
+
+  <polygon points="584,588 640,584 680,570 720,576 760,566 800,568 840,558 880,540 920,518 950,514 960,518 980,516 1000,520 1000,592 584,592" fill="url(#chartfill)" opacity="0.7"/>
+  <polyline points="584,588 640,584 680,570 720,576 760,566 800,568 840,558 880,540 920,518 950,514 980,516 1000,520" fill="none" stroke="#0057ff" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="1000" cy="520" r="5" fill="#0057ff" filter="url(#glow)"/>
+  <!-- Flat dotted baseline (before) -->
+  <polyline points="584,590 1000,590" fill="none" stroke="#96bf48" stroke-width="1.5" stroke-dasharray="3,4" opacity="0.3"/>
+
+  <text x="770" y="626" text-anchor="middle" font-family="Arial" font-size="10" fill="#999">12:00 AM       8:00 PM     4:00 PM</text>
+
+  <rect x="600" y="638" width="170" height="18" rx="5" fill="#f0fff4"/>
+  <text x="685" y="651" text-anchor="middle" font-family="Arial" font-size="10" fill="#2f855a">📦 12 Orders to fulfill</text>
+
+  <!-- VS divider -->
+  <circle cx="540" cy="496" r="28" fill="#0d1420" stroke="#c9a84c" stroke-width="2"/>
+  <text x="540" y="504" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#c9a84c">VS</text>
+
+  <!-- Stats row -->
+  <rect x="60" y="690" width="455" height="68" rx="10" fill="#1a0808" stroke="#ff4444" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="287" y="720" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#ff6666">$91 revenue · 5 orders</text>
+  <text x="287" y="744" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Before Heritage · No ads running</text>
+
+  <rect x="565" y="690" width="455" height="68" rx="10" fill="#081a08" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="792" y="720" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#96bf48">$4,282 · 143 orders</text>
+  <text x="792" y="744" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">After Heritage · First 2 days live</text>
+
+  <!-- CTA -->
+  <rect x="190" y="782" width="700" height="66" rx="33" fill="url(#gold)"/>
+  <text x="540" y="822" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Start Your 4,600% Growth Story →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="870" width="1080" height="210" fill="#04060e"/>
+  <line x1="60" y1="884" x2="1020" y2="884" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="210" y="928" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">4,600%</text>
+  <text x="210" y="950" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Revenue surge</text>
+  <line x1="380" y1="908" x2="380" y2="960" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="928" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">$4,282</text>
+  <text x="540" y="950" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">First 2 days of ads</text>
+  <line x1="700" y1="908" x2="700" y2="960" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="928" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">143 Orders</text>
+  <text x="870" y="950" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">↑ 2,800% vs before</text>
+  <text x="540" y="1002" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1026" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

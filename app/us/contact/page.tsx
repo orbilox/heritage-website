@@ -1,0 +1,225 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Contact Us — USA | Heritage Apparels',
+  description:
+    'Get in touch with Heritage Apparels for US market services — India manufacturing, US marketplace onboarding, brand launch, and performance marketing. Free strategy call available.',
+};
+
+const services = [
+  'India Manufacturing & Sourcing',
+  'US Marketplace Onboarding (Amazon, Walmart, Etsy…)',
+  'US Brand Launch (Full Package)',
+  'US Performance Marketing',
+  'Product Photography (US Format)',
+  'US Compliance & Import Support',
+  'Brand Strategy & Identity',
+  'Social Media & Content (US Audience)',
+];
+
+export default function USContactPage() {
+  return (
+    <main className="pt-20">
+
+      {/* Hero */}
+      <section className="py-20 bg-[#0d1b3e] relative overflow-hidden">
+        <div className="absolute inset-0 pattern-overlay opacity-20" />
+        <div className="absolute right-0 top-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
+          <p className="section-label mb-4">🇺🇸 Talk to Us — USA</p>
+          <h1 className="font-serif text-5xl font-bold text-cream mb-6 leading-tight">
+            Let&apos;s Build Your
+            <br />
+            <span className="gradient-text italic">US Market Strategy.</span>
+          </h1>
+          <div className="gold-divider mx-auto mb-6" />
+          <p className="text-cream/70 text-lg">
+            Book a free 30-minute call. We&apos;ll cover India sourcing costs for your product, the right US marketplaces to target, and a go-live timeline. No sales pressure — just clarity.
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Grid */}
+      <section className="py-20 bg-charcoal">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+            {/* Left — Details */}
+            <div>
+              <h2 className="font-serif text-3xl font-bold text-cream mb-6">
+                Get in <span className="gradient-text italic">Touch</span>
+              </h2>
+
+              <div className="space-y-5 mb-10">
+                {[
+                  { icon: '📧', label: 'Email (US Inquiries)', value: 'usa@heritageapparels.com', href: 'mailto:usa@heritageapparels.com' },
+                  { icon: '📞', label: 'WhatsApp / Call (India)', value: '+91 98765 43210', href: 'tel:+919876543210' },
+                  { icon: '⏰', label: 'Response Time', value: 'Within 12 hours · EST timezone support', href: null },
+                  { icon: '🕐', label: 'Business Hours (IST)', value: 'Mon–Fri 9am–7pm · Sat 10am–5pm', href: null },
+                ].map((item) => (
+                  <div key={item.label} className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-gold/10 border border-gold/20 flex items-center justify-center text-lg flex-shrink-0">
+                      {item.icon}
+                    </div>
+                    <div>
+                      <div className="text-cream/40 text-xs uppercase tracking-wider mb-0.5">{item.label}</div>
+                      {item.href ? (
+                        <a href={item.href} className="text-cream hover:text-gold transition-colors font-medium">
+                          {item.value}
+                        </a>
+                      ) : (
+                        <span className="text-cream/80 font-medium text-sm">{item.value}</span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* What to expect */}
+              <div className="glass-card p-6 mb-8">
+                <h3 className="font-serif text-lg font-bold text-cream mb-4">What Happens After You Submit</h3>
+                <div className="space-y-3">
+                  {[
+                    { step: '01', text: 'We review your brief and research your product category within 12 hours.' },
+                    { step: '02', text: 'We send you a free US marketplace eligibility report + India sourcing cost estimate.' },
+                    { step: '03', text: 'We schedule a 30-minute strategy call (Zoom / Google Meet) at your preferred time.' },
+                    { step: '04', text: 'You receive a detailed proposal with timelines and USD pricing. No hidden fees.' },
+                  ].map((s) => (
+                    <div key={s.step} className="flex items-start gap-3">
+                      <span className="w-6 h-6 rounded-full bg-gold/15 border border-gold/30 flex items-center justify-center text-gold text-xs font-bold flex-shrink-0 mt-0.5">
+                        {s.step}
+                      </span>
+                      <p className="text-cream/60 text-sm leading-relaxed">{s.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Quick links */}
+              <div>
+                <p className="text-cream/40 text-xs uppercase tracking-widest mb-3">Explore US Services</p>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    { label: 'US Marketplace Onboarding', href: '/us/services/marketplace-onboarding' },
+                    { label: 'All US Services', href: '/us/services' },
+                    { label: 'India Homepage', href: '/' },
+                  ].map((link) => (
+                    <Link key={link.label} href={link.href} className="px-3 py-1.5 bg-gold/10 border border-gold/20 rounded-lg text-gold text-xs font-medium hover:bg-gold/20 transition-colors">
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Right — Form */}
+            <div className="glass-card p-8">
+              <h3 className="font-serif text-2xl font-bold text-cream mb-2">Send Us Your Brief</h3>
+              <p className="text-cream/50 text-sm mb-8">Tell us about your product, US market goals, and budget. We respond within 12 hours.</p>
+
+              <form className="space-y-5" action="/api/contact" method="POST">
+                <input type="hidden" name="region" value="USA" />
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Full Name *</label>
+                    <input
+                      type="text"
+                      name="name"
+                      required
+                      placeholder="Your name"
+                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
+                    />
+                  </div>
+                  <div>
+                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Email *</label>
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      placeholder="your@email.com"
+                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Phone / WhatsApp</label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="+1 (555) 000-0000"
+                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
+                    />
+                  </div>
+                  <div>
+                    <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Company / Brand Name</label>
+                    <input
+                      type="text"
+                      name="company"
+                      placeholder="Your brand"
+                      className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Service You Need *</label>
+                  <select
+                    name="service"
+                    required
+                    className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm focus:outline-none focus:border-gold/50 transition-colors"
+                  >
+                    <option value="" className="bg-charcoal">Select a service...</option>
+                    {services.map((s) => (
+                      <option key={s} value={s} className="bg-charcoal">{s}</option>
+                    ))}
+                  </select>
+                </div>
+
+                <div>
+                  <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Estimated Budget (USD)</label>
+                  <select
+                    name="budget"
+                    className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm focus:outline-none focus:border-gold/50 transition-colors"
+                  >
+                    <option value="" className="bg-charcoal">Select budget range...</option>
+                    <option value="under-2500" className="bg-charcoal">Under $2,500</option>
+                    <option value="2500-5000" className="bg-charcoal">$2,500 – $5,000</option>
+                    <option value="5000-10000" className="bg-charcoal">$5,000 – $10,000</option>
+                    <option value="10000-25000" className="bg-charcoal">$10,000 – $25,000</option>
+                    <option value="25000+" className="bg-charcoal">$25,000+</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="text-cream/50 text-xs uppercase tracking-wider block mb-2">Tell Us About Your Brand / Product *</label>
+                  <textarea
+                    name="message"
+                    required
+                    rows={5}
+                    placeholder="Describe your product, target US market, and what you're looking to achieve..."
+                    className="w-full bg-charcoal/60 border border-gold/20 rounded-lg px-4 py-3 text-cream text-sm placeholder-cream/30 focus:outline-none focus:border-gold/50 transition-colors resize-none"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="btn-gold w-full py-4 text-base font-semibold"
+                >
+                  Send Brief → Get Free US Market Report
+                </button>
+
+                <p className="text-cream/30 text-xs text-center">
+                  No spam. No obligations. We respond within 12 hours in EST timezone.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

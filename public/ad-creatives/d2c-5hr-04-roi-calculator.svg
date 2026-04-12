@@ -1,0 +1,172 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="barfill1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c" stop-opacity="0.3"/>
+      <stop offset="100%" style="stop-color:#f5d98b"/>
+    </linearGradient>
+    <linearGradient id="barfill2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#96bf48" stop-opacity="0.3"/>
+      <stop offset="100%" style="stop-color:#96bf48"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="500" rx="500" ry="400" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="58" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="3" opacity="0.7">ROI CALCULATOR · $5/HR · US D2C FASHION BRAND</text>
+
+  <!-- Headline -->
+  <text x="540" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="bold" fill="#f8f4ef">Stop Paying $5,000/Month</text>
+  <text x="540" y="194" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Pay $5 Per Hour.</text>
+  <text x="540" y="240" text-anchor="middle" font-family="Arial" font-size="17" fill="#888">Scale your fashion brand's Google + Meta ads — and keep 97% of what you save.</text>
+
+  <!-- Divider -->
+  <rect x="160" y="258" width="760" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- ROI Calculator widget -->
+  <rect x="60" y="276" width="480" height="460" rx="16" fill="#080e1c" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.4"/>
+  <rect x="60" y="276" width="480" height="46" rx="10" fill="#0d1420"/>
+  <text x="300" y="304" text-anchor="middle" font-family="Arial" font-size="13" fill="#c9a84c" letter-spacing="2">💰  ROI CALCULATOR</text>
+
+  <!-- Hours input -->
+  <text x="90" y="348" font-family="Arial" font-size="13" fill="#888">Hours of management per month:</text>
+  <rect x="90" y="356" width="420" height="42" rx="8" fill="#0d1420" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="300" y="382" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">160 hours</text>
+
+  <!-- Cost at $5/hr -->
+  <text x="90" y="424" font-family="Arial" font-size="13" fill="#888">Your management cost at $5/hr:</text>
+  <rect x="90" y="432" width="420" height="42" rx="8" fill="#0d1a08" stroke="#96bf48" stroke-width="1"/>
+  <text x="300" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#96bf48">$800 / month</text>
+
+  <!-- vs Agency -->
+  <text x="90" y="504" font-family="Arial" font-size="13" fill="#888">Same hours at US agency rate ($150/hr):</text>
+  <rect x="90" y="512" width="420" height="42" rx="8" fill="#1a0808" stroke="#ff4444" stroke-width="1"/>
+  <text x="300" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#ff4444">$24,000 / month</text>
+
+  <!-- Savings -->
+  <rect x="90" y="572" width="420" height="52" rx="8" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="180" y="596" font-family="Arial" font-size="13" fill="#888">You save every month:</text>
+  <text x="510" y="614" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">$23,200</text>
+
+  <!-- Annual savings -->
+  <rect x="90" y="634" width="420" height="52" rx="8" fill="#c9a84c" opacity="0.08" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="180" y="658" font-family="Arial" font-size="13" fill="#888">Annual savings with Heritage:</text>
+  <text x="510" y="676" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)" filter="url(#glow)">$278,400</text>
+
+  <!-- Revenue from ads -->
+  <text x="90" y="726" font-family="Arial" font-size="13" fill="#888">Avg revenue generated from managed ads:</text>
+  <rect x="90" y="734" width="420" height="42" rx="8" fill="#050f08" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="300" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#96bf48">$62,400 / month</text>
+
+  <!-- Shopify dashboard right side -->
+  <rect x="560" y="276" width="460" height="460" rx="16" fill="#0f1117" stroke="#96bf48" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Shopify nav -->
+  <rect x="560" y="276" width="460" height="42" rx="10" fill="#1a1f2e"/>
+  <rect x="578" y="288" width="18" height="18" rx="4" fill="#96bf48"/>
+  <text x="587" y="300" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#fff">S</text>
+  <text x="608" y="300" font-family="Arial" font-size="11" fill="#f8f4ef">YourFashionD2C.com</text>
+  <circle cx="988" cy="297" r="4" fill="#96bf48"/>
+  <text x="1000" y="300" font-family="Arial" font-size="9" fill="#96bf48">LIVE</text>
+
+  <!-- KPI row 1 -->
+  <rect x="578" y="330" width="202" height="74" rx="8" fill="#131720" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="679" y="354" text-anchor="middle" font-family="Arial" font-size="10" fill="#96bf48" letter-spacing="1">THIS MONTH</text>
+  <text x="679" y="386" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">$62,400</text>
+  <text x="679" y="400" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48">↑ 780%</text>
+
+  <rect x="796" y="330" width="202" height="74" rx="8" fill="#131720" stroke="#333" stroke-width="1"/>
+  <text x="897" y="354" text-anchor="middle" font-family="Arial" font-size="10" fill="#888" letter-spacing="1">MGMT COST</text>
+  <text x="897" y="386" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f5d98b">$800</text>
+  <text x="897" y="400" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c">at $5/hr</text>
+
+  <!-- Revenue bar chart -->
+  <text x="840" y="428" text-anchor="middle" font-family="Arial" font-size="10" fill="#555" letter-spacing="1">MONTHLY REVENUE GROWTH</text>
+
+  <!-- Horizontal bars -->
+  <text x="598" y="454" font-family="Arial" font-size="10" fill="#555">Jan</text>
+  <rect x="628" y="442" width="28" height="16" rx="3" fill="#96bf48" opacity="0.3"/>
+  <text x="996" y="454" text-anchor="end" font-family="Arial" font-size="10" fill="#555">$7,200</text>
+
+  <text x="598" y="482" font-family="Arial" font-size="10" fill="#555">Feb</text>
+  <rect x="628" y="470" width="60" height="16" rx="3" fill="#96bf48" opacity="0.4"/>
+  <text x="996" y="482" text-anchor="end" font-family="Arial" font-size="10" fill="#555">$14,800</text>
+
+  <text x="598" y="510" font-family="Arial" font-size="10" fill="#555">Mar</text>
+  <rect x="628" y="498" width="110" height="16" rx="3" fill="#96bf48" opacity="0.55"/>
+  <text x="996" y="510" text-anchor="end" font-family="Arial" font-size="10" fill="#555">$28,400</text>
+
+  <text x="598" y="538" font-family="Arial" font-size="10" fill="#555">Apr</text>
+  <rect x="628" y="526" width="168" height="16" rx="3" fill="#96bf48" opacity="0.7"/>
+  <text x="996" y="538" text-anchor="end" font-family="Arial" font-size="10" fill="#555">$44,200</text>
+
+  <text x="598" y="566" font-family="Arial" font-size="10" fill="#555">May</text>
+  <rect x="628" y="554" width="230" height="16" rx="3" fill="#96bf48" opacity="0.85"/>
+  <text x="996" y="566" text-anchor="end" font-family="Arial" font-size="10" fill="#555">$58,600</text>
+
+  <text x="598" y="594" font-family="Arial" font-size="10" fill="#96bf48" font-weight="bold">Jun ▶</text>
+  <rect x="628" y="582" width="280" height="16" rx="3" fill="url(#barfill2)"/>
+  <text x="996" y="594" text-anchor="end" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#96bf48">$62,400</text>
+
+  <line x1="578" y1="612" x2="1000" y2="612" stroke="#1a2030" stroke-width="1"/>
+
+  <!-- Source breakdown -->
+  <text x="789" y="634" text-anchor="middle" font-family="Arial" font-size="10" fill="#555" letter-spacing="1">BY CHANNEL</text>
+
+  <text x="598" y="658" font-family="Arial" font-size="11" fill="#888">Google Ads</text>
+  <rect x="698" y="648" width="200" height="10" rx="4" fill="#4285f4" opacity="0.7"/>
+  <text x="1000" y="658" text-anchor="end" font-family="Arial" font-size="10" fill="#4285f4">$28,100 · 45%</text>
+
+  <text x="598" y="686" font-family="Arial" font-size="11" fill="#888">Meta/Instagram</text>
+  <rect x="698" y="676" width="168" height="10" rx="4" fill="#e1306c" opacity="0.7"/>
+  <text x="1000" y="686" text-anchor="end" font-family="Arial" font-size="10" fill="#e1306c">$22,320 · 36%</text>
+
+  <text x="598" y="714" font-family="Arial" font-size="11" fill="#888">Organic/Other</text>
+  <rect x="698" y="704" width="74" height="10" rx="4" fill="#96bf48" opacity="0.6"/>
+  <text x="1000" y="714" text-anchor="end" font-family="Arial" font-size="10" fill="#96bf48">$11,980 · 19%</text>
+
+  <line x1="578" y1="726" x2="1000" y2="726" stroke="#1a2030" stroke-width="1"/>
+  <text x="789" y="746" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Total management cost this month:</text>
+  <text x="789" y="718" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#c9a84c">$800 (at $5/hr · 160 hrs)</text>
+
+  <!-- Big savings CTA strip -->
+  <rect x="60" y="758" width="960" height="66" rx="14" fill="#c9a84c" opacity="0.09" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="540" y="789" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#f8f4ef">You're spending <tspan fill="#ff4444" font-weight="bold">$24,000/mo</tspan> on a US agency?</text>
+  <text x="540" y="813" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#f8f4ef">Switch to Heritage. <tspan fill="url(#gold)" font-weight="bold">Save $23,200 every month.</tspan></text>
+
+  <!-- CTA -->
+  <rect x="190" y="846" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="886" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Hire Us for $5/Hour — Start Now →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="936" width="1080" height="144" fill="#04060e"/>
+  <line x1="60" y1="950" x2="1020" y2="950" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="210" y="990" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="url(#gold)">$5/hr</text>
+  <text x="210" y="1010" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">All-in rate</text>
+  <line x1="380" y1="972" x2="380" y2="1020" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="990" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="url(#gold)">30× cheaper</text>
+  <text x="540" y="1010" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">vs US agencies</text>
+  <line x1="700" y1="972" x2="700" y2="1020" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="990" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="url(#gold)">6.4× ROAS</text>
+  <text x="870" y="1010" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Average across brands</text>
+  <text x="540" y="1054" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+</svg>

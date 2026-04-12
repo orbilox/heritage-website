@@ -1,0 +1,128 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="60%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="chartfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b" stop-opacity="0.4"/>
+      <stop offset="100%" style="stop-color:#c9a84c" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="greengrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00c853"/>
+      <stop offset="100%" style="stop-color:#69f0ae"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="28" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="500" rx="480" ry="320" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top badge -->
+  <rect x="350" y="38" width="380" height="36" rx="18" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="540" y="61" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">REAL CLIENT RESULT · 90 DAYS</text>
+
+  <!-- Main headline -->
+  <text x="540" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#f8f4ef">$0 to</text>
+  <text x="540" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="118" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-3">$50,000</text>
+  <text x="540" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#f8f4ef">/month in US sales.</text>
+  <text x="540" y="332" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#888">In just 90 days. For a Mumbai ethnic wear brand.</text>
+
+  <!-- Gold rule -->
+  <rect x="140" y="354" width="800" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Growth chart -->
+  <rect x="60" y="375" width="960" height="270" rx="16" fill="#0a0d18" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Chart grid lines -->
+  <line x1="100" y1="600" x2="980" y2="600" stroke="#1a2030" stroke-width="1"/>
+  <line x1="100" y1="560" x2="980" y2="560" stroke="#1a2030" stroke-width="1"/>
+  <line x1="100" y1="520" x2="980" y2="520" stroke="#1a2030" stroke-width="1"/>
+  <line x1="100" y1="480" x2="980" y2="480" stroke="#1a2030" stroke-width="1"/>
+  <line x1="100" y1="440" x2="980" y2="440" stroke="#1a2030" stroke-width="1"/>
+  <line x1="100" y1="400" x2="980" y2="400" stroke="#1a2030" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="88" y="604" text-anchor="end" font-family="Arial" font-size="10" fill="#444">$0</text>
+  <text x="88" y="564" text-anchor="end" font-family="Arial" font-size="10" fill="#444">$10K</text>
+  <text x="88" y="524" text-anchor="end" font-family="Arial" font-size="10" fill="#444">$20K</text>
+  <text x="88" y="484" text-anchor="end" font-family="Arial" font-size="10" fill="#444">$30K</text>
+  <text x="88" y="444" text-anchor="end" font-family="Arial" font-size="10" fill="#444">$40K</text>
+  <text x="88" y="404" text-anchor="end" font-family="Arial" font-size="10" fill="#444">$50K</text>
+
+  <!-- Chart area fill -->
+  <polygon points="100,600 200,598 340,592 460,578 570,552 670,514 760,472 850,430 950,400 980,400 980,600" fill="url(#chartfill)"/>
+
+  <!-- Chart line -->
+  <polyline points="100,600 200,598 340,592 460,578 570,552 670,514 760,472 850,430 950,400" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Data point dots -->
+  <circle cx="100" cy="600" r="5" fill="#c9a84c"/>
+  <circle cx="200" cy="598" r="5" fill="#c9a84c"/>
+  <circle cx="340" cy="592" r="5" fill="#c9a84c"/>
+  <circle cx="460" cy="578" r="5" fill="#c9a84c"/>
+  <circle cx="570" cy="552" r="5" fill="#c9a84c"/>
+  <circle cx="670" cy="514" r="5" fill="#c9a84c"/>
+  <circle cx="760" cy="472" r="5" fill="#c9a84c"/>
+  <circle cx="850" cy="430" r="5" fill="#c9a84c"/>
+  <circle cx="950" cy="400" r="8" fill="#f5d98b" filter="url(#glow)"/>
+
+  <!-- End value callout -->
+  <rect x="955" y="380" width="75" height="24" rx="6" fill="#f5d98b"/>
+  <text x="993" y="396" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1a1a2e">$50,000</text>
+
+  <!-- X axis labels -->
+  <text x="100" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Day 1</text>
+  <text x="200" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Wk 2</text>
+  <text x="340" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Wk 4</text>
+  <text x="460" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Wk 6</text>
+  <text x="570" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Wk 8</text>
+  <text x="670" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Mo 2</text>
+  <text x="760" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Wk 10</text>
+  <text x="850" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Wk 12</text>
+  <text x="950" y="618" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Day 90</text>
+
+  <!-- Chart title -->
+  <text x="540" y="398" text-anchor="middle" font-family="Arial" font-size="11" fill="#555" letter-spacing="1">MONTHLY US REVENUE GROWTH</text>
+
+  <!-- 3 milestone markers -->
+  <rect x="60" y="660" width="300" height="88" rx="12" fill="#111827" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="210" y="694" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="1">MONTH 1</text>
+  <text x="210" y="718" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">Account Setup</text>
+  <text x="210" y="738" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Audience build · Creative A/B</text>
+
+  <rect x="390" y="660" width="300" height="88" rx="12" fill="#111827" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="540" y="694" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="1">MONTH 2</text>
+  <text x="540" y="718" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f8f4ef">First $18K</text>
+  <text x="540" y="738" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Winning creatives scaled</text>
+
+  <rect x="720" y="660" width="300" height="88" rx="12" fill="#111827" stroke="#f5d98b" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="870" y="694" text-anchor="middle" font-family="Arial" font-size="11" fill="#f5d98b" letter-spacing="1">MONTH 3</text>
+  <text x="870" y="718" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#f5d98b">$50K/mo</text>
+  <text x="870" y="738" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Full US market presence</text>
+
+  <!-- CTA -->
+  <rect x="190" y="772" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="812" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Get Your 90-Day Growth Plan →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="862" width="1080" height="218" fill="#04060e"/>
+  <line x1="60" y1="877" x2="1020" y2="877" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="920" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">META ADS · GOOGLE ADS · TIKTOK ADS · AMAZON DSP</text>
+  <text x="540" y="968" text-anchor="middle" font-family="Georgia, serif" font-size="20" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="994" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">India's #1 US Market Entry Agency · Since 2019</text>
+  <text x="540" y="1032" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

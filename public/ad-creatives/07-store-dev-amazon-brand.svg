@@ -1,0 +1,133 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a12"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="amz" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff9900"/>
+      <stop offset="100%" style="stop-color:#ff6600"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="20" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Subtle background glow -->
+  <ellipse cx="300" cy="400" rx="300" ry="250" fill="#ff9900" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="800" cy="600" rx="300" ry="250" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top eyebrow -->
+  <text x="540" y="68" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff9900" letter-spacing="3" opacity="0.7">AMAZON STORE DEVELOPMENT · BRAND REALITY CHECK</text>
+
+  <!-- NEQ sign - big statement -->
+  <text x="540" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="#f8f4ef">Your Amazon Store</text>
+
+  <!-- The ≠ Brand line with big treatment -->
+  <text x="380" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="#f8f4ef">Is</text>
+  <text x="540" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#ff4444" filter="url(#glow)">≠</text>
+  <text x="700" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="#f8f4ef">Your</text>
+  <text x="540" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Brand.</text>
+
+  <!-- Divider -->
+  <rect x="150" y="385" width="780" height="2" fill="url(#gold)" rx="1" opacity="0.5"/>
+
+  <!-- Two column comparison -->
+  <!-- LEFT: Generic Amazon store -->
+  <rect x="60" y="408" width="450" height="330" rx="16" fill="#0a0a18" stroke="#ff4444" stroke-width="1.5"/>
+  <rect x="60" y="408" width="450" height="44" rx="8" fill="#ff4444" opacity="0.15"/>
+  <text x="285" y="436" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#ff4444" letter-spacing="1">TYPICAL AMAZON STORE</text>
+
+  <!-- Generic store elements -->
+  <rect x="85" y="468" width="400" height="50" rx="6" fill="#111" stroke="#222" stroke-width="1"/>
+  <rect x="95" y="478" width="100" height="12" rx="3" fill="#333"/>
+  <rect x="95" y="496" width="200" height="8" rx="3" fill="#222"/>
+  <text x="445" y="502" text-anchor="end" font-family="Arial" font-size="10" fill="#444">amazon.com</text>
+
+  <rect x="85" y="528" width="190" height="130" rx="6" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="180" y="598" text-anchor="middle" font-family="Arial" font-size="28" fill="#222">🖼</text>
+  <text x="180" y="622" text-anchor="middle" font-family="Arial" font-size="9" fill="#333">stock photo</text>
+  <text x="180" y="638" text-anchor="middle" font-family="Arial" font-size="9" fill="#333">white background only</text>
+
+  <rect x="285" y="528" width="200" height="130" rx="6" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="385" y="554" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Product Name B09XYZ...</text>
+  <text x="385" y="572" text-anchor="middle" font-family="Arial" font-size="11" fill="#ff9900">★★★☆☆ 3.2</text>
+  <text x="385" y="590" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#f5f5f5">$24.99</text>
+  <text x="385" y="610" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">No brand story</text>
+  <text x="385" y="625" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Generic bullet points</text>
+  <text x="385" y="640" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">No A+ content</text>
+  <text x="385" y="655" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Poor keyword targeting</text>
+
+  <!-- Pain points -->
+  <text x="285" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#ff4444">✗ Looks like every other listing</text>
+  <text x="285" y="720" text-anchor="middle" font-family="Arial" font-size="12" fill="#ff4444">✗ No brand differentiation</text>
+  <text x="285" y="716" text-anchor="middle" font-family="Arial" font-size="12" fill="#ff4444">✗ Low conversion rate</text>
+
+  <!-- RIGHT: Heritage-built store -->
+  <rect x="570" y="408" width="450" height="330" rx="16" fill="#0a0a18" stroke="#c9a84c" stroke-width="1.5"/>
+  <rect x="570" y="408" width="450" height="44" rx="8" fill="#c9a84c" opacity="0.15"/>
+  <text x="795" y="436" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c9a84c" letter-spacing="1">HERITAGE-BUILT BRAND STORE</text>
+
+  <!-- Premium store elements -->
+  <rect x="595" y="468" width="400" height="50" rx="6" fill="#111" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="605" y="478" width="120" height="12" rx="3" fill="#c9a84c" opacity="0.3"/>
+  <rect x="605" y="496" width="240" height="8" rx="3" fill="#c9a84c" opacity="0.15"/>
+  <text x="950" y="502" text-anchor="end" font-family="Arial" font-size="10" fill="#c9a84c" opacity="0.5">Brand Store</text>
+
+  <rect x="595" y="528" width="190" height="130" rx="6" fill="#111" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Lifestyle image representation -->
+  <rect x="595" y="528" width="190" height="130" rx="6" fill="#16213e"/>
+  <text x="690" y="598" text-anchor="middle" font-family="Arial" font-size="28" fill="#c9a84c" opacity="0.5">✦</text>
+  <text x="690" y="622" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c" opacity="0.6">lifestyle + product</text>
+  <text x="690" y="638" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c" opacity="0.5">A+ imagery</text>
+
+  <rect x="795" y="528" width="200" height="130" rx="6" fill="#111" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="895" y="554" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c" opacity="0.6">Heritage Luxury Collection</text>
+  <text x="895" y="572" text-anchor="middle" font-family="Arial" font-size="11" fill="#ff9900">★★★★★ 4.8</text>
+  <text x="895" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#f5d98b">$89.00</text>
+  <text x="895" y="610" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Brand story module</text>
+  <text x="895" y="625" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">SEO-rich bullets</text>
+  <text x="895" y="640" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Full A+ content</text>
+  <text x="895" y="655" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Backend keywords</text>
+
+  <text x="795" y="700" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c">✓ Instantly recognisable brand</text>
+  <text x="795" y="720" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c">✓ Premium positioning</text>
+  <text x="795" y="716" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c">✓ 3–5× higher conversion</text>
+
+  <!-- What we build -->
+  <rect x="60" y="758" width="960" height="100" rx="12" fill="#c9a84c" opacity="0.07" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="540" y="788" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">WE BUILD YOUR COMPLETE AMAZON BRAND PRESENCE</text>
+  <text x="180" y="820" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Brand Store Design</text>
+  <line x1="300" y1="808" x2="300" y2="832" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="390" y="820" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">A+ Content Modules</text>
+  <line x1="480" y1="808" x2="480" y2="832" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="540" y="820" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">SEO Listing Copy</text>
+  <line x1="600" y1="808" x2="600" y2="832" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="700" y="820" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Lifestyle Photography</text>
+  <line x1="810" y1="808" x2="810" y2="832" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="900" y="820" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">Launch Strategy</text>
+
+  <!-- CTA -->
+  <rect x="180" y="878" width="720" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="918" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Build Your Brand Store →</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="968" width="1080" height="112" fill="#060a14"/>
+  <line x1="60" y1="982" x2="1020" y2="982" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">AMAZON · WALMART · ETSY · SHOPIFY · 25+ PLATFORMS</text>
+  <text x="540" y="1048" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1070" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/store-development</text>
+</svg>

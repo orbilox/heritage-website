@@ -1,0 +1,180 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="chartfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d98b" stop-opacity="0.45"/>
+      <stop offset="100%" style="stop-color:#c9a84c" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="500" rx="520" ry="400" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="58" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="3" opacity="0.7">FULL AD TEAM · US D2C FASHION BRANDS · $5/HOUR</text>
+
+  <!-- Headline -->
+  <text x="540" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#f8f4ef">Hire a Full Google + Meta</text>
+  <text x="540" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#f8f4ef">Ad Team for Your Brand.</text>
+  <text x="540" y="252" text-anchor="middle" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Just $5/Hour.</text>
+  <text x="540" y="298" text-anchor="middle" font-family="Arial" font-size="16" fill="#888">50+ specialists. Expert results. Fraction of US agency cost.</text>
+
+  <!-- Divider -->
+  <rect x="180" y="316" width="720" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Team cards - who you get -->
+  <text x="540" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">YOUR DEDICATED TEAM AT $5/HOUR</text>
+
+  <!-- 5 team role cards in a row -->
+  <rect x="60" y="366" width="172" height="160" rx="14" fill="#0a0e1c" stroke="#4285f4" stroke-width="1.5"/>
+  <circle cx="146" cy="420" r="30" fill="#0d1525" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="146" y="428" text-anchor="middle" font-family="Arial" font-size="28">👨‍💻</text>
+  <text x="146" y="472" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f8f4ef">Google Ads</text>
+  <text x="146" y="490" text-anchor="middle" font-family="Arial" font-size="11" fill="#4285f4">Specialist</text>
+  <text x="146" y="512" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Search · Shopping</text>
+  <text x="146" y="528" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Display · PMax</text>
+
+  <rect x="248" y="366" width="172" height="160" rx="14" fill="#0a0e1c" stroke="#1877f2" stroke-width="1.5"/>
+  <circle cx="334" cy="420" r="30" fill="#0a0d20" stroke="#1877f2" stroke-width="1.5"/>
+  <text x="334" y="428" text-anchor="middle" font-family="Arial" font-size="28">👩‍💼</text>
+  <text x="334" y="472" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f8f4ef">Meta Ads</text>
+  <text x="334" y="490" text-anchor="middle" font-family="Arial" font-size="11" fill="#1877f2">Strategist</text>
+  <text x="334" y="512" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Facebook · Instagram</text>
+  <text x="334" y="528" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Reels · Catalog</text>
+
+  <rect x="436" y="366" width="172" height="160" rx="14" fill="#0a0e1c" stroke="#e1306c" stroke-width="1.5"/>
+  <circle cx="522" cy="420" r="30" fill="#150a12" stroke="#e1306c" stroke-width="1.5"/>
+  <text x="522" y="428" text-anchor="middle" font-family="Arial" font-size="28">🎨</text>
+  <text x="522" y="472" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f8f4ef">Creative</text>
+  <text x="522" y="490" text-anchor="middle" font-family="Arial" font-size="11" fill="#e1306c">Designer</text>
+  <text x="522" y="512" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Ad graphics · Copy</text>
+  <text x="522" y="528" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">A/B testing</text>
+
+  <rect x="624" y="366" width="172" height="160" rx="14" fill="#0a0e1c" stroke="#96bf48" stroke-width="1.5"/>
+  <circle cx="710" cy="420" r="30" fill="#0a120a" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="710" y="428" text-anchor="middle" font-family="Arial" font-size="28">📊</text>
+  <text x="710" y="472" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f8f4ef">Data</text>
+  <text x="710" y="490" text-anchor="middle" font-family="Arial" font-size="11" fill="#96bf48">Analyst</text>
+  <text x="710" y="512" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Shopify · Analytics</text>
+  <text x="710" y="528" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Attribution · Reports</text>
+
+  <rect x="812" y="366" width="208" height="160" rx="14" fill="#0a0e1c" stroke="#c9a84c" stroke-width="2"/>
+  <circle cx="916" cy="420" r="30" fill="#12100a" stroke="#c9a84c" stroke-width="2"/>
+  <text x="916" y="428" text-anchor="middle" font-family="Arial" font-size="28">🎯</text>
+  <text x="916" y="472" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f5d98b">Account</text>
+  <text x="916" y="490" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c">Manager</text>
+  <text x="916" y="512" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">Weekly calls · Strategy</text>
+  <text x="916" y="528" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">US market guidance</text>
+
+  <!-- Shopify Dashboard full width -->
+  <rect x="60" y="548" width="960" height="296" rx="16" fill="#0f1117" stroke="#96bf48" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Shopify top bar -->
+  <rect x="60" y="548" width="960" height="42" rx="10" fill="#1a1f2e"/>
+  <rect x="82" y="560" width="20" height="20" rx="4" fill="#96bf48"/>
+  <text x="92" y="574" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#fff">S</text>
+  <text x="118" y="574" font-family="Arial" font-size="12" font-weight="bold" fill="#f8f4ef">YourFashionBrand</text>
+  <text x="430" y="574" font-family="Arial" font-size="11" fill="#555">Home</text>
+  <text x="506" y="574" font-family="Arial" font-size="11" fill="#555">Orders</text>
+  <text x="582" y="574" font-family="Arial" font-size="11" fill="#555">Products</text>
+  <text x="682" y="574" font-family="Arial" font-size="11" fill="#555">Analytics</text>
+  <rect x="812" y="556" width="180" height="26" rx="6" fill="#252a3a" stroke="#333" stroke-width="1"/>
+  <text x="902" y="573" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">Last 30 days ▾</text>
+
+  <!-- 5 KPI tiles -->
+  <rect x="80" y="604" width="172" height="80" rx="10" fill="#131720" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="166" y="628" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48" letter-spacing="1">TOTAL SALES</text>
+  <text x="166" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">$68,200</text>
+  <text x="166" y="678" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48">↑ 840%</text>
+
+  <rect x="268" y="604" width="172" height="80" rx="10" fill="#131720" stroke="#333" stroke-width="1"/>
+  <text x="354" y="628" text-anchor="middle" font-family="Arial" font-size="9" fill="#888" letter-spacing="1">ORDERS</text>
+  <text x="354" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">862</text>
+  <text x="354" y="678" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48">↑ from 14/mo</text>
+
+  <rect x="456" y="604" width="172" height="80" rx="10" fill="#131720" stroke="#333" stroke-width="1"/>
+  <text x="542" y="628" text-anchor="middle" font-family="Arial" font-size="9" fill="#888" letter-spacing="1">CONV. RATE</text>
+  <text x="542" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">4.6%</text>
+  <text x="542" y="678" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48">↑ from 0.8%</text>
+
+  <rect x="644" y="604" width="172" height="80" rx="10" fill="#131720" stroke="#f5d98b" stroke-width="1.5"/>
+  <text x="730" y="628" text-anchor="middle" font-family="Arial" font-size="9" fill="#f5d98b" letter-spacing="1">MGMT COST</text>
+  <text x="730" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f5d98b">$800</text>
+  <text x="730" y="678" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c">at $5/hr · 160 hrs</text>
+
+  <rect x="832" y="604" width="168" height="80" rx="10" fill="#131720" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="916" y="628" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c" letter-spacing="1">ROI ON MGMT</text>
+  <text x="916" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="url(#gold)">85.3×</text>
+  <text x="916" y="678" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c">return on mgmt fee</text>
+
+  <!-- Revenue chart -->
+  <rect x="80" y="698" width="740" height="130" rx="10" fill="#0d1018" stroke="#222" stroke-width="1"/>
+  <text x="104" y="722" font-family="Arial" font-size="10" fill="#555" letter-spacing="1">REVENUE SINCE HERITAGE STARTED ($5/HR)</text>
+  <!-- Grid -->
+  <line x1="104" y1="812" x2="794" y2="812" stroke="#1a2030" stroke-width="1"/>
+  <line x1="104" y1="790" x2="794" y2="790" stroke="#1a2030" stroke-width="1"/>
+  <line x1="104" y1="768" x2="794" y2="768" stroke="#1a2030" stroke-width="1"/>
+  <line x1="104" y1="746" x2="794" y2="746" stroke="#1a2030" stroke-width="1"/>
+  <line x1="104" y1="724" x2="794" y2="724" stroke="#1a2030" stroke-width="1"/>
+  <!-- Flat before -->
+  <polyline points="104,812 170,811 230,811 290,812" fill="none" stroke="#444" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Heritage start -->
+  <line x1="290" y1="716" x2="290" y2="816" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="254" y="710" width="110" height="14" rx="4" fill="#c9a84c"/>
+  <text x="309" y="720" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#1a1a2e">▶ $5/HR BEGINS</text>
+  <!-- Growth line -->
+  <polygon points="290,812 340,800 400,778 460,752 530,732 600,722 670,714 740,710 780,708 780,814 290,814" fill="url(#chartfill)"/>
+  <polyline points="290,812 340,800 400,778 460,752 530,732 600,722 670,714 740,710 780,708" fill="none" stroke="#f5d98b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="780" cy="708" r="7" fill="#f5d98b" filter="url(#glow)"/>
+  <rect x="736" y="694" width="74" height="16" rx="4" fill="#f5d98b"/>
+  <text x="773" y="705" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#1a1a2e">$68,200</text>
+  <!-- X labels -->
+  <text x="104" y="828" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Mo 1</text>
+  <text x="290" y="828" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c">Start</text>
+  <text x="460" y="828" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Mo 3</text>
+  <text x="640" y="828" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Mo 5</text>
+  <text x="780" y="828" text-anchor="middle" font-family="Arial" font-size="9" fill="#444">Now</text>
+
+  <!-- Right mini panel -->
+  <rect x="836" y="698" width="164" height="130" rx="10" fill="#0d1018" stroke="#222" stroke-width="1"/>
+  <text x="918" y="722" text-anchor="middle" font-family="Arial" font-size="10" fill="#555" letter-spacing="1">SOURCES</text>
+  <text x="856" y="748" font-family="Arial" font-size="10" fill="#888">Google</text>
+  <rect x="856" y="754" width="100" height="8" rx="3" fill="#4285f4" opacity="0.8"/>
+  <text x="990" y="761" text-anchor="end" font-family="Arial" font-size="9" fill="#4285f4">42%</text>
+  <text x="856" y="778" font-family="Arial" font-size="10" fill="#888">Meta</text>
+  <rect x="856" y="784" width="82" height="8" rx="3" fill="#e1306c" opacity="0.8"/>
+  <text x="990" y="791" text-anchor="end" font-family="Arial" font-size="9" fill="#e1306c">34%</text>
+  <text x="856" y="808" font-family="Arial" font-size="10" fill="#888">Other</text>
+  <rect x="856" y="814" width="58" height="8" rx="3" fill="#96bf48" opacity="0.7"/>
+  <text x="990" y="821" text-anchor="end" font-family="Arial" font-size="9" fill="#96bf48">24%</text>
+
+  <!-- CTA strip -->
+  <rect x="60" y="866" width="960" height="60" rx="12" fill="#c9a84c" opacity="0.09" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="903" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#f8f4ef">Get a full 50-person ad team working on your brand for <tspan fill="url(#gold)" font-weight="bold">$5/hour.</tspan></text>
+
+  <!-- CTA button -->
+  <rect x="190" y="948" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="984" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Hire the Full Team for $5/Hour →</text>
+  <text x="540" y="1006" text-anchor="middle" font-family="Arial" font-size="13" fill="#1a1a2e" opacity="0.7">Google + Meta · D2C Fashion · No contract · Start this week</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="1038" width="1080" height="42" fill="#04060e"/>
+  <text x="540" y="1064" text-anchor="middle" font-family="Georgia, serif" font-size="14" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS · heritageapparels.com</text>
+</svg>

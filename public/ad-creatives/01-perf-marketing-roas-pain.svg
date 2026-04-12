@@ -1,0 +1,116 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b1a1a"/>
+      <stop offset="100%" style="stop-color:#2d0a0a"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a8b4a"/>
+      <stop offset="100%" style="stop-color:#0a2d18"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bgGrad)"/>
+  <!-- Subtle grid pattern -->
+  <rect width="1080" height="1080" fill="none" stroke="#c9a84c" stroke-width="0.3" opacity="0.08"/>
+
+  <!-- Top badge -->
+  <rect x="40" y="40" width="260" height="38" rx="19" fill="#c9a84c" opacity="0.15" stroke="#c9a84c" stroke-width="1"/>
+  <text x="170" y="64" text-anchor="middle" font-family="Georgia" font-size="13" fill="#c9a84c" letter-spacing="2">PERFORMANCE MARKETING</text>
+
+  <!-- Headline -->
+  <text x="540" y="155" text-anchor="middle" font-family="Georgia" font-size="58" font-weight="bold" fill="#f8f4ef">Your Meta Ads</text>
+  <text x="540" y="220" text-anchor="middle" font-family="Georgia" font-size="58" font-weight="bold" fill="#f8f4ef">Are Running.</text>
+  <text x="540" y="295" text-anchor="middle" font-family="Georgia" font-size="62" font-weight="bold" font-style="italic" fill="url(#goldGrad)">Your ROAS Isn't.</text>
+
+  <!-- Gold divider -->
+  <rect x="390" y="320" width="300" height="2" fill="url(#goldGrad)" rx="1"/>
+
+  <!-- Split Dashboard Cards -->
+  <!-- LEFT - BAD ROAS -->
+  <rect x="60" y="355" width="455" height="380" rx="16" fill="url(#redGrad)" stroke="#ff4444" stroke-width="1.5" opacity="0.9"/>
+  <rect x="60" y="355" width="455" height="50" rx="16" fill="#8b1a1a"/>
+  <rect x="60" y="388" width="455" height="17" rx="0" fill="#8b1a1a"/>
+  <text x="287" y="387" text-anchor="middle" font-family="Georgia" font-size="14" fill="#ff9999" letter-spacing="1">YOUR CURRENT ACCOUNT</text>
+
+  <!-- Bad ROAS number -->
+  <text x="287" y="480" text-anchor="middle" font-family="Georgia" font-size="96" font-weight="bold" fill="#ff4444">1.2x</text>
+  <text x="287" y="520" text-anchor="middle" font-family="Georgia" font-size="18" fill="#ff9999">ROAS</text>
+
+  <!-- Bad chart bars -->
+  <rect x="110" y="610" width="40" height="60" rx="4" fill="#ff4444" opacity="0.4"/>
+  <rect x="165" y="590" width="40" height="80" rx="4" fill="#ff4444" opacity="0.5"/>
+  <rect x="220" y="625" width="40" height="45" rx="4" fill="#ff4444" opacity="0.4"/>
+  <rect x="275" y="600" width="40" height="70" rx="4" fill="#ff4444" opacity="0.5"/>
+  <rect x="330" y="618" width="40" height="52" rx="4" fill="#ff4444" opacity="0.4"/>
+  <rect x="385" y="605" width="40" height="65" rx="4" fill="#ff4444" opacity="0.4"/>
+
+  <!-- Chart baseline -->
+  <line x1="100" y1="672" x2="470" y2="672" stroke="#ff4444" stroke-width="1" opacity="0.4"/>
+
+  <!-- Bad metrics -->
+  <text x="165" y="700" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff9999">Spend: $4,200/mo</text>
+  <text x="380" y="700" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff9999">Revenue: $5,040</text>
+
+  <!-- Arrow indicator down -->
+  <text x="287" y="728" text-anchor="middle" font-size="22" fill="#ff4444">↓ -$1,160 net loss after fees</text>
+
+  <!-- RIGHT - GOOD ROAS -->
+  <rect x="565" y="355" width="455" height="380" rx="16" fill="url(#greenGrad)" stroke="#44ff88" stroke-width="1.5" opacity="0.9"/>
+  <rect x="565" y="355" width="455" height="50" rx="16" fill="#1a8b4a"/>
+  <rect x="565" y="388" width="455" height="17" rx="0" fill="#1a8b4a"/>
+  <text x="792" y="387" text-anchor="middle" font-family="Georgia" font-size="14" fill="#99ffcc" letter-spacing="1">HERITAGE CLIENTS</text>
+
+  <!-- Good ROAS number -->
+  <text x="792" y="480" text-anchor="middle" font-family="Georgia" font-size="96" font-weight="bold" fill="url(#goldGrad)" filter="url(#glow)">6.4x</text>
+  <text x="792" y="520" text-anchor="middle" font-family="Georgia" font-size="18" fill="#99ffcc">ROAS</text>
+
+  <!-- Good chart bars - growing -->
+  <rect x="615" y="655" width="40" height="15" rx="4" fill="#44ff88" opacity="0.5"/>
+  <rect x="670" y="635" width="40" height="35" rx="4" fill="#44ff88" opacity="0.6"/>
+  <rect x="725" y="610" width="40" height="60" rx="4" fill="#44ff88" opacity="0.7"/>
+  <rect x="780" y="580" width="40" height="90" rx="4" fill="#44ff88" opacity="0.8"/>
+  <rect x="835" y="545" width="40" height="125" rx="4" fill="#44ff88" opacity="0.9"/>
+  <rect x="890" y="510" width="40" height="160" rx="4" fill="#44ff88"/>
+
+  <!-- Chart baseline -->
+  <line x1="605" y1="672" x2="975" y2="672" stroke="#44ff88" stroke-width="1" opacity="0.4"/>
+
+  <!-- Good metrics -->
+  <text x="670" y="700" text-anchor="middle" font-family="Arial" font-size="13" fill="#99ffcc">Spend: $4,200/mo</text>
+  <text x="885" y="700" text-anchor="middle" font-family="Arial" font-size="13" fill="#99ffcc">Revenue: $26,880</text>
+
+  <text x="792" y="728" text-anchor="middle" font-size="22" fill="#44ff88">↑ $22,680 net profit</text>
+
+  <!-- VS badge in center -->
+  <circle cx="540" cy="545" r="32" fill="#1a1a2e" stroke="url(#goldGrad)" stroke-width="2"/>
+  <text x="540" y="553" text-anchor="middle" font-family="Georgia" font-size="20" font-weight="bold" fill="url(#goldGrad)">VS</text>
+
+  <!-- Bottom CTA section -->
+  <rect x="60" y="768" width="960" height="88" rx="12" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1"/>
+  <text x="420" y="806" text-anchor="middle" font-family="Arial" font-size="18" fill="#f8f4ef">We manage Meta + Google + TikTok Ads for US fashion brands.</text>
+  <text x="420" y="832" text-anchor="middle" font-family="Georgia" font-size="17" font-style="italic" fill="#c9a84c">Creatives included. 4–8x ROAS. Starting $2,000/month.</text>
+
+  <!-- CTA Button -->
+  <rect x="750" y="780" width="258" height="62" rx="31" fill="url(#goldGrad)"/>
+  <text x="879" y="817" text-anchor="middle" font-family="Georgia" font-size="17" font-weight="bold" fill="#1a1a2e">Get Free Ads Audit →</text>
+
+  <!-- Bottom brand bar -->
+  <rect x="0" y="1030" width="1080" height="50" fill="#0d0d17"/>
+  <text x="540" y="1060" text-anchor="middle" font-family="Georgia" font-size="15" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS USA · heritageapparels.com/us</text>
+</svg>

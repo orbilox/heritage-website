@@ -1,0 +1,92 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a12"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="25" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="200" cy="200" rx="300" ry="200" fill="#ff4444" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="900" cy="900" rx="280" ry="200" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="62" text-anchor="middle" font-family="Arial" font-size="13" fill="#ff4444" letter-spacing="3" opacity="0.8">WHY INDIA BRANDS LOSE MONEY ON US ADS</text>
+
+  <!-- Main headline -->
+  <text x="540" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#f8f4ef">5 Mistakes Killing</text>
+  <text x="540" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#f8f4ef">Your US Ad Budget</text>
+
+  <!-- Gold underline -->
+  <rect x="160" y="218" width="760" height="3" fill="url(#gold)" rx="2" opacity="0.6"/>
+
+  <!-- Mistake cards - 5 stacked rows -->
+  <!-- #1 -->
+  <rect x="60" y="238" width="960" height="86" rx="12" fill="#0d1120" stroke="#ff4444" stroke-width="1" stroke-opacity="0.5"/>
+  <rect x="60" y="238" width="6" height="86" rx="3" fill="#ff4444"/>
+  <text x="108" y="272" font-family="Georgia, serif" font-size="13" fill="#ff4444" letter-spacing="1">MISTAKE #1</text>
+  <text x="108" y="300" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f8f4ef">Targeting Indian diaspora instead of mainstream US buyers</text>
+  <text x="108" y="316" font-family="Arial" font-size="12" fill="#666">Result: ×10 smaller audience, inflated CPMs, zero organic reach</text>
+  <text x="990" y="290" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#ff4444" opacity="0.3">01</text>
+
+  <!-- #2 -->
+  <rect x="60" y="338" width="960" height="86" rx="12" fill="#0d1120" stroke="#ff6622" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="60" y="338" width="6" height="86" rx="3" fill="#ff6622"/>
+  <text x="108" y="372" font-family="Georgia, serif" font-size="13" fill="#ff6622" letter-spacing="1">MISTAKE #2</text>
+  <text x="108" y="400" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f8f4ef">Using India-market creatives for US campaigns</text>
+  <text x="108" y="416" font-family="Arial" font-size="12" fill="#666">US buyers respond to different hooks, copy tone and visual styles than Indian audiences</text>
+  <text x="990" y="390" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#ff6622" opacity="0.3">02</text>
+
+  <!-- #3 -->
+  <rect x="60" y="438" width="960" height="86" rx="12" fill="#0d1120" stroke="#ffaa00" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="60" y="438" width="6" height="86" rx="3" fill="#ffaa00"/>
+  <text x="108" y="472" font-family="Georgia, serif" font-size="13" fill="#ffaa00" letter-spacing="1">MISTAKE #3</text>
+  <text x="108" y="500" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f8f4ef">Running ads to your homepage instead of a city landing page</text>
+  <text x="108" y="516" font-family="Arial" font-size="12" fill="#666">NYC shoppers convert 3× better on a NYC-specific page vs generic website</text>
+  <text x="990" y="490" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#ffaa00" opacity="0.3">03</text>
+
+  <!-- #4 -->
+  <rect x="60" y="538" width="960" height="86" rx="12" fill="#0d1120" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="60" y="538" width="6" height="86" rx="3" fill="#c9a84c"/>
+  <text x="108" y="572" font-family="Georgia, serif" font-size="13" fill="#c9a84c" letter-spacing="1">MISTAKE #4</text>
+  <text x="108" y="600" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f8f4ef">No retargeting funnel — spending only on cold audiences</text>
+  <text x="108" y="616" font-family="Arial" font-size="12" fill="#666">US fashion buyers need 4–7 touchpoints before purchasing. No retargeting = 90% leak</text>
+  <text x="990" y="590" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#c9a84c" opacity="0.3">04</text>
+
+  <!-- #5 -->
+  <rect x="60" y="638" width="960" height="86" rx="12" fill="#0d1120" stroke="#f5d98b" stroke-width="1" stroke-opacity="0.5"/>
+  <rect x="60" y="638" width="6" height="86" rx="3" fill="#f5d98b"/>
+  <text x="108" y="672" font-family="Georgia, serif" font-size="13" fill="#f5d98b" letter-spacing="1">MISTAKE #5</text>
+  <text x="108" y="700" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f8f4ef">Hiring a local India agency to manage US ads</text>
+  <text x="108" y="716" font-family="Arial" font-size="12" fill="#666">US consumer behaviour, holidays, and trends require boots-on-ground market knowledge</text>
+  <text x="990" y="690" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f5d98b" opacity="0.3">05</text>
+
+  <!-- Are you making these? -->
+  <rect x="60" y="742" width="960" height="58" rx="12" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="778" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#f8f4ef">Are you making any of these? <tspan fill="url(#gold)" font-weight="bold">We'll fix them in 30 days.</tspan></text>
+
+  <!-- CTA -->
+  <rect x="200" y="818" width="680" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="858" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Get Free US Ads Diagnosis →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="910" width="1080" height="170" fill="#04060e"/>
+  <line x1="60" y1="925" x2="1020" y2="925" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="962" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">HERITAGE APPARELS · $10M+ US AD SPEND MANAGED</text>
+  <text x="540" y="1005" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1040" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

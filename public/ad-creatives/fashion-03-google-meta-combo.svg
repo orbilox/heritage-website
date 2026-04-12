@@ -1,0 +1,159 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="28" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="460" rx="500" ry="380" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top label -->
+  <text x="540" y="58" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="3" opacity="0.7">USA FASHION BRAND GROWTH · $500/MONTH</text>
+
+  <!-- Headline -->
+  <text x="540" y="134" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#f8f4ef">Google + Meta Ads.</text>
+  <text x="540" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="url(#gold)" filter="url(#glow)">One $500 Plan.</text>
+  <text x="540" y="238" text-anchor="middle" font-family="Arial" font-size="17" fill="#888">Your fashion website gets buyers from both platforms — managed together.</text>
+
+  <!-- Divider -->
+  <rect x="180" y="256" width="720" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Left: Google Ads panel -->
+  <rect x="60" y="274" width="456" height="428" rx="16" fill="#080e1c" stroke="#4285f4" stroke-width="1.5"/>
+  <rect x="60" y="274" width="456" height="46" rx="10" fill="#0d1525"/>
+  <!-- Google colors bar -->
+  <rect x="60" y="274" width="114" height="6" rx="3" fill="#4285f4"/>
+  <rect x="174" y="274" width="114" height="6" rx="3" fill="#ea4335"/>
+  <rect x="288" y="274" width="114" height="6" rx="3" fill="#fbbc04"/>
+  <rect x="402" y="274" width="114" height="6" rx="3" fill="#34a853"/>
+  <text x="100" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#4285f4">G</text>
+  <text x="114" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#ea4335">o</text>
+  <text x="126" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#fbbc04">o</text>
+  <text x="138" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#4285f4">g</text>
+  <text x="150" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#34a853">l</text>
+  <text x="158" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#ea4335">e</text>
+  <text x="175" y="304" font-family="Arial" font-size="13" fill="#888">Ads Manager</text>
+  <text x="480" y="300" text-anchor="end" font-family="Arial" font-size="11" fill="#555">Last 30 days</text>
+
+  <!-- Google stats -->
+  <rect x="80" y="332" width="196" height="72" rx="8" fill="#0d1420" stroke="#4285f4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="178" y="356" text-anchor="middle" font-family="Arial" font-size="10" fill="#4285f4" letter-spacing="1">IMPRESSIONS</text>
+  <text x="178" y="384" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">284,600</text>
+  <text x="178" y="398" text-anchor="middle" font-family="Arial" font-size="10" fill="#34a853">↑ 412%</text>
+
+  <rect x="290" y="332" width="196" height="72" rx="8" fill="#0d1420" stroke="#4285f4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="388" y="356" text-anchor="middle" font-family="Arial" font-size="10" fill="#4285f4" letter-spacing="1">CLICKS</text>
+  <text x="388" y="384" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">8,420</text>
+  <text x="388" y="398" text-anchor="middle" font-family="Arial" font-size="10" fill="#34a853">↑ 338%</text>
+
+  <!-- Google campaign list -->
+  <rect x="80" y="416" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="86" y="422" width="10" height="10" rx="2" fill="#4285f4" opacity="0.6"/>
+  <text x="104" y="432" font-family="Arial" font-size="11" fill="#888">Shopping Campaign — Women's Fashion</text>
+  <text x="474" y="432" text-anchor="end" font-family="Arial" font-size="11" fill="#34a853">ROAS: 7.2×</text>
+
+  <rect x="80" y="456" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="86" y="462" width="10" height="10" rx="2" fill="#fbbc04" opacity="0.6"/>
+  <text x="104" y="472" font-family="Arial" font-size="11" fill="#888">Search — "Indian fashion USA"</text>
+  <text x="474" y="472" text-anchor="end" font-family="Arial" font-size="11" fill="#34a853">CPC: $0.84</text>
+
+  <rect x="80" y="496" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="86" y="502" width="10" height="10" rx="2" fill="#34a853" opacity="0.6"/>
+  <text x="104" y="512" font-family="Arial" font-size="11" fill="#888">Display Remarketing — Fashion</text>
+  <text x="474" y="512" text-anchor="end" font-family="Arial" font-size="11" fill="#34a853">CTR: 4.8%</text>
+
+  <rect x="80" y="536" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="86" y="542" width="10" height="10" rx="2" fill="#ea4335" opacity="0.6"/>
+  <text x="104" y="552" font-family="Arial" font-size="11" fill="#888">Performance Max — All Products</text>
+  <text x="474" y="552" text-anchor="end" font-family="Arial" font-size="11" fill="#34a853">Conv: 312</text>
+
+  <!-- Google revenue -->
+  <rect x="80" y="584" width="406" height="98" rx="8" fill="#0d1420" stroke="#34a853" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="288" y="610" text-anchor="middle" font-family="Arial" font-size="11" fill="#888" letter-spacing="1">GOOGLE-ATTRIBUTED REVENUE</text>
+  <text x="288" y="652" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#34a853" filter="url(#glow)">$28,400</text>
+  <text x="288" y="672" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Ad spend: $250 · ROAS: 113.6×</text>
+
+  <!-- Right: Meta Ads panel -->
+  <rect x="564" y="274" width="456" height="428" rx="16" fill="#080e1c" stroke="#1877f2" stroke-width="1.5"/>
+  <rect x="564" y="274" width="456" height="46" rx="10" fill="#0a1030"/>
+  <rect x="564" y="274" width="456" height="6" rx="3" fill="#1877f2"/>
+  <text x="584" y="304" font-family="Arial" font-size="13" font-weight="bold" fill="#1877f2">Meta</text>
+  <text x="622" y="304" font-family="Arial" font-size="13" fill="#888">Ads Manager</text>
+  <text x="1000" y="300" text-anchor="end" font-family="Arial" font-size="11" fill="#555">Last 30 days</text>
+
+  <!-- Meta stats -->
+  <rect x="584" y="332" width="196" height="72" rx="8" fill="#0d1420" stroke="#1877f2" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="682" y="356" text-anchor="middle" font-family="Arial" font-size="10" fill="#1877f2" letter-spacing="1">REACH</text>
+  <text x="682" y="384" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">186,400</text>
+  <text x="682" y="398" text-anchor="middle" font-family="Arial" font-size="10" fill="#00c8ff">↑ 298%</text>
+
+  <rect x="794" y="332" width="196" height="72" rx="8" fill="#0d1420" stroke="#1877f2" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="892" y="356" text-anchor="middle" font-family="Arial" font-size="10" fill="#1877f2" letter-spacing="1">PURCHASES</text>
+  <text x="892" y="384" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#f8f4ef">486</text>
+  <text x="892" y="398" text-anchor="middle" font-family="Arial" font-size="10" fill="#00c8ff">↑ 514%</text>
+
+  <!-- Meta campaign list -->
+  <rect x="584" y="416" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="590" y="422" width="10" height="10" rx="2" fill="#e1306c" opacity="0.8"/>
+  <text x="608" y="432" font-family="Arial" font-size="11" fill="#888">Instagram — Fashion Collection TOF</text>
+  <text x="978" y="432" text-anchor="end" font-family="Arial" font-size="11" fill="#00c8ff">ROAS: 8.4×</text>
+
+  <rect x="584" y="456" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="590" y="462" width="10" height="10" rx="2" fill="#1877f2" opacity="0.8"/>
+  <text x="608" y="472" font-family="Arial" font-size="11" fill="#888">Facebook Feed — Retargeting</text>
+  <text x="978" y="472" text-anchor="end" font-family="Arial" font-size="11" fill="#00c8ff">CPP: $4.18</text>
+
+  <rect x="584" y="496" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="590" y="502" width="10" height="10" rx="2" fill="#ff0050" opacity="0.8"/>
+  <text x="608" y="512" font-family="Arial" font-size="11" fill="#888">Reels — TikTok-style Fashion Video</text>
+  <text x="978" y="512" text-anchor="end" font-family="Arial" font-size="11" fill="#00c8ff">CTR: 5.2%</text>
+
+  <rect x="584" y="536" width="406" height="34" rx="6" fill="#0d1420"/>
+  <rect x="590" y="542" width="10" height="10" rx="2" fill="#9b59b6" opacity="0.8"/>
+  <text x="608" y="552" font-family="Arial" font-size="11" fill="#888">Catalog Ads — Dynamic Products</text>
+  <text x="978" y="552" text-anchor="end" font-family="Arial" font-size="11" fill="#00c8ff">Conv: 174</text>
+
+  <!-- Meta revenue -->
+  <rect x="584" y="584" width="406" height="98" rx="8" fill="#0d1420" stroke="#1877f2" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="787" y="610" text-anchor="middle" font-family="Arial" font-size="11" fill="#888" letter-spacing="1">META-ATTRIBUTED REVENUE</text>
+  <text x="787" y="652" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#1877f2" filter="url(#glow)">$34,080</text>
+  <text x="787" y="672" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Ad spend: $250 · ROAS: 136.3×</text>
+
+  <!-- Combined total -->
+  <rect x="60" y="722" width="960" height="70" rx="14" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="200" y="751" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">TOTAL COMBINED</text>
+  <text x="200" y="779" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">$62,480/mo</text>
+  <line x1="380" y1="730" x2="380" y2="784" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="540" y="751" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">TOTAL AD SPEND</text>
+  <text x="540" y="779" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">$500/mo</text>
+  <line x1="700" y1="730" x2="700" y2="784" stroke="#c9a84c" stroke-width="1" opacity="0.2"/>
+  <text x="880" y="751" text-anchor="middle" font-family="Arial" font-size="12" fill="#888" letter-spacing="1">OVERALL ROAS</text>
+  <text x="880" y="779" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#96bf48">124.9×</text>
+
+  <!-- CTA -->
+  <rect x="190" y="814" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="854" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">Run Both Channels for $500/Month →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="904" width="1080" height="176" fill="#04060e"/>
+  <line x1="60" y1="918" x2="1020" y2="918" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="960" text-anchor="middle" font-family="Arial" font-size="12" fill="#444" letter-spacing="1">GOOGLE SHOPPING · SEARCH · DISPLAY · META FEED · INSTAGRAM · REELS</text>
+  <text x="540" y="1006" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1048" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

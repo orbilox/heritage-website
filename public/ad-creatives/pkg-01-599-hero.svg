@@ -1,0 +1,121 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="btngrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="100%" style="stop-color:#f5d98b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="36" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="300" rx="480" ry="320" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+  <ellipse cx="200" cy="800" rx="300" ry="200" fill="#4285f4" opacity="0.03" filter="url(#softglow)"/>
+  <ellipse cx="900" cy="750" rx="280" ry="190" fill="#1877f2" opacity="0.03" filter="url(#softglow)"/>
+
+  <!-- Top tag -->
+  <rect x="340" y="36" width="400" height="28" rx="14" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1"/>
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#c9a84c" letter-spacing="2">USA D2C &amp; B2B BRAND GROWTH PACKAGE</text>
+
+  <!-- Headline -->
+  <text x="540" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#f8f4ef">Everything Your Brand Needs.</text>
+  <text x="540" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#f8f4ef">One Price. One Team.</text>
+
+  <!-- GIANT $599 -->
+  <text x="430" y="320" text-anchor="end" font-family="Georgia, serif" font-size="64" fill="#888" text-decoration="line-through">$3,000</text>
+  <text x="540" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="180" font-weight="bold" fill="url(#gold)" filter="url(#glow)" letter-spacing="-6">$599</text>
+  <text x="540" y="370" text-anchor="middle" font-family="Arial" font-size="18" fill="#888" letter-spacing="2">PER MONTH · NO SETUP FEE · CANCEL ANYTIME</text>
+
+  <!-- Gold rule -->
+  <rect x="80" y="392" width="920" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- 3 channel icons row -->
+  <!-- Google pill -->
+  <rect x="80" y="412" width="280" height="54" rx="27" fill="#0d1420" stroke="#4285f4" stroke-width="1.5"/>
+  <circle cx="116" cy="439" r="14" fill="#ffffff"/>
+  <text x="116" y="435" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#4285f4">G</text>
+  <text x="116" y="446" text-anchor="middle" font-family="Arial" font-size="5" font-weight="bold" fill="#ea4335">oo</text>
+  <text x="220" y="434" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#4285f4">Google Ads</text>
+  <text x="220" y="452" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Search · Shopping · PMax</text>
+
+  <!-- Meta pill -->
+  <rect x="400" y="412" width="280" height="54" rx="27" fill="#0d1420" stroke="#1877f2" stroke-width="1.5"/>
+  <circle cx="436" cy="439" r="14" fill="#1877f2"/>
+  <text x="436" y="444" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff">f</text>
+  <text x="540" y="434" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1877f2">Meta Ads</text>
+  <text x="540" y="452" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Facebook · Instagram · Reels</text>
+
+  <!-- Marketplace pill -->
+  <rect x="720" y="412" width="280" height="54" rx="27" fill="#0d1420" stroke="#ff9900" stroke-width="1.5"/>
+  <circle cx="756" cy="439" r="14" fill="#ff9900"/>
+  <text x="756" y="444" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#ffffff">a</text>
+  <text x="860" y="434" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#ff9900">Marketplace</text>
+  <text x="860" y="452" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Amazon · Walmart · TikTok</text>
+
+  <!-- What's included — 2 column checklist -->
+  <rect x="80" y="488" width="440" height="330" rx="16" fill="#080d18" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="300" y="518" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">GOOGLE + META MANAGEMENT</text>
+  <line x1="100" y1="528" x2="500" y2="528" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+
+  <text x="104" y="558" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="558" font-family="Arial" font-size="14" fill="#f8f4ef">Google Search &amp; Shopping Ads</text>
+  <text x="104" y="584" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="584" font-family="Arial" font-size="14" fill="#f8f4ef">Performance Max Campaigns</text>
+  <text x="104" y="610" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="610" font-family="Arial" font-size="14" fill="#f8f4ef">Meta / Instagram Feed + Reels</text>
+  <text x="104" y="636" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="636" font-family="Arial" font-size="14" fill="#f8f4ef">Retargeting &amp; Lookalike Audiences</text>
+  <text x="104" y="662" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="662" font-family="Arial" font-size="14" fill="#f8f4ef">A/B Creative Testing Weekly</text>
+  <text x="104" y="688" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="688" font-family="Arial" font-size="14" fill="#f8f4ef">City-Level US Targeting</text>
+  <text x="104" y="714" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="714" font-family="Arial" font-size="14" fill="#f8f4ef">Weekly Performance Reports</text>
+  <text x="104" y="740" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="740" font-family="Arial" font-size="14" fill="#f8f4ef">Shopify / WooCommerce Sync</text>
+  <text x="104" y="766" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="766" font-family="Arial" font-size="14" fill="#f8f4ef">Dedicated Account Manager</text>
+  <text x="104" y="792" font-family="Arial" font-size="14" fill="#96bf48">✓</text><text x="124" y="792" font-family="Arial" font-size="14" fill="#f8f4ef">Daily Budget Optimization</text>
+
+  <rect x="560" y="488" width="440" height="330" rx="16" fill="#080d18" stroke="#ff9900" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="780" y="518" text-anchor="middle" font-family="Arial" font-size="12" fill="#ff9900" letter-spacing="2">MARKETPLACE + BONUS</text>
+  <line x1="580" y1="528" x2="980" y2="528" stroke="#ff9900" stroke-width="1" opacity="0.15"/>
+
+  <text x="584" y="558" font-family="Arial" font-size="14" fill="#ff9900">✓</text><text x="604" y="558" font-family="Arial" font-size="14" fill="#f8f4ef">Amazon Sponsored Ads Setup</text>
+  <text x="584" y="584" font-family="Arial" font-size="14" fill="#ff9900">✓</text><text x="604" y="584" font-family="Arial" font-size="14" fill="#f8f4ef">Walmart Connect Management</text>
+  <text x="584" y="610" font-family="Arial" font-size="14" fill="#ff9900">✓</text><text x="604" y="610" font-family="Arial" font-size="14" fill="#f8f4ef">TikTok Shop Ad Campaigns</text>
+  <text x="584" y="636" font-family="Arial" font-size="14" fill="#ff9900">✓</text><text x="604" y="636" font-family="Arial" font-size="14" fill="#f8f4ef">Product Listing Optimization</text>
+  <text x="584" y="662" font-family="Arial" font-size="14" fill="#ff9900">✓</text><text x="604" y="662" font-family="Arial" font-size="14" fill="#f8f4ef">Keyword &amp; BSR Strategy</text>
+  <text x="584" y="688" font-family="Arial" font-size="14" fill="#c9a84c">★</text><text x="604" y="688" font-family="Arial" font-size="14" fill="#c9a84c" font-weight="bold">Ad Creative Design — FREE</text>
+  <text x="584" y="714" font-family="Arial" font-size="14" fill="#c9a84c">★</text><text x="604" y="714" font-family="Arial" font-size="14" fill="#c9a84c" font-weight="bold">US City Landing Pages — FREE</text>
+  <text x="584" y="740" font-family="Arial" font-size="14" fill="#c9a84c">★</text><text x="604" y="740" font-family="Arial" font-size="14" fill="#c9a84c" font-weight="bold">Competitor Audit — FREE</text>
+  <text x="584" y="766" font-family="Arial" font-size="14" fill="#c9a84c">★</text><text x="604" y="766" font-family="Arial" font-size="14" fill="#c9a84c" font-weight="bold">Monthly Strategy Call — FREE</text>
+  <text x="584" y="792" font-family="Arial" font-size="14" fill="#c9a84c">★</text><text x="604" y="792" font-family="Arial" font-size="14" fill="#c9a84c" font-weight="bold">Onboarding in 48hrs — FREE</text>
+
+  <!-- Works for row -->
+  <rect x="80" y="836" width="920" height="48" rx="12" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="180" y="857" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">WORKS FOR</text>
+  <text x="260" y="868" text-anchor="middle" font-family="Arial" font-size="14" fill="#f8f4ef">👗 Clothing</text>
+  <text x="390" y="868" text-anchor="middle" font-family="Arial" font-size="14" fill="#f8f4ef">👟 Footwear</text>
+  <text x="520" y="868" text-anchor="middle" font-family="Arial" font-size="14" fill="#f8f4ef">💄 Beauty</text>
+  <text x="650" y="868" text-anchor="middle" font-family="Arial" font-size="14" fill="#f8f4ef">🏠 Home Decor</text>
+  <text x="790" y="868" text-anchor="middle" font-family="Arial" font-size="14" fill="#f8f4ef">🧴 Health</text>
+  <text x="940" y="868" text-anchor="middle" font-family="Arial" font-size="14" fill="#f8f4ef">📦 B2B</text>
+
+  <!-- CTA -->
+  <rect x="190" y="902" width="700" height="62" rx="31" fill="url(#btngrad)"/>
+  <text x="540" y="938" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Start for $599/Month → No Contract</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="984" width="1080" height="96" fill="#04060e"/>
+  <line x1="60" y1="996" x2="1020" y2="996" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1036" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1060" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com · Google + Meta + Marketplace · $599/month</text>
+</svg>

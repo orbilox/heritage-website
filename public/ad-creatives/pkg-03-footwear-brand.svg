@@ -1,0 +1,135 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="orangegrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="chartfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316" stop-opacity="0.45"/>
+      <stop offset="100%" style="stop-color:#f97316" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="300" cy="400" rx="400" ry="300" fill="#f97316" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="800" cy="700" rx="350" ry="250" fill="#c9a84c" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top tag -->
+  <rect x="300" y="36" width="480" height="28" rx="14" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1"/>
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#f97316" letter-spacing="2">👟 FOR FOOTWEAR BRANDS · USA D2C GROWTH SYSTEM</text>
+
+  <!-- Headline -->
+  <text x="540" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#f8f4ef">Your Sneakers Deserve</text>
+  <text x="540" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="58" font-weight="bold" fill="url(#orangegrad)" filter="url(#glow)">More than Instagram.</text>
+  <text x="540" y="228" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#f8f4ef">Scale on <tspan font-weight="bold" fill="url(#gold)">Google + Meta + Amazon</tspan> for $599/month</text>
+
+  <!-- Gold rule -->
+  <rect x="100" y="248" width="880" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- 3 channel revenue breakdown -->
+  <text x="540" y="290" text-anchor="middle" font-family="Arial" font-size="13" fill="#555" letter-spacing="2">REVENUE BREAKDOWN — FOOTWEAR CLIENT (MONTHLY)</text>
+
+  <!-- Channel bars -->
+  <!-- Google -->
+  <rect x="80" y="310" width="920" height="72" rx="12" fill="#080d18" stroke="#4285f4" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="104" y="332" width="32" height="32" rx="8" fill="#4285f4" opacity="0.2"/>
+  <text x="120" y="354" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#4285f4">G</text>
+  <text x="160" y="348" font-family="Arial" font-size="15" font-weight="bold" fill="#f8f4ef">Google Ads</text>
+  <text x="160" y="368" font-family="Arial" font-size="11" fill="#555">Shopping · Search · PMax — footwear keywords</text>
+  <!-- Bar -->
+  <rect x="420" y="332" width="440" height="28" rx="6" fill="#111827"/>
+  <rect x="420" y="332" width="308" height="28" rx="6" fill="#4285f4" opacity="0.7"/>
+  <text x="736" y="351" text-anchor="end" font-family="Arial" font-size="12" fill="#4285f4" font-weight="bold">70% · $32,480/mo</text>
+  <text x="920" y="351" text-anchor="middle" font-family="Arial" font-size="11" fill="#f8f4ef">6.8× ROAS</text>
+
+  <!-- Meta -->
+  <rect x="80" y="396" width="920" height="72" rx="12" fill="#080d18" stroke="#1877f2" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="104" y="418" width="32" height="32" rx="8" fill="#1877f2" opacity="0.2"/>
+  <text x="120" y="440" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1877f2">f</text>
+  <text x="160" y="434" font-family="Arial" font-size="15" font-weight="bold" fill="#f8f4ef">Meta / Instagram Ads</text>
+  <text x="160" y="454" font-family="Arial" font-size="11" fill="#555">Reels · Stories · Carousel — lifestyle footwear creative</text>
+  <rect x="420" y="418" width="440" height="28" rx="6" fill="#111827"/>
+  <rect x="420" y="418" width="220" height="28" rx="6" fill="#1877f2" opacity="0.7"/>
+  <text x="648" y="437" text-anchor="end" font-family="Arial" font-size="12" fill="#1877f2" font-weight="bold">50% · $23,200/mo</text>
+  <text x="920" y="437" text-anchor="middle" font-family="Arial" font-size="11" fill="#f8f4ef">5.4× ROAS</text>
+
+  <!-- Amazon -->
+  <rect x="80" y="482" width="920" height="72" rx="12" fill="#080d18" stroke="#ff9900" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="104" y="504" width="32" height="32" rx="8" fill="#ff9900" opacity="0.2"/>
+  <text x="120" y="526" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#ff9900">a</text>
+  <text x="160" y="520" font-family="Arial" font-size="15" font-weight="bold" fill="#f8f4ef">Amazon + Walmart</text>
+  <text x="160" y="540" font-family="Arial" font-size="11" fill="#555">Sponsored Products · Brand Store · Marketplace SEO</text>
+  <rect x="420" y="504" width="440" height="28" rx="6" fill="#111827"/>
+  <rect x="420" y="504" width="176" height="28" rx="6" fill="#ff9900" opacity="0.7"/>
+  <text x="604" y="523" text-anchor="end" font-family="Arial" font-size="12" fill="#ff9900" font-weight="bold">40% · $18,600/mo</text>
+  <text x="920" y="523" text-anchor="middle" font-family="Arial" font-size="11" fill="#f8f4ef">4.9× ROAS</text>
+
+  <!-- TikTok -->
+  <rect x="80" y="568" width="920" height="72" rx="12" fill="#080d18" stroke="#e1306c" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="104" y="590" width="32" height="32" rx="8" fill="#e1306c" opacity="0.2"/>
+  <text x="120" y="612" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#e1306c">T</text>
+  <text x="160" y="606" font-family="Arial" font-size="15" font-weight="bold" fill="#f8f4ef">TikTok Shop Ads</text>
+  <text x="160" y="626" font-family="Arial" font-size="11" fill="#555">LIVE shopping · Hashtag challenges · Influencer collab</text>
+  <rect x="420" y="590" width="440" height="28" rx="6" fill="#111827"/>
+  <rect x="420" y="590" width="132" height="28" rx="6" fill="#e1306c" opacity="0.7"/>
+  <text x="560" y="609" text-anchor="end" font-family="Arial" font-size="12" fill="#e1306c" font-weight="bold">30% · $12,400/mo</text>
+  <text x="920" y="609" text-anchor="middle" font-family="Arial" font-size="11" fill="#f8f4ef">7.1× ROAS</text>
+
+  <!-- Total row -->
+  <rect x="80" y="660" width="920" height="56" rx="12" fill="#c9a84c" opacity="0.10" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="160" y="694" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#c9a84c">COMBINED MONTHLY REVENUE</text>
+  <text x="920" y="694" text-anchor="end" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="url(#gold)" filter="url(#glow)">$86,680 / month</text>
+
+  <!-- Stats row -->
+  <rect x="80" y="736" width="210" height="72" rx="12" fill="#0d1420" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="185" y="762" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48" letter-spacing="1">MGMT COST</text>
+  <text x="185" y="798" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#96bf48">$599/mo</text>
+
+  <rect x="310" y="736" width="210" height="72" rx="12" fill="#0d1420" stroke="#f5d98b" stroke-width="1.5"/>
+  <text x="415" y="762" text-anchor="middle" font-family="Arial" font-size="9" fill="#f5d98b" letter-spacing="1">AVG ROAS</text>
+  <text x="415" y="798" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#gold)">6.1×</text>
+
+  <rect x="540" y="736" width="210" height="72" rx="12" fill="#0d1420" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="645" y="762" text-anchor="middle" font-family="Arial" font-size="9" fill="#4285f4" letter-spacing="1">PLATFORMS</text>
+  <text x="645" y="798" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">4</text>
+
+  <rect x="770" y="736" width="230" height="72" rx="12" fill="#0d1420" stroke="#f97316" stroke-width="1.5"/>
+  <text x="885" y="762" text-anchor="middle" font-family="Arial" font-size="9" fill="#f97316" letter-spacing="1">US COVERAGE</text>
+  <text x="885" y="798" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#f8f4ef">50 States</text>
+
+  <!-- CTA -->
+  <rect x="190" y="828" width="700" height="64" rx="32" fill="url(#gold)"/>
+  <text x="540" y="866" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Grow Your Footwear Brand for $599/Month →</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="914" width="1080" height="166" fill="#04060e"/>
+  <line x1="60" y1="928" x2="1020" y2="928" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="190" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">$86,680</text>
+  <text x="190" y="992" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Avg monthly revenue</text>
+  <line x1="380" y1="950" x2="380" y2="1002" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="540" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">4 Channels</text>
+  <text x="540" y="992" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Google · Meta · Amazon · TikTok</text>
+  <line x1="700" y1="950" x2="700" y2="1002" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+  <text x="870" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="url(#gold)">$599/month</text>
+  <text x="870" y="992" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">Full management · No contract</text>
+  <text x="540" y="1048" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1070" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com · Footwear D2C Growth · USA</text>
+</svg>

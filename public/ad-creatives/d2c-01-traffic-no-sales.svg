@@ -1,0 +1,121 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="55%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="redgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc0000"/>
+      <stop offset="100%" style="stop-color:#ff4444"/>
+    </linearGradient>
+    <linearGradient id="greengrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00aa55"/>
+      <stop offset="100%" style="stop-color:#00dd77"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="300" cy="250" rx="350" ry="260" fill="#ff2200" opacity="0.04" filter="url(#softglow)"/>
+  <ellipse cx="800" cy="750" rx="320" ry="240" fill="#c9a84c" opacity="0.05" filter="url(#softglow)"/>
+
+  <!-- Top eyebrow -->
+  <rect x="340" y="38" width="400" height="36" rx="18" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="540" y="61" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">FOR US D2C BRAND OWNERS</text>
+
+  <!-- Headline -->
+  <text x="540" y="144" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#f8f4ef">Your Store Gets</text>
+  <!-- Big contrast line -->
+  <text x="300" y="226" text-anchor="middle" font-family="Georgia, serif" font-size="76" font-weight="bold" fill="url(#redgrad)" filter="url(#glow)">Traffic.</text>
+  <text x="780" y="226" text-anchor="middle" font-family="Georgia, serif" font-size="76" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Not Sales.</text>
+  <text x="540" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#888">Here's exactly why — and how to fix it.</text>
+
+  <!-- Gold rule -->
+  <rect x="160" y="300" width="760" height="2" fill="url(#gold)" rx="1" opacity="0.4"/>
+
+  <!-- Dashboard mockup -->
+  <rect x="60" y="322" width="960" height="280" rx="16" fill="#080c18" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Header bar of dashboard -->
+  <rect x="60" y="322" width="960" height="40" rx="12" fill="#0d1420"/>
+  <circle cx="90" cy="342" r="6" fill="#ff4444" opacity="0.7"/>
+  <circle cx="112" cy="342" r="6" fill="#ffaa00" opacity="0.7"/>
+  <circle cx="134" cy="342" r="6" fill="#00cc55" opacity="0.7"/>
+  <text x="540" y="348" text-anchor="middle" font-family="Arial" font-size="12" fill="#555" letter-spacing="1">YOUR SHOPIFY ANALYTICS · THIS MONTH</text>
+
+  <!-- 4 stat tiles in dashboard -->
+  <rect x="90" y="378" width="198" height="96" rx="10" fill="#0a0e1c" stroke="#333" stroke-width="1"/>
+  <text x="189" y="406" text-anchor="middle" font-family="Arial" font-size="11" fill="#555" letter-spacing="1">SESSIONS</text>
+  <text x="189" y="444" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#f8f4ef">24,800</text>
+  <text x="189" y="464" text-anchor="middle" font-family="Arial" font-size="11" fill="#00cc55">↑ 18% this month</text>
+
+  <rect x="304" y="378" width="198" height="96" rx="10" fill="#0a0e1c" stroke="#333" stroke-width="1"/>
+  <text x="403" y="406" text-anchor="middle" font-family="Arial" font-size="11" fill="#555" letter-spacing="1">ADD TO CART</text>
+  <text x="403" y="444" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#f8f4ef">1,240</text>
+  <text x="403" y="464" text-anchor="middle" font-family="Arial" font-size="11" fill="#00cc55">↑ 12% this month</text>
+
+  <rect x="518" y="378" width="198" height="96" rx="10" fill="#100508" stroke="#ff4444" stroke-width="1.5"/>
+  <text x="617" y="406" text-anchor="middle" font-family="Arial" font-size="11" fill="#ff4444" letter-spacing="1">ORDERS</text>
+  <text x="617" y="444" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#ff4444">48</text>
+  <text x="617" y="464" text-anchor="middle" font-family="Arial" font-size="11" fill="#ff4444">↓ 0.19% CVR</text>
+
+  <rect x="732" y="378" width="258" height="96" rx="10" fill="#100508" stroke="#ff4444" stroke-width="1.5"/>
+  <text x="861" y="406" text-anchor="middle" font-family="Arial" font-size="11" fill="#ff4444" letter-spacing="1">REVENUE</text>
+  <text x="861" y="444" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#ff4444">$4,320</text>
+  <text x="861" y="464" text-anchor="middle" font-family="Arial" font-size="11" fill="#ff4444">Should be $40,000+</text>
+
+  <!-- Problem callout bar -->
+  <rect x="90" y="488" width="900" height="94" rx="10" fill="#0d0510" stroke="#ff4444" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="540" y="522" text-anchor="middle" font-family="Arial" font-size="14" fill="#ff4444">⚠  24,800 visitors. Only 48 bought. That's 24,752 lost customers this month.</text>
+  <text x="540" y="548" text-anchor="middle" font-family="Arial" font-size="13" fill="#666">Your traffic is real. Your funnel is broken. This is a fixable problem.</text>
+  <text x="540" y="570" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">Avg lost revenue at $90 AOV: <tspan fill="#ff4444" font-weight="bold">$2,227,680</tspan> per year</text>
+
+  <!-- 3 root causes -->
+  <text x="540" y="644" text-anchor="middle" font-family="Arial" font-size="12" fill="#c9a84c" letter-spacing="2">THE 3 REASONS YOUR D2C STORE DOESN'T CONVERT</text>
+
+  <rect x="60" y="660" width="300" height="118" rx="12" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="210" y="696" text-anchor="middle" font-family="Arial" font-size="26">❌</text>
+  <text x="210" y="724" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#f8f4ef">Wrong Traffic</text>
+  <text x="210" y="746" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Ads reaching browsers,</text>
+  <text x="210" y="764" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">not buyers</text>
+
+  <rect x="390" y="660" width="300" height="118" rx="12" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="696" text-anchor="middle" font-family="Arial" font-size="26">❌</text>
+  <text x="540" y="724" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#f8f4ef">No Retargeting</text>
+  <text x="540" y="746" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">97% of first visitors</text>
+  <text x="540" y="764" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">never come back</text>
+
+  <rect x="720" y="660" width="300" height="118" rx="12" fill="#0a0e1c" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="870" y="696" text-anchor="middle" font-family="Arial" font-size="26">❌</text>
+  <text x="870" y="724" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#f8f4ef">Weak Ad Creative</text>
+  <text x="870" y="746" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">US buyers ignore</text>
+  <text x="870" y="764" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">generic product ads</text>
+
+  <!-- Fix it bar -->
+  <rect x="60" y="798" width="960" height="54" rx="12" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="540" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f8f4ef">We fix all three. <tspan fill="url(#gold)" font-weight="bold">Average result: 4.8× more revenue, same ad budget.</tspan></text>
+
+  <!-- CTA -->
+  <rect x="190" y="872" width="700" height="68" rx="34" fill="url(#gold)"/>
+  <text x="540" y="912" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1a2e">Fix My D2C Conversion →</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="962" width="1080" height="118" fill="#04060e"/>
+  <line x1="60" y1="976" x2="1020" y2="976" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1016" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS</text>
+  <text x="540" y="1040" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">Performance Marketing · Marketplace · Social Media · Store Development</text>
+  <text x="540" y="1062" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com/us/services/performance-marketing</text>
+</svg>

@@ -1,0 +1,155 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a14"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="50%" style="stop-color:#f5d98b"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </linearGradient>
+    <linearGradient id="chartfill1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4" stop-opacity="0.5"/>
+      <stop offset="100%" style="stop-color:#4285f4" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="chartfill2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1877f2" stop-opacity="0.5"/>
+      <stop offset="100%" style="stop-color:#1877f2" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="chartfill3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9900" stop-opacity="0.5"/>
+      <stop offset="100%" style="stop-color:#ff9900" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="34" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="400" rx="500" ry="360" fill="#96bf48" opacity="0.04" filter="url(#softglow)"/>
+
+  <!-- Top tag -->
+  <rect x="310" y="36" width="460" height="28" rx="14" fill="#96bf48" opacity="0.12" stroke="#96bf48" stroke-width="1"/>
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#96bf48" letter-spacing="2">SHOPIFY ANALYTICS PROOF · USA D2C · ALL BRAND TYPES</text>
+
+  <!-- Headline -->
+  <text x="540" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#f8f4ef">Watch Your Shopify</text>
+  <text x="540" y="166" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="url(#gold)" filter="url(#glow)">Numbers Climb.</text>
+  <text x="540" y="210" text-anchor="middle" font-family="Arial" font-size="16" fill="#888" letter-spacing="1">3-CHANNEL MANAGEMENT · GOOGLE + META + MARKETPLACE · $599/MO</text>
+
+  <!-- Gold rule -->
+  <rect x="100" y="230" width="880" height="2" fill="url(#gold)" rx="1" opacity="0.3"/>
+
+  <!-- Big Shopify dashboard -->
+  <rect x="60" y="250" width="960" height="520" rx="18" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <!-- Shopify header bar -->
+  <rect x="60" y="250" width="960" height="52" rx="16" fill="#f6f6f7"/>
+  <rect x="60" y="278" width="960" height="24" fill="#f6f6f7"/>
+  <circle cx="90" cy="272" r="7" fill="#ff5f57"/>
+  <circle cx="112" cy="272" r="7" fill="#ffbd2e"/>
+  <circle cx="134" cy="272" r="7" fill="#28c840"/>
+  <text x="540" y="278" text-anchor="middle" font-family="Arial" font-size="12" fill="#888">shopify.com/admin/analytics/dashboards</text>
+  <circle cx="990" cy="276" r="6" fill="#96bf48"/>
+  <text x="978" y="280" text-anchor="end" font-family="Arial" font-size="10" fill="#96bf48">LIVE</text>
+
+  <!-- Filter row -->
+  <rect x="80" y="316" width="148" height="28" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="154" y="334" text-anchor="middle" font-family="Arial" font-size="11" fill="#444">Last 30 days ∨</text>
+  <rect x="240" y="316" width="120" height="28" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <circle cx="256" cy="330" r="5" fill="#96bf48"/>
+  <text x="294" y="334" text-anchor="middle" font-family="Arial" font-size="11" fill="#444">248 now</text>
+  <rect x="892" y="316" width="108" height="28" rx="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="946" y="334" text-anchor="middle" font-family="Arial" font-size="11" fill="#444">⊞ Report</text>
+
+  <!-- Main KPIs -->
+  <text x="80" y="382" font-family="Arial" font-size="14" fill="#6b7177">Total sales</text>
+  <text x="80" y="434" font-family="Arial" font-size="52" font-weight="bold" fill="#1a1a1a">$124,840</text>
+  <text x="80" y="462" font-family="Arial" font-size="17" fill="#96bf48" font-weight="bold">↗ 312%</text>
+
+  <text x="660" y="382" font-family="Arial" font-size="13" fill="#6b7177">Orders</text>
+  <text x="660" y="418" font-family="Arial" font-size="34" font-weight="bold" fill="#1a1a1a">1,584</text>
+  <text x="660" y="442" font-family="Arial" font-size="13" fill="#96bf48">↗ 284%</text>
+
+  <text x="820" y="382" font-family="Arial" font-size="13" fill="#6b7177">Conversion</text>
+  <text x="820" y="418" font-family="Arial" font-size="34" font-weight="bold" fill="#1a1a1a">4.8%</text>
+  <text x="820" y="442" font-family="Arial" font-size="13" fill="#96bf48">↗ 140%</text>
+
+  <!-- Traffic source bars -->
+  <text x="80" y="494" font-family="Arial" font-size="12" fill="#6b7177">Traffic Sources</text>
+
+  <!-- Google bar -->
+  <rect x="80" y="504" width="800" height="22" rx="6" fill="#f0f0f0"/>
+  <rect x="80" y="504" width="360" height="22" rx="6" fill="#4285f4" opacity="0.7"/>
+  <text x="80" y="498" font-family="Arial" font-size="11" fill="#4285f4">Google · 45%</text>
+  <text x="450" y="520" text-anchor="end" font-family="Arial" font-size="11" fill="#fff">$56,178</text>
+
+  <!-- Meta bar -->
+  <rect x="80" y="534" width="800" height="22" rx="6" fill="#f0f0f0"/>
+  <rect x="80" y="534" width="272" height="22" rx="6" fill="#1877f2" opacity="0.7"/>
+  <text x="80" y="528" font-family="Arial" font-size="11" fill="#1877f2">Meta · 34%</text>
+  <text x="362" y="550" text-anchor="end" font-family="Arial" font-size="11" fill="#fff">$42,446</text>
+
+  <!-- Amazon bar -->
+  <rect x="80" y="564" width="800" height="22" rx="6" fill="#f0f0f0"/>
+  <rect x="80" y="564" width="152" height="22" rx="6" fill="#ff9900" opacity="0.7"/>
+  <text x="80" y="558" font-family="Arial" font-size="11" fill="#ff9900">Marketplace · 19%</text>
+  <text x="242" y="580" text-anchor="end" font-family="Arial" font-size="11" fill="#fff">$23,720</text>
+
+  <!-- Organic bar -->
+  <rect x="80" y="594" width="800" height="22" rx="6" fill="#f0f0f0"/>
+  <rect x="80" y="594" width="16" height="22" rx="6" fill="#96bf48" opacity="0.7"/>
+  <text x="80" y="588" font-family="Arial" font-size="11" fill="#555">Organic · 2%</text>
+
+  <!-- Heritage marker -->
+  <line x1="80" y1="632" x2="160" y2="632" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="170" y="636" font-family="Arial" font-size="10" fill="#c9a84c">HERITAGE MANAGES ALL 3 PAID CHANNELS ↑</text>
+
+  <!-- Order tiles -->
+  <rect x="80" y="648" width="200" height="52" rx="8" fill="#f6f6f7" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="180" y="676" text-anchor="middle" font-family="Arial" font-size="13" fill="#444">📦 50+ Orders to fulfill</text>
+
+  <rect x="296" y="648" width="200" height="52" rx="8" fill="#f6f6f7" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="396" y="676" text-anchor="middle" font-family="Arial" font-size="13" fill="#444">💳 28 Payments</text>
+
+  <rect x="512" y="648" width="200" height="52" rx="8" fill="#c9a84c" opacity="0.12" stroke="#c9a84c" stroke-width="1"/>
+  <text x="612" y="676" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#c9a84c">✦ Managed by Heritage</text>
+
+  <rect x="728" y="648" width="272" height="52" rx="8" fill="#f6f6f7" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="864" y="668" text-anchor="middle" font-family="Arial" font-size="13" fill="#444">ROAS this period</text>
+  <text x="864" y="690" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#96bf48">6.4× average</text>
+
+  <!-- 4 stat highlights -->
+  <rect x="60" y="790" width="220" height="80" rx="12" fill="#0d1420" stroke="#96bf48" stroke-width="1.5"/>
+  <text x="170" y="816" text-anchor="middle" font-family="Arial" font-size="9" fill="#96bf48" letter-spacing="1">30-DAY REVENUE</text>
+  <text x="170" y="856" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#96bf48" filter="url(#glow)">$124K</text>
+
+  <rect x="300" y="790" width="220" height="80" rx="12" fill="#0d1420" stroke="#f5d98b" stroke-width="1.5"/>
+  <text x="410" y="816" text-anchor="middle" font-family="Arial" font-size="9" fill="#f5d98b" letter-spacing="1">GROWTH</text>
+  <text x="410" y="856" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="url(#gold)">+312%</text>
+
+  <rect x="540" y="790" width="220" height="80" rx="12" fill="#0d1420" stroke="#4285f4" stroke-width="1.5"/>
+  <text x="650" y="816" text-anchor="middle" font-family="Arial" font-size="9" fill="#4285f4" letter-spacing="1">TOTAL ORDERS</text>
+  <text x="650" y="856" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#f8f4ef">1,584</text>
+
+  <rect x="780" y="790" width="240" height="80" rx="12" fill="#0d1420" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="900" y="816" text-anchor="middle" font-family="Arial" font-size="9" fill="#c9a84c" letter-spacing="1">MGMT COST</text>
+  <text x="900" y="856" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="url(#gold)">$599/mo</text>
+
+  <!-- CTA -->
+  <rect x="190" y="892" width="700" height="64" rx="32" fill="url(#gold)"/>
+  <text x="540" y="930" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1a1a2e">See Your Shopify Numbers Grow → $599/Month</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="978" width="1080" height="102" fill="#04060e"/>
+  <line x1="60" y1="992" x2="1020" y2="992" stroke="#c9a84c" stroke-width="1" opacity="0.1"/>
+  <text x="540" y="1036" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a84c">HERITAGE APPARELS · $599/MONTH</text>
+  <text x="540" y="1058" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">heritageapparels.com · Clothing · Footwear · Beauty · Home · B2B</text>
+</svg>
