@@ -1,13 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 const WHATSAPP_NUMBER = '917889909135';
 
 export default function WhatsAppWidget() {
-  const [visible, setVisible] = useState(false);
-  const [tooltip, setTooltip] = useState(true);
+  const [tooltipDismissed, setTooltipDismissed] = useState(false);
   const pathname = usePathname();
   const isUS = pathname?.startsWith('/us');
 
@@ -15,48 +14,132 @@ export default function WhatsAppWidget() {
     ? "Hi! I'm interested in Heritage Apparels' US services (India sourcing / marketplace management). Can we connect?"
     : 'नमस्ते! मुझे Heritage Apparels की services के बारे में जानना है। क्या हम बात कर सकते हैं?';
 
-  useEffect(() => {
-    const timer = setTimeout(() => setVisible(true), 2000);
-    const tooltipTimer = setTimeout(() => setTooltip(false), 6000);
-    return () => {
-      clearTimeout(timer);
-      clearTimeout(tooltipTimer);
-    };
-  }, []);
-
-  if (!visible) return null;
-
   const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div
+      style={{
+        position: 'fixed',
+        bottom: 24,
+        right: 24,
+        zIndex: 8000,          /* below mobile menu (9999) but above everything else */
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flex-end',
+        gap: 10,
+        pointerEvents: 'auto',
+      }}
+    >
       {/* Tooltip bubble */}
-      {tooltip && (
-        <div className="bg-white text-gray-800 text-sm font-medium px-4 py-3 rounded-2xl rounded-br-sm shadow-xl max-w-[200px] leading-snug animate-fade-in">
+      {!tooltipDismissed && (
+        <div
+          style={{
+            position: 'relative',
+            background: '#fff',
+            color: '#1a1a2e',
+            fontSize: 13,
+            fontWeight: 600,
+            padding: '10px 14px',
+            borderRadius: '14px 14px 4px 14px',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.18)',
+            maxWidth: 190,
+            lineHeight: 1.4,
+            whiteSpace: 'nowrap',
+            animation: 'waFadeIn 0.4s ease forwards',
+          }}
+        >
           {isUS ? '💬 Chat with our US team' : '💬 Chat with us on WhatsApp'}
-          <div className="absolute -bottom-2 right-6 w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white" />
+          {/* Dismiss X */}
+          <button
+            onClick={() => setTooltipDismissed(true)}
+            aria-label="Dismiss"
+            style={{
+              position: 'absolute',
+              top: -6,
+              right: -6,
+              width: 18,
+              height: 18,
+              borderRadius: '50%',
+              background: '#aaa',
+              color: '#fff',
+              border: 'none',
+              fontSize: 10,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              lineHeight: 1,
+              padding: 0,
+            }}
+          >
+            ✕
+          </button>
         </div>
       )}
 
-      {/* Button */}
+      {/* WhatsApp Button */}
       <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-        className="relative w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-200"
-        style={{ backgroundColor: '#25D366' }}
-        onClick={() => setTooltip(false)}
+        onClick={() => setTooltipDismissed(true)}
+        style={{
+          position: 'relative',
+          width: 60,
+          height: 60,
+          borderRadius: '50%',
+          backgroundColor: '#25D366',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          boxShadow: '0 4px 24px rgba(37,211,102,0.45)',
+          textDecoration: 'none',
+          flexShrink: 0,
+          touchAction: 'manipulation',
+          WebkitTapHighlightColor: 'transparent',
+          transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+        }}
+        onMouseEnter={(e) => {
+          (e.currentTarget as HTMLElement).style.transform = 'scale(1.1)';
+          (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 28px rgba(37,211,102,0.6)';
+        }}
+        onMouseLeave={(e) => {
+          (e.currentTarget as HTMLElement).style.transform = 'scale(1)';
+          (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 24px rgba(37,211,102,0.45)';
+        }}
       >
         {/* Pulse ring */}
         <span
-          className="absolute inset-0 rounded-full animate-ping opacity-30"
-          style={{ backgroundColor: '#25D366' }}
+          style={{
+            position: 'absolute',
+            inset: 0,
+            borderRadius: '50%',
+            backgroundColor: '#25D366',
+            animation: 'waPulse 2s ease-out infinite',
+            opacity: 0,
+          }}
         />
-        <svg viewBox="0 0 24 24" className="w-7 h-7 fill-white relative z-10">
+        {/* WhatsApp icon */}
+        <svg
+          viewBox="0 0 24 24"
+          style={{ width: 30, height: 30, fill: '#fff', position: 'relative', zIndex: 1 }}
+        >
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
         </svg>
       </a>
+
+      <style>{`
+        @keyframes waPulse {
+          0%   { transform: scale(1);   opacity: 0.5; }
+          70%  { transform: scale(1.6); opacity: 0; }
+          100% { transform: scale(1.6); opacity: 0; }
+        }
+        @keyframes waFadeIn {
+          from { opacity: 0; transform: translateY(6px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
     </div>
   );
 }
