@@ -192,8 +192,8 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="mt-8">
               <h4 className="text-cream/40 text-xs uppercase tracking-wider mb-3">Contact</h4>
-              <a href="tel:+919876543210" className="text-gold text-sm block mb-1 hover:underline">
-                +91 98765 43210
+              <a href="tel:+917889909135" className="text-gold text-sm block mb-1 hover:underline">
+                +91 78899 09135
               </a>
               <a href="mailto:hello@heritageapparels.com" className="text-cream/60 text-sm hover:text-gold transition-colors">
                 hello@heritageapparels.com

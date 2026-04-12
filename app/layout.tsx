@@ -107,7 +107,7 @@ const organizationSchema = {
   url: siteUrl,
   logo: `${siteUrl}/logo.png`,
   image: `${siteUrl}/og-image.jpg`,
-  telephone: '+91-98765-43210',
+  telephone: '+91-78899-09135',
   email: 'hello@heritageapparels.com',
   address: {
     '@type': 'PostalAddress',

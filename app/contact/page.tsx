@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 };
 
 const contactInfo = [
-  { icon: '📞', label: 'Call Us', primary: '+91 98765 43210', secondary: 'Mon–Sat, 9am–7pm IST', href: 'tel:+919876543210' },
+  { icon: '📞', label: 'Call Us', primary: '+91 78899 09135', secondary: 'Mon–Sat, 9am–7pm IST', href: 'tel:+917889909135' },
   { icon: '📧', label: 'Email Us', primary: 'hello@heritageapparels.com', secondary: 'Response within 24 hours', href: 'mailto:hello@heritageapparels.com' },
-  { icon: '💬', label: 'WhatsApp', primary: '+91 98765 43210', secondary: 'Quick responses, chat with our team', href: 'https://wa.me/919876543210' },
+  { icon: '💬', label: 'WhatsApp', primary: '+91 78899 09135', secondary: 'Quick responses, chat with our team', href: 'https://wa.me/917889909135' },
   { icon: '📍', label: 'Studio', primary: 'Andheri West, Mumbai 400053', secondary: 'By appointment only', href: null },
 ];
 
 const officeLocations = [
-  { city: 'Mumbai', address: 'Studio 12, Creative Hub, Andheri West, Mumbai 400053', phone: '+91 98765 43210', type: 'HQ & Primary Studio' },
+  { city: 'Mumbai', address: 'Studio 12, Creative Hub, Andheri West, Mumbai 400053', phone: '+91 78899 09135', type: 'HQ & Primary Studio' },
   { city: 'Delhi', address: 'Level 4, Worldmark 1, Aerocity, New Delhi 110037', phone: '+91 11 4567 8900', type: 'North India Operations' },
   { city: 'Bangalore', address: 'Indiqube Edge, Whitefield, Bangalore 560066', phone: '+91 80 4567 8900', type: 'South India Operations' },
 ];
@@ -30,7 +30,7 @@ export default function ContactPage() {
     mainEntity: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      telephone: '+91-98765-43210',
+      telephone: '+91-78899-09135',
       email: 'hello@heritageapparels.com',
       address: {
         '@type': 'PostalAddress',

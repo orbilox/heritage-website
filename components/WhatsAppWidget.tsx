@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
-const WHATSAPP_NUMBER = '919876543210'; // Replace with real number
+const WHATSAPP_NUMBER = '917889909135';
 
 export default function WhatsAppWidget() {
   const [visible, setVisible] = useState(false);

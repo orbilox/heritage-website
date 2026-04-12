@@ -154,7 +154,7 @@ export default function ContactForm({ compact = false }: ContactFormProps) {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              placeholder="+91 98765 43210"
+              placeholder="+91 78899 09135"
               className="form-input"
             />
           </div>

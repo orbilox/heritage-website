@@ -448,8 +448,8 @@ export default function Header() {
           {/* ── Contact info ── */}
           <div style={{ marginTop: 24, paddingTop: 20, borderTop: '1px solid rgba(201,168,76,0.1)' }}>
             <p style={{ color: 'rgba(248,244,239,0.4)', fontSize: 12, marginBottom: 8 }}>Get in touch</p>
-            <a href="tel:+919876543210" style={{ color: '#c9a84c', fontWeight: 600, display: 'block', marginBottom: 6, fontSize: 15, textDecoration: 'none' }}>
-              +91 98765 43210
+            <a href="tel:+917889909135" style={{ color: '#c9a84c', fontWeight: 600, display: 'block', marginBottom: 6, fontSize: 15, textDecoration: 'none' }}>
+              +91 78899 09135
             </a>
             <a href={`mailto:${isUS ? 'usa@heritageapparels.com' : 'hello@heritageapparels.com'}`} style={{ color: 'rgba(248,244,239,0.6)', fontSize: 13, textDecoration: 'none' }}>
               {isUS ? 'usa@heritageapparels.com' : 'hello@heritageapparels.com'}

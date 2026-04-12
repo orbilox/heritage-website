@@ -346,7 +346,7 @@ export default async function HomePage() {
               {/* Contact details */}
               <div className="space-y-4">
                 {[
-                  { icon: '📞', label: 'Call Us', value: '+91 98765 43210', href: 'tel:+919876543210' },
+                  { icon: '📞', label: 'Call Us', value: '+91 78899 09135', href: 'tel:+917889909135' },
                   { icon: '📧', label: 'Email Us', value: 'hello@heritageapparels.com', href: 'mailto:hello@heritageapparels.com' },
                   { icon: '📍', label: 'Studio', value: 'Andheri West, Mumbai — Pan-India Service', href: null },
                   { icon: '⏰', label: 'Hours', value: 'Mon–Fri: 9am–7pm | Sat: 10am–5pm', href: null },

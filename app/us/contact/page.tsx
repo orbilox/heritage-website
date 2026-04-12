@@ -54,7 +54,7 @@ export default function USContactPage() {
               <div className="space-y-5 mb-10">
                 {[
                   { icon: '📧', label: 'Email (US Inquiries)', value: 'usa@heritageapparels.com', href: 'mailto:usa@heritageapparels.com' },
-                  { icon: '📞', label: 'WhatsApp / Call (India)', value: '+91 98765 43210', href: 'tel:+919876543210' },
+                  { icon: '📞', label: 'WhatsApp / Call (India)', value: '+91 78899 09135', href: 'tel:+917889909135' },
                   { icon: '⏰', label: 'Response Time', value: 'Within 12 hours · EST timezone support', href: null },
                   { icon: '🕐', label: 'Business Hours (IST)', value: 'Mon–Fri 9am–7pm · Sat 10am–5pm', href: null },
                 ].map((item) => (
