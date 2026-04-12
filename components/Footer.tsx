@@ -70,6 +70,7 @@ const quickLinks = [
   { name: 'Pricing', href: '/pricing' },
   { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Sitemap', href: '/sitemap-html' },
   { name: 'Privacy Policy', href: '/privacy' },
 ];
 
@@ -284,10 +285,17 @@ export default function Footer() {
           <p className="text-cream/40 text-xs text-center sm:text-left">
             © {new Date().getFullYear()} Heritage Apparels. All rights reserved. Founded by <span className="text-cream/60">Rajiv Kumar</span>.
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap justify-center sm:justify-end">
             <span className="text-cream/30 text-xs">Pan-India Service</span>
             <span className="text-gold/30">|</span>
             <span className="text-cream/30 text-xs">Mumbai · Delhi · Bangalore</span>
+            <span className="text-gold/30">|</span>
+            <Link href="/sitemap-html" className="text-cream/40 hover:text-gold text-xs transition-colors">
+              Sitemap
+            </Link>
+            <Link href="/robots.txt" className="text-cream/40 hover:text-gold text-xs transition-colors">
+              robots.txt
+            </Link>
           </div>
         </div>
       </div>
