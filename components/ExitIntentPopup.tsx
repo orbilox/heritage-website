@@ -83,20 +83,40 @@ export default function ExitIntentPopup() {
 
       {/* Modal */}
       <div className="fixed inset-0 z-[101] flex items-center justify-center p-4 pointer-events-none">
-        <div className="bg-[#13131f] border border-gold/20 rounded-2xl shadow-2xl w-full max-w-lg pointer-events-auto overflow-hidden">
+        <div className="relative bg-[#13131f] border border-gold/20 rounded-2xl shadow-2xl w-full max-w-lg pointer-events-auto overflow-hidden">
 
           {/* Gold top bar */}
           <div className="h-1 w-full bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500" />
 
-          <div className="p-8">
-            {/* Close */}
-            <button
-              onClick={() => setOpen(false)}
-              className="absolute top-4 right-4 text-cream/40 hover:text-cream transition-colors text-2xl leading-none"
-              aria-label="Close"
-            >
-              ×
-            </button>
+          {/* Close button — positioned relative to modal card */}
+          <button
+            onClick={() => setOpen(false)}
+            aria-label="Close"
+            style={{
+              position: 'absolute',
+              top: 12,
+              right: 12,
+              width: 36,
+              height: 36,
+              borderRadius: '50%',
+              background: 'rgba(255,255,255,0.08)',
+              border: '1px solid rgba(201,168,76,0.2)',
+              color: 'rgba(248,244,239,0.7)',
+              fontSize: 20,
+              lineHeight: 1,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer',
+              touchAction: 'manipulation',
+              WebkitTapHighlightColor: 'transparent',
+              zIndex: 10,
+            }}
+          >
+            ×
+          </button>
+
+          <div className="p-8 pt-10">
 
             {submitted ? (
               <div className="text-center py-6">
