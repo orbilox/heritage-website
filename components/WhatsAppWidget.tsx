@@ -1,14 +1,30 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
 const WHATSAPP_NUMBER = '917889909135';
 
 export default function WhatsAppWidget() {
-  const [tooltipDismissed, setTooltipDismissed] = useState(false);
+  const [tooltipVisible, setTooltipVisible] = useState(true);
   const pathname = usePathname();
   const isUS = pathname?.startsWith('/us');
+
+  // Loop: show 2s → hide 5s → show 2s → hide 5s ...
+  useEffect(() => {
+    let timeout: ReturnType<typeof setTimeout>;
+
+    const cycle = (showing: boolean) => {
+      const duration = showing ? 2000 : 5000;
+      timeout = setTimeout(() => {
+        setTooltipVisible(!showing);
+        cycle(!showing);
+      }, duration);
+    };
+
+    cycle(true); // currently showing, schedule hide after 2s
+    return () => clearTimeout(timeout);
+  }, []);
 
   const message = isUS
     ? "Hi! I'm interested in Heritage Apparels' US services (India sourcing / marketplace management). Can we connect?"
@@ -30,52 +46,28 @@ export default function WhatsAppWidget() {
         pointerEvents: 'auto',
       }}
     >
-      {/* Tooltip bubble */}
-      {!tooltipDismissed && (
-        <div
-          style={{
-            position: 'relative',
-            background: '#fff',
-            color: '#1a1a2e',
-            fontSize: 13,
-            fontWeight: 600,
-            padding: '10px 14px',
-            borderRadius: '14px 14px 4px 14px',
-            boxShadow: '0 4px 20px rgba(0,0,0,0.18)',
-            maxWidth: 190,
-            lineHeight: 1.4,
-            whiteSpace: 'nowrap',
-            animation: 'waFadeIn 0.4s ease forwards',
-          }}
-        >
-          {isUS ? '💬 Chat with our US team' : '💬 Chat with us on WhatsApp'}
-          {/* Dismiss X */}
-          <button
-            onClick={() => setTooltipDismissed(true)}
-            aria-label="Dismiss"
-            style={{
-              position: 'absolute',
-              top: -6,
-              right: -6,
-              width: 18,
-              height: 18,
-              borderRadius: '50%',
-              background: '#aaa',
-              color: '#fff',
-              border: 'none',
-              fontSize: 10,
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              lineHeight: 1,
-              padding: 0,
-            }}
-          >
-            ✕
-          </button>
-        </div>
-      )}
+      {/* Tooltip bubble — loops: 2s visible, 5s hidden */}
+      <div
+        style={{
+          position: 'relative',
+          background: '#fff',
+          color: '#1a1a2e',
+          fontSize: 13,
+          fontWeight: 600,
+          padding: '10px 14px',
+          borderRadius: '14px 14px 4px 14px',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.18)',
+          maxWidth: 190,
+          lineHeight: 1.4,
+          whiteSpace: 'nowrap',
+          opacity: tooltipVisible ? 1 : 0,
+          transform: tooltipVisible ? 'translateY(0)' : 'translateY(6px)',
+          transition: 'opacity 0.35s ease, transform 0.35s ease',
+          pointerEvents: 'none',
+        }}
+      >
+        {isUS ? '💬 Chat with our US team' : '💬 Chat with us on WhatsApp'}
+      </div>
 
       {/* WhatsApp Button */}
       <a
@@ -83,7 +75,6 @@ export default function WhatsAppWidget() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-        onClick={() => setTooltipDismissed(true)}
         style={{
           position: 'relative',
           width: 60,
