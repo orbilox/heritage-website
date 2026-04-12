@@ -10,15 +10,23 @@ export default function WhatsAppWidget() {
   const pathname = usePathname();
   const isUS = pathname?.startsWith('/us');
 
-  // Say "Hello" via Web Speech API
+  // Say "Hello" via Web Speech API using a female voice
   const sayHello = () => {
     if (typeof window === 'undefined' || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance('Hello');
     utter.lang   = 'en-US';
-    utter.pitch  = 1.1;
+    utter.pitch  = 1.3;   // higher pitch = more feminine
     utter.rate   = 0.95;
     utter.volume = 1;
+
+    // Pick a female voice if available
+    const voices = window.speechSynthesis.getVoices();
+    const femaleVoice = voices.find((v) =>
+      /female|woman|girl|zira|samantha|victoria|karen|moira|fiona|susan|catherine|kate|lisa|amy|emma|joanna|salli|kimberly|kendra|ivy|aria|jenny|ana/i.test(v.name)
+    );
+    if (femaleVoice) utter.voice = femaleVoice;
+
     window.speechSynthesis.speak(utter);
   };
 
