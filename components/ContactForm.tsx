@@ -2,13 +2,6 @@
 
 import { useState } from 'react';
 
-// ── Zoho CRM credentials ──────────────────────────────────────────
-const ZOHO_ACTION    = 'https://crm.zoho.in/crm/WebToLeadForm';
-const ZOHO_xnQsjsdp = 'e9703cfe651335218f44f87e3b8b1e8e7de2abfa670d4095a27e0b5e1d71507d';
-const ZOHO_xmIwtLD  = '1d770236f69ca18d5e5a93b7af498f9cfdda1b0f0dfee64ca92e2a4b3ac67e5a1cff121b5a0767bbd0c67fd99700978e';
-const ZOHO_RETURN   = 'https://www.heritageapparels.com/';
-// ─────────────────────────────────────────────────────────────────
-
 interface FormData {
   name: string;
   email: string;
@@ -42,51 +35,6 @@ interface ContactFormProps {
   compact?: boolean;
 }
 
-/** Submit lead to Zoho CRM in background via hidden iframe — no page redirect */
-function submitToZoho(data: FormData, source: string) {
-  if (typeof window === 'undefined') return;
-
-  const description = [
-    `Source: ${source}`,
-    data.service ? `Service: ${data.service}` : '',
-    data.budget  ? `Budget: ${data.budget}`   : '',
-    data.message ? `Message: ${data.message}` : '',
-  ].filter(Boolean).join('\n');
-
-  const fields: Record<string, string> = {
-    xnQsjsdp:   ZOHO_xnQsjsdp,
-    zc_gad:     '',
-    xmIwtLD:    ZOHO_xmIwtLD,
-    actionType: 'TGVhZHM=',
-    returnURL:  ZOHO_RETURN,
-    'Last Name': data.name,
-    Email:       data.email,
-    Phone:       data.phone,
-    Company:     data.company || data.name,
-    'Lead Source': 'Online Store',
-    Description:   description,
-    aG9uZXlwb3Q:  '',
-  };
-
-  const form = document.createElement('form');
-  form.method = 'POST';
-  form.action = ZOHO_ACTION;
-  form.target = 'zoho_iframe';
-  form.style.display = 'none';
-
-  Object.entries(fields).forEach(([name, value]) => {
-    const input = document.createElement('input');
-    input.type  = 'hidden';
-    input.name  = name;
-    input.value = value;
-    form.appendChild(input);
-  });
-
-  document.body.appendChild(form);
-  form.submit();
-  setTimeout(() => document.body.removeChild(form), 3000);
-}
-
 export default function ContactForm({ compact = false }: ContactFormProps) {
   const [formData, setFormData] = useState<FormData>({
     name: '', email: '', phone: '', company: '',
@@ -102,11 +50,19 @@ export default function ContactForm({ compact = false }: ContactFormProps) {
     e.preventDefault();
     setStatus('loading');
 
-    // Submit to Zoho CRM in background (hidden iframe — no page redirect)
-    submitToZoho(formData, 'Heritage India Website');
+    try {
+      await fetch('/api/contact', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          source: 'Heritage India Website',
+        }),
+      });
+    } catch {
+      // Silent — show success regardless so UX isn't blocked
+    }
 
-    // Small delay for UX, then show success
-    await new Promise((r) => setTimeout(r, 800));
     setStatus('success');
     setFormData({ name: '', email: '', phone: '', company: '', service: '', budget: '', message: '' });
   };
@@ -134,11 +90,7 @@ export default function ContactForm({ compact = false }: ContactFormProps) {
   }
 
   return (
-    <>
-      {/* Hidden iframe — catches Zoho redirect so page stays intact */}
-      <iframe name="zoho_iframe" title="zoho" style={{ display: 'none' }} />
-
-      <form onSubmit={handleSubmit} className="space-y-5">
+    <form onSubmit={handleSubmit} className="space-y-5">
         {/* Row 1: Name + Email */}
         <div className={`grid gap-4 ${compact ? 'grid-cols-1' : 'grid-cols-1 sm:grid-cols-2'}`}>
           <div>
@@ -214,7 +166,6 @@ export default function ContactForm({ compact = false }: ContactFormProps) {
         <p className="text-cream/30 text-xs text-center">
           Your information is 100% confidential. NDA available on request. We respond within 24 hours.
         </p>
-      </form>
-    </>
+    </form>
   );
 }

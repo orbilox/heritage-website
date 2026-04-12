@@ -37,6 +37,36 @@ export async function POST(request: NextRequest) {
       status: 'new',
     });
 
+    // Submit to Zoho CRM server-side (non-blocking, avoids CORS/iframe issues)
+    const zohoDescription = [
+      `Source: ${source || 'Heritage Website'}`,
+      service  ? `Service: ${service}`   : '',
+      budget   ? `Budget: ${budget}`     : '',
+      message  ? `Message: ${message}`   : '',
+    ].filter(Boolean).join('\n');
+
+    const zohoParams = new URLSearchParams({
+      xnQsjsdp:     'e9703cfe651335218f44f87e3b8b1e8e7de2abfa670d4095a27e0b5e1d71507d',
+      zc_gad:       '',
+      xmIwtLD:      '1d770236f69ca18d5e5a93b7af498f9cfdda1b0f0dfee64ca92e2a4b3ac67e5a1cff121b5a0767bbd0c67fd99700978e',
+      actionType:   'TGVhZHM=',
+      returnURL:    'https://www.heritageapparels.com/',
+      'Last Name':  name,
+      Email:        email || '',
+      Phone:        phone || '',
+      Company:      company || name,
+      'Lead Source': 'Online Store',
+      Description:  zohoDescription,
+      aG9uZXlwb3Q: '',
+    });
+
+    // Submit to Zoho CRM (non-blocking)
+    fetch('https://crm.zoho.in/crm/WebToLeadForm', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body:    zohoParams.toString(),
+    }).catch(console.error);
+
     // Send notification email to team (non-blocking)
     if (process.env.CONTACT_EMAIL_TO && process.env.SMTP_USER) {
       const notificationHtml = generateLeadNotificationEmail({
