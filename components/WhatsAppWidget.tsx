@@ -10,15 +10,31 @@ export default function WhatsAppWidget() {
   const pathname = usePathname();
   const isUS = pathname?.startsWith('/us');
 
+  // Say "Hello" via Web Speech API
+  const sayHello = () => {
+    if (typeof window === 'undefined' || !window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance('Hello');
+    utter.lang   = 'en-US';
+    utter.pitch  = 1.1;
+    utter.rate   = 0.95;
+    utter.volume = 1;
+    window.speechSynthesis.speak(utter);
+  };
+
   // Loop: show 2s → hide 5s → show 2s → hide 5s ...
   useEffect(() => {
     let timeout: ReturnType<typeof setTimeout>;
 
+    sayHello(); // say Hello on first show
+
     const cycle = (showing: boolean) => {
       const duration = showing ? 2000 : 5000;
       timeout = setTimeout(() => {
-        setTooltipVisible(!showing);
-        cycle(!showing);
+        const nextShowing = !showing;
+        setTooltipVisible(nextShowing);
+        if (nextShowing) sayHello(); // say Hello each time tooltip appears
+        cycle(nextShowing);
       }, duration);
     };
 
