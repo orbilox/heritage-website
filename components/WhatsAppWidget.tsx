@@ -14,7 +14,7 @@ export default function WhatsAppWidget() {
   const sayHello = () => {
     if (typeof window === 'undefined' || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance('Hello');
+    const utter = new SpeechSynthesisUtterance('Consult on WhatsApp');
     utter.lang   = 'en-US';
     utter.pitch  = 1.3;   // higher pitch = more feminine
     utter.rate   = 0.95;
