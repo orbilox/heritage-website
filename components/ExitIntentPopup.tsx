@@ -75,14 +75,14 @@ export default function ExitIntentPopup() {
 
   return (
     <>
-      {/* Backdrop */}
+      {/* Backdrop — must be above header (z-[10000]) and mobile menu (z-9999) */}
       <div
-        className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[100]"
+        className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[10001]"
         onClick={() => setOpen(false)}
       />
 
       {/* Modal */}
-      <div className="fixed inset-0 z-[101] flex items-center justify-center p-4 pointer-events-none">
+      <div className="fixed inset-0 z-[10002] flex items-center justify-center p-4 pointer-events-none">
         <div className="relative bg-[#13131f] border border-gold/20 rounded-2xl shadow-2xl w-full max-w-lg pointer-events-auto overflow-hidden">
 
           {/* Gold top bar */}
