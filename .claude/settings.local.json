@@ -17,7 +17,9 @@
       "Read(//mnt/c/Users/LEADIN~2/AppData/Local/Temp/claude/C--Users-Leadingedge1-Desktop-Dheeraj-Dheeraj/ff87c403-db28-4d64-b912-fed9b23a5549/tasks/**)",
       "Read(//tmp/**)",
       "Bash(gh auth:*)",
-      "Bash(start cmd:*)"
+      "Bash(start cmd:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)"
     ]
   }
 }
