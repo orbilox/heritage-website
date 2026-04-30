@@ -879,6 +879,248 @@ export const usBlogPosts: USBlogPost[] = [
 <p>This landed cost must fit within your desired margin before Amazon fees, advertising, and returns. For a product selling at $35 on Amazon with 17% referral fee ($5.95) and $4.50 FBA fee, your gross margin per unit is $35 - $14.60 - $5.95 - $4.50 = $9.95 (28% gross margin). Factor in advertising (typically $5–8/unit for new brands) and you're at 9–11% net margin — viable but requiring careful execution.</p>
 <p>Our <a href="/us/services/manufacturing-sourcing">US sourcing service</a> includes landed cost modelling for every client — we help you build pricing that delivers target margins after all import, fulfilment, and advertising costs. <a href="/us/contact">Talk to our team</a> about your India-to-USA supply chain.</p>`,
   },
+  {
+    title: 'How to Launch a Clothing Brand in the USA in 2025 (Step-by-Step)',
+    slug: 'how-to-launch-clothing-brand-usa-2025',
+    excerpt: 'Complete step-by-step guide to launching a clothing brand in the USA in 2025 — from niche selection and India sourcing to Shopify, Amazon, and Meta Ads. From a team that has launched 500+ brands.',
+    category: 'Brand Launch',
+    author: 'Heritage Apparels USA',
+    date: 'January 15, 2025',
+    readTime: '12 min read',
+    icon: '🚀',
+    color: 'from-blue-900/30 to-indigo-900/20',
+    border: 'border-blue-500/20',
+    metaTitle: 'How to Launch a Clothing Brand in the USA in 2025 (Step-by-Step Guide) | Heritage Apparels',
+    metaDescription: 'Complete guide to launching a clothing brand in the USA in 2025. Niche selection, India sourcing, Shopify, Amazon, TikTok, and Meta Ads — everything you need from a team that has launched 500+ brands.',
+    keywords: ['how to launch clothing brand USA 2025', 'start clothing brand USA', 'launch fashion brand USA guide', 'clothing brand startup guide USA'],
+    content: `<p>2025 is one of the best years in history to launch a clothing brand in the USA. The tools available to independent brands — from India manufacturing at $6–12/piece to TikTok Shop, which can make any product viral overnight — have never been more accessible. Here's the complete playbook from a team that has launched 500+ fashion brands.</p>
+
+<h2>Step 1: Define Your Niche and Target Customer</h2>
+<p>The most common mistake first-time fashion founders make is trying to appeal to everyone. Brands that win on Amazon, Shopify, and TikTok are laser-focused on a specific customer. Examples of winning niches in 2025: women's activewear for yoga moms aged 28–42, sustainable kidswear for eco-conscious parents, affordable luxury streetwear for Gen Z men aged 18–25. Pick your niche, then research your top 10 Amazon competitors in that niche. The gap in their reviews is your opportunity.</p>
+
+<h2>Step 2: Source Your Product from India</h2>
+<p>For most US fashion startups in 2025, India manufacturing is the clear winner. At $6–12/piece with MOQ of 50 pieces, it's 35–60% cheaper than US manufacturing and has significantly lower tariffs than China (12–27% vs 25–145%). Heritage Apparels owns a factory in India and accepts 50-piece minimums across most apparel categories. Timeline: 3–4 weeks from design to production-ready sample.</p>
+
+<h2>Step 3: Build Your Brand Identity</h2>
+<p>Before manufacturing, invest in brand identity. This means: a memorable name (test it on 10 people in your target demographic), a professional logo (not a Canva template), a consistent colour palette, and a brand story. For US consumers, brand story matters — especially in sustainable fashion, kidswear, and luxury. Budget $500–$3,000 for brand identity work.</p>
+
+<h2>Step 4: Professional Photography</h2>
+<p>Amazon requires white-background images. Shopify needs lifestyle photography. TikTok needs video content. Budget for all three: white-background shots covering all SKUs ($500–$1,500), lifestyle photography with US-market models ($1,000–$3,000), and a brand video ($500–$1,500). Photography is not optional — poor photos kill conversions regardless of product quality.</p>
+
+<h2>Step 5: Build Your Shopify Store</h2>
+<p>Your Shopify D2C store is your brand headquarters. Build it with US payment gateways (Stripe, PayPal, Shop Pay), US shipping zones, automatic sales tax for all 50 states, and Klaviyo email flows for abandoned cart and post-purchase sequences. Do not launch with a generic theme — invest in customisation. Budget $3,500–$7,500. Average D2C fashion conversion rate is 1.8%; optimised stores reach 3–5%.</p>
+
+<h2>Step 6: Launch on Amazon and Marketplaces</h2>
+<p>60% of US online shoppers start their search on Amazon. Get Amazon Brand Registry (requires US trademark — file now, takes 8–12 months), optimise listings for Amazon SEO, shoot Amazon-compliant images, and set up Sponsored Products PPC. Also launch on Walmart Marketplace (volume), Etsy (handcrafted/artisan), and TikTok Shop (fastest-growing US channel). Budget $1,000–$2,000 for marketplace setup.</p>
+
+<h2>Step 7: TikTok and Instagram Launch</h2>
+<p>Start organic before paid. Post 3 TikTok videos per week for 4 weeks before launch — behind the scenes, try-ons, factory footage, and unboxings perform best for fashion. Build to 500+ followers before launch day. Partner with 5–10 micro-influencers (10K–100K followers) for gifted collaborations. TikTok creator partnerships are the most cost-effective fashion marketing in 2025.</p>
+
+<h2>Step 8: Meta and Google Ads</h2>
+<p>Launch Meta Ads at $100/day minimum. Test 3–5 creative variations — video consistently outperforms static for fashion. Use broad targeting initially and let Meta's AI find your buyer. Google Shopping captures high-intent buyers searching for your product. Budget $3,000/month minimum. Month 1 is for learning; profitable ROAS typically arrives in month 2–3.</p>
+
+<h2>Total Budget</h2>
+<p>A properly executed US fashion brand launch typically costs $19,000–$38,500 all-in (manufacturing + brand + photography + store + ads). Founders who underspend on one area — especially photography or ads — struggle to gain traction.</p>
+
+<p>Heritage Apparels handles every step above as an integrated service. <a href="/us/contact">Contact our team</a> for a free brand launch consultation or visit our <a href="/us/d2c-fashion-brand-launch">D2C brand launch service page</a> to learn more.</p>`,
+  },
+  {
+    title: 'India vs China Clothing Manufacturing for US Brands in 2025',
+    slug: 'india-vs-china-manufacturing-us-brands-2025',
+    excerpt: 'Honest comparison of India vs China for US fashion brand manufacturing in 2025. Updated with Section 301 tariffs, MOQ, quality, lead times, and IP protection data.',
+    category: 'Manufacturing',
+    author: 'Heritage Apparels USA',
+    date: 'January 22, 2025',
+    readTime: '10 min read',
+    icon: '🏭',
+    color: 'from-red-900/30 to-orange-900/20',
+    border: 'border-red-500/20',
+    metaTitle: 'India vs China Clothing Manufacturing for US Brands 2025 | Heritage Apparels',
+    metaDescription: 'Honest India vs China manufacturing comparison for US fashion brands in 2025. Tariffs, costs, quality, MOQ, lead times, and IP — everything updated for the current trade landscape.',
+    keywords: ['India vs China clothing manufacturing USA 2025', 'India manufacturing vs China fashion brand', 'China Section 301 tariffs fashion', 'better manufacturing India or China USA brands'],
+    content: `<p>The US-China trade war fundamentally changed the manufacturing calculus for American fashion brands. With Section 301 tariffs ranging from 25% to 145% on Chinese goods, India has moved from an alternative to the clear choice for most US fashion startups. Here's an honest, data-driven comparison updated for 2025.</p>
+
+<h2>The Tariff Game-Changer</h2>
+<p>The single biggest factor reshaping US fashion manufacturing in 2025 is tariffs. China faces Section 301 tariffs of 25–145% on most fashion goods entering the US. India, by contrast, faces standard MFN tariff rates of 12–27% for most apparel categories. On a $10/piece garment, this difference is significant:</p>
+<ul>
+<li>China garment: $10 + 35% tariff = $13.50 landed before shipping</li>
+<li>India garment: $12 + 17% tariff = $14.04 landed before shipping</li>
+</ul>
+<p>Despite a slightly higher factory cost, India's landed cost is now competitive with China — and often lower when accounting for the highest Section 301 rates on certain categories.</p>
+
+<h2>Cost Comparison (2025 Factory Prices)</h2>
+<p>T-shirt: India $6–8/piece vs China $3–5/piece (India higher, but tariff gap eliminates the landed cost advantage). Hoodie: India $9–12 vs China $6–9. Activewear: India $7–10 vs China $6–9. Dress: India $8–11 vs China $5–8. At scale (1,000+ pieces), China still has a slight factory cost advantage in some categories — but the tariff differential and longer lead times eat into this advantage significantly.</p>
+
+<h2>MOQ: India Wins for Startups</h2>
+<p>India factories routinely accept 50–100 piece MOQs for most apparel categories. China factories typically require 300–1,000+ pieces per style. For US brands testing new designs or operating with limited capital, India's lower MOQ is a decisive advantage — you can test 5 styles at 50 pieces each ($3,000–$5,000 investment) vs committing to 500 pieces per style in China ($15,000–$25,000).</p>
+
+<h2>Quality: India's Artisan Advantage</h2>
+<p>China excels at high-volume, standardised production. India excels at artisan craftsmanship — hand embroidery, block printing, hand dyeing, and intricate textile work. For US brands building differentiated products rather than commodity basics, India's craft capabilities create products that justify premium pricing and resist commoditisation.</p>
+
+<h2>Communication and IP Protection</h2>
+<p>India's manufacturing industry operates in English — factory owners, quality controllers, and logistics managers typically speak and write fluent English. China requires translation layers that introduce errors and delays. India also has stronger IP protection frameworks for foreign brands — counterfeit replica production is a documented risk with Chinese manufacturers that is significantly lower in India.</p>
+
+<h2>5 Reasons India Wins for US Fashion Brands in 2025</h2>
+<ol>
+<li>Section 301 tariff differential neutralises China's factory cost advantage</li>
+<li>Lower MOQ (50 vs 300–1,000) enables lower capital entry for startups</li>
+<li>English communication reduces costly production errors</li>
+<li>Better IP protection for your designs</li>
+<li>Artisan capabilities command US premium pricing</li>
+</ol>
+
+<h2>When China Still Makes Sense</h2>
+<p>High-volume commodity basics (plain white t-shirts at 5,000+ pieces), specific technical fabrics only produced in China, or categories with very low Section 301 rates may still favour China. The calculus is different for every brand and SKU — which is why Heritage Apparels does a custom landed cost comparison for every client before recommending a sourcing strategy.</p>
+
+<p>Ready to explore India manufacturing for your US fashion brand? <a href="/us/contact">Contact Heritage Apparels</a> for a free sourcing consultation, or read our <a href="/us/india-manufacturing-for-us-brands">India manufacturing service page</a>.</p>`,
+  },
+  {
+    title: 'Amazon FBA for Fashion Brands: The Complete 2025 Guide',
+    slug: 'amazon-fba-fashion-brand-guide-2025',
+    excerpt: 'How to sell fashion on Amazon FBA in the USA in 2025. Brand Registry, listing optimisation, PPC, A+ Content, reviews, and scaling — from an agency managing $2M+ in fashion ad spend.',
+    category: 'Amazon',
+    author: 'Heritage Apparels USA',
+    date: 'February 5, 2025',
+    readTime: '13 min read',
+    icon: '🛒',
+    color: 'from-amber-900/30 to-yellow-900/20',
+    border: 'border-amber-500/20',
+    metaTitle: 'Amazon FBA for Fashion Brands: Complete 2025 Guide | Heritage Apparels',
+    metaDescription: 'Complete guide to selling fashion on Amazon FBA in 2025. Brand Registry, listing optimisation, PPC, A+ Content, review strategy, and scaling. From an agency managing $2M+ in fashion ad spend.',
+    keywords: ['Amazon FBA fashion brand 2025', 'sell fashion on Amazon USA guide', 'Amazon clothing brand guide 2025', 'Amazon fashion brand PPC strategy', 'Amazon brand registry fashion'],
+    content: `<p>Amazon is non-negotiable for US fashion brands. 60% of American online shoppers start their product search on Amazon — before Google. The Amazon fashion category generates over $40 billion annually in the US. This guide covers everything you need to launch and scale a fashion brand on Amazon FBA in 2025.</p>
+
+<h2>Why Amazon FBA (Not FBM) for Fashion</h2>
+<p>Fulfillment by Amazon (FBA) means you send your inventory to Amazon's warehouses and Amazon handles picking, packing, shipping, and customer service. For fashion brands, FBA is almost always the right choice because: (1) The Prime badge increases conversion rate by 25–30%, (2) Amazon handles size-exchange returns (a significant operational burden for FBM fashion sellers), (3) Buy Box eligibility is significantly higher for FBA sellers, (4) Your products are eligible for Prime shipping, Amazon's biggest purchase driver. FBA costs: $3.22–$6.10 fulfilment fee per unit + storage fees. For most fashion items, this is competitive vs DIY fulfilment.</p>
+
+<h2>Amazon Brand Registry: Non-Negotiable</h2>
+<p>Brand Registry is the single most important step for fashion brands on Amazon. It unlocks: A+ Content (increases conversion 30–40%), Sponsored Brand Ads (top of search placement), Brand Store (your own Amazon storefront), Brand Analytics (search term data), Vine Program (review generation), and counterfeit protection. Requirement: active US trademark. File with USPTO now — approval takes 8–12 months. Start today.</p>
+
+<h2>Listing Optimisation for Fashion</h2>
+<p>Title formula: [Brand] + [Primary Keyword] + [Key Feature] + [Size Range] + [Secondary Keywords]. Example: "FlowForm Women's High-Waist Yoga Leggings | Moisture-Wicking | XS–3XL | Squat-Proof Activewear Pants". Five bullets covering: (1) fit and size, (2) fabric and care, (3) occasions/use cases, (4) unique features, (5) brand story or guarantee. Backend keywords: use all 250 bytes with related searches, British spellings, and long-tail variants.</p>
+
+<h2>Amazon Image Requirements for Clothing</h2>
+<p>Main image: pure white background (#FFFFFF), human model preferred over mannequin, garment fills 85% of frame, no text or graphics. Required secondary images (use all 6): back view on model, detail/texture close-up, size chart with measurements, lifestyle image, infographic (fabric benefits), A+ Content preview. Fashion listings with 7 images consistently outperform those with fewer in both CTR and conversion.</p>
+
+<h2>Amazon PPC for Fashion: The 90-Day Playbook</h2>
+<p>Month 1 (Discovery Phase, $50–100/day): Run 4 campaigns — broad keyword targeting, exact keyword targeting, automatic campaign, competitor ASIN targeting. Goal: collect data, not profitability. Month 2 (Optimisation): Pause keywords with ACoS above 40%, scale winning keywords (ACoS below 20%), add 200+ negative keywords. Organic ranking should be improving. Month 3 (Efficiency): Most revenue should be organic. Reduce PPC to defensive position — brand keywords and key competitor terms only. Target total ACoS below 15%.</p>
+
+<h2>Getting Your First 25 Reviews</h2>
+<p>25+ reviews is the threshold for meaningful organic ranking in most fashion categories. Methods: (1) Amazon Vine Program — enrol with 30 free units, top reviewers get your products. Cost: $200 programme fee. (2) Request a Review button — click for every order within 30 days of delivery. Amazon sends the customer an automated review request. (3) Packaging inserts — thank-you card with QR code to your Amazon listing (cannot offer incentives per ToS). Target 25 reviews within first 45 days of launch.</p>
+
+<h2>Fashion Categories That Win on Amazon in 2025</h2>
+<p>Highest opportunity categories: Women's activewear (fastest-growing, high repeat), sustainable fashion (Climate Pledge Friendly badge available), plus-size apparel (underserved, less competition), children's clothing (loyal buyers, strong seasonality), and men's basics (high volume, price-driven).</p>
+
+<p>Heritage Apparels manages Amazon fashion brands from Brand Registry setup to scaling — our clients average 4–8x ROAS. <a href="/us/amazon-fashion-brand-agency">Learn about our Amazon management service</a> or <a href="/us/contact">get a free Amazon audit</a>.</p>`,
+  },
+  {
+    title: 'TikTok Shop for Fashion Brands USA: How to Sell in 2025',
+    slug: 'tiktok-shop-fashion-brands-usa-guide',
+    excerpt: 'Complete guide to selling fashion on TikTok Shop in the USA in 2025. Setup, creator partnerships, shoppable videos, and TikTok Ads strategy for fashion brands.',
+    category: 'Social Media',
+    author: 'Heritage Apparels USA',
+    date: 'February 12, 2025',
+    readTime: '9 min read',
+    icon: '🎵',
+    color: 'from-pink-900/30 to-rose-900/20',
+    border: 'border-pink-500/20',
+    metaTitle: 'TikTok Shop for Fashion Brands USA 2025: Complete Guide | Heritage Apparels',
+    metaDescription: 'How to sell fashion on TikTok Shop in the USA in 2025. Account setup, creator partnerships, shoppable videos, and TikTok Ads. From an agency managing TikTok for US fashion brands.',
+    keywords: ['TikTok Shop fashion brand USA 2025', 'sell fashion TikTok Shop USA', 'TikTok Shop fashion guide 2025', 'TikTok creator fashion brand USA', 'TikTok ads fashion brand'],
+    content: `<p>TikTok Shop is the fastest-growing US e-commerce channel for fashion in 2025. With 170 million US TikTok users and a native shopping experience that removes friction between discovery and purchase, TikTok Shop is where fashion brands can go from unknown to $30,000 in a single day — not hypothetically, but as documented results our clients have achieved.</p>
+
+<h2>TikTok Shop vs Amazon vs Shopify for Fashion</h2>
+<p>Amazon is intent-based (buyers search for products). Shopify is brand-owned (you drive your own traffic). TikTok Shop is discovery-based (your product finds buyers while they're entertaining themselves). All three serve different stages of the customer journey. The brands winning in 2025 use all three: TikTok Shop for discovery and first purchase, Amazon for intent buyers and repeat purchase, Shopify for subscription, loyalty, and high-margin direct sales.</p>
+
+<h2>Setting Up TikTok Shop for Fashion</h2>
+<p>Requirements: US business address, US bank account, government ID. Setup: (1) Apply at seller.tiktok.com/en-US, (2) Complete business verification (3–5 days), (3) Upload product catalogue with compliant images and descriptions, (4) Connect Shopify if you have an existing store (Shopify-TikTok integration syncs inventory automatically), (5) Set up TikTok Shop Ads account. Heritage Apparels completes TikTok Shop setup for clients in 7 days.</p>
+
+<h2>Creator Strategy: The Engine of TikTok Shop Growth</h2>
+<p>TikTok's Affiliate Creator Programme lets creators promote your products for a commission (typically 10–20%). This is TikTok Shop's most powerful growth mechanism. How to leverage it: (1) Enrol your products in the TikTok Shop Affiliate programme (open to all TikTok Shop sellers), (2) Target micro-influencers with 10K–100K followers in your fashion niche (higher engagement, lower cost than macro-influencers), (3) Send gifted products to 20–30 creators per month, (4) Provide a product brief with talking points but let creators use their authentic voice. Budget: $2,000–$5,000/month in gifted product cost generates significantly more reach than the equivalent Meta Ads spend.</p>
+
+<h2>Shoppable Video Content That Converts</h2>
+<p>Hooks that work for fashion on TikTok: "I found a $12 dress that looks like it's from Reformation," "This India-made jacket saved me $400 vs buying designer," "POV: you found the perfect activewear that's not Lululemon." Try-on videos consistently outperform flat-lay product shots. Show real fit across multiple sizes. The more authentic and unpolished, the better — TikTok's algorithm rewards content that looks organic, not produced. Post 3 videos per day during launch phase for maximum algorithmic momentum.</p>
+
+<h2>TikTok Ads for Fashion: 3 Campaign Types</h2>
+<p>Spark Ads: Boost organic creator content that's already performing. The most efficient TikTok Ads format for fashion because you're amplifying proven content. In-Feed Ads: Native ads in the For You page feed. Use for retargeting website visitors and cart abandoners. TopView Ads: First thing users see when opening TikTok. Extremely high reach but expensive — use only for major brand launches. Budget allocation: 60% Spark Ads, 30% In-Feed, 10% TopView for launch campaigns.</p>
+
+<h2>Fashion Categories That Win on TikTok Shop</h2>
+<p>Highest-selling TikTok Shop fashion categories in 2025: Women's fashion (dresses, co-ords, sets), Streetwear (hoodies, graphic tees), Activewear (leggings, sports bras), Accessories (jewellery, bags, scarves), Sustainable fashion (strong storytelling hook). The "Made in India by artisans" story performs extremely well on TikTok — authenticity and craft narrative resonates with the platform's audience.</p>
+
+<p>Heritage Apparels manages TikTok Shop for US fashion brands — account setup, creator outreach, content strategy, and TikTok Ads management. <a href="/us/tiktok-shop-fashion-agency">Learn about our TikTok Shop service</a> or <a href="/us/contact">contact our team</a>.</p>`,
+  },
+  {
+    title: 'Meta Ads for Fashion Brands: Strategy That Delivers 4-8x ROAS in 2025',
+    slug: 'fashion-brand-meta-ads-strategy-2025',
+    excerpt: 'Meta Ads strategy for US fashion brands in 2025. Campaign structure, audiences, creative, budget, and scaling — from an agency that manages $2M+ in fashion ad spend annually.',
+    category: 'Performance Marketing',
+    author: 'Heritage Apparels USA',
+    date: 'February 19, 2025',
+    readTime: '11 min read',
+    icon: '📊',
+    color: 'from-blue-900/30 to-violet-900/20',
+    border: 'border-blue-400/20',
+    metaTitle: 'Meta Ads for Fashion Brands USA: 4-8x ROAS Strategy 2025 | Heritage Apparels',
+    metaDescription: 'Meta Ads strategy for fashion brands that delivers 4-8x ROAS in 2025. Campaign structure, audiences, creative, budget allocation, and scaling — from an agency managing $2M+ in fashion ad spend.',
+    keywords: ['Meta ads fashion brand USA 2025', 'Facebook ads fashion brand ROAS', 'Meta ads strategy fashion brand', 'Instagram ads fashion brand USA', 'fashion brand performance marketing 2025'],
+    content: `<p>Meta Ads (Facebook + Instagram) remain the most powerful paid channel for US fashion brands in 2025 — not despite Apple's iOS 14 changes and increasing CPMs, but because the platform's AI targeting has become significantly smarter in the three years since those disruptions. Here's the complete Meta Ads playbook that delivers 4–8x ROAS for our fashion brand clients.</p>
+
+<h2>Why Meta Ads Still Win for Fashion in 2025</h2>
+<p>Fashion is an impulse and aspiration category. People don't search for "floral midi dress yellow size 8" on Google — they see a dress on Instagram, fall in love with it, and buy it. Meta's visual, social environment is the native habitat for fashion discovery. With 2 billion daily active users and targeting that can find 28-year-old yoga enthusiasts in Los Angeles who spent $200+ on activewear in the last 30 days, Meta Ads have no peer for fashion audience targeting.</p>
+
+<h2>Full-Funnel Campaign Structure</h2>
+<p>Top of Funnel (20% of budget): Awareness campaigns targeting broad interest audiences. Goal: reach new potential customers. Metrics: CPM, frequency, video views, reach. Middle of Funnel (30% of budget): Consideration campaigns targeting warm audiences — video viewers, Instagram engagers, website visitors who did not purchase. Goal: move prospects closer to buying intent. Bottom of Funnel (50% of budget): Conversion campaigns targeting hot audiences — cart abandoners, checkout starters, previous purchasers (lookalike). Goal: drive purchase.</p>
+
+<h2>Audience Strategy for Fashion</h2>
+<p>Broad audiences: 18–45, women (or your specific demographic), all interests. Meta's AI is so advanced that broad audience campaigns often outperform heavily interest-targeted campaigns. Test broad vs interest-stacked audiences for your brand. Interest audiences: activewear brands (Lululemon, Athleta, Gymshark interest), fashion magazines (Vogue, Harper's Bazaar), online shopping behaviour. Lookalike audiences: 1% lookalike of purchasers (strongest signal), 2–5% lookalike of website visitors. Retargeting: All website visitors 30-day, cart abandoners 14-day, video viewers 75% completion 60-day.</p>
+
+<h2>Creative Strategy: What Actually Works for Fashion</h2>
+<p>Video consistently outperforms static images for fashion — typically 30–60% lower CPC for equivalent ROAS. Hook types that work: "Wait until you see the back," "I'm wearing a size 8 and this is how it fits," "This $89 dress got me 47 compliments at my work event." UGC-style content (phone-shot, authentic, real people) outperforms polished studio content by 2–3x on Meta. Test 3–5 creative concepts per launch cycle. Kill anything with a CTR below 1.5% after $50 spend. Scale winners at 20% budget increase per day maximum.</p>
+
+<h2>Budget and Scaling</h2>
+<p>Minimum viable Meta Ads budget for fashion: $3,000/month. Below this, the algorithm doesn't have enough purchase data to optimise effectively. Heritage Apparels clients typically spend $5,000–$20,000/month on Meta Ads. Scaling rules: increase budget by maximum 20% per day to avoid resetting the learning phase, duplicate winning ad sets rather than editing them, scale horizontally (new audiences) before scaling vertically (higher budget), target under 2.5 frequency — above this, creative fatigue reduces ROAS.</p>
+
+<h2>2025-Specific Meta Ads Strategies</h2>
+<p>Advantage+ Shopping Campaigns (ASC): Meta's automated campaign type that combines prospecting and retargeting in a single campaign. Most fashion brands see ASC outperform manual campaigns after 30 days of data accumulation. Reels ads: Fashion Reels ads are currently the highest-performing placement for fashion — lower CPM and higher engagement than Feed. Video view objectives: Building a warm retargeting pool through video views before launching conversion campaigns reduces CPA significantly.</p>
+
+<p>Heritage Apparels manages Meta Ads for US fashion brands — campaign strategy, creative production, audience targeting, and scaling. Our clients average 4–8x ROAS. <a href="/us/services/performance-marketing">Learn about our performance marketing service</a> or <a href="/us/contact">get a free ad account audit</a>.</p>`,
+  },
+  {
+    title: 'Private Label Clothing from India: The Complete Guide for US Brands',
+    slug: 'private-label-clothing-india-complete-guide',
+    excerpt: 'How to create private-label clothing from India for your US brand. MOQ, pricing, samples, quality control, US import, and customs — step by step for US fashion founders in 2025.',
+    category: 'India Sourcing',
+    author: 'Heritage Apparels USA',
+    date: 'January 29, 2025',
+    readTime: '10 min read',
+    icon: '🏷️',
+    color: 'from-emerald-900/30 to-teal-900/20',
+    border: 'border-emerald-500/20',
+    metaTitle: 'Private Label Clothing from India: Complete Guide for US Brands | Heritage Apparels',
+    metaDescription: 'Complete guide to private-label clothing from India for US fashion brands. MOQ, pricing, sampling, quality control, US import duties, and customs — step by step for 2025.',
+    keywords: ['private label clothing from India USA', 'private label fashion India guide', 'create clothing brand India USA', 'private label apparel India MOQ', 'private label clothing manufacturer India'],
+    content: `<p>Private-label clothing from India is how thousands of successful US fashion brands are built in 2025. You provide the design vision, India provides the manufacturing expertise and cost advantage, and you sell under your own brand name. Here's the complete guide to getting it right.</p>
+
+<h2>What Is Private Label Clothing?</h2>
+<p>Private label means garments manufactured by a factory (in this case, in India) with your brand's custom labels, packaging, and specifications. You own the brand. You own the IP. The factory manufactures to your specifications. This is the opposite of dropshipping (where you sell another brand's product) and the opposite of buying wholesale (where you resell existing branded items).</p>
+
+<h2>Why India for Private Label in 2025</h2>
+<p>India offers four advantages no other country matches simultaneously: (1) Cost — $6–12/piece for quality private-label garments, 35–60% cheaper than US manufacturing. (2) MOQ — Indian factories accept 50–100 pieces per style, versus 300–1,000 in China. (3) Craft — India's artisan textile traditions create differentiated product you can't get from mass-market factories. (4) Tariffs — 12–27% import duty vs 25–145% from China post-Section 301 tariffs.</p>
+
+<h2>What You Can Private Label from India</h2>
+<p>We manufacture private-label: T-shirts and tops ($6–8/piece), hoodies and sweatshirts ($9–12), dresses and jumpsuits ($8–11), activewear and athleisure ($7–10), denim and bottoms ($11–15), outerwear and jackets ($14–20), accessories and bags ($8–25). We also offer custom embroidery, block printing, hand dyeing, sublimation printing, and embellishments on most categories.</p>
+
+<h2>The 6-Step Private Label Process</h2>
+<p>Step 1: Share Your Design Brief. Send us your design concept — sketches, reference photos, Canva mockups, or a detailed description. We create a tech pack (technical specification) from your brief at no charge for clients. Step 2: Sample Production (7–10 days). Our factory produces your first counter sample. You receive high-resolution photos for approval before we ship the physical sample. Step 3: Sample Approval. You review, request any changes, and approve the sample. Physical sample shipping to the US takes 5–7 days via DHL or FedEx. Step 4: Bulk Production (14–21 days). After sample approval and 50% deposit, we begin bulk production. You receive daily production updates. Step 5: Quality Control Inspection. Our in-house QC team inspects the production run before shipment — measurements, colour, stitching, and label compliance. Step 6: Shipment to Your US Warehouse. We ship via air (5–7 days, higher cost) or sea (21–35 days, lower cost) to your US warehouse or directly to Amazon FBA.</p>
+
+<h2>What's Included in Private Label Production</h2>
+<p>Standard inclusions: custom woven or printed brand labels (main label + care label + size label), custom hangtags (design included), garment in your chosen colour(s), poly bag packaging with barcode sticker placement for FBA readiness, and CPSC compliance documentation for applicable categories. Optional add-ons: custom branded poly bags ($0.20/bag), custom boxes ($0.80–$3/box), barcodes and UPC registration, FBA prep (FNSKU labelling, inspection).</p>
+
+<h2>US Import: Duties and Compliance</h2>
+<p>Import duties from India: women's knit apparel 16.5–32%, women's woven 7–27%, men's knit 16.5–32%, men's woven 9.5–27%, children's wear 12–16.5%. Your shipment requires: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin (Made in India), and CPSC documentation for children's wear. We provide all export documentation. We recommend using a customs broker (cost $150–$300 per shipment) for your first 2–3 imports.</p>
+
+<p>Ready to create your private-label clothing brand from India? Heritage Apparels makes it simple — you focus on your brand, we handle the manufacturing. <a href="/us/private-label-clothing-india">Learn about our private label service</a> or <a href="/us/contact">get a free quote</a> for your product.</p>`,
+  },
 ];
 
 export function getUSBlogPostBySlug(slug: string): USBlogPost | undefined {
